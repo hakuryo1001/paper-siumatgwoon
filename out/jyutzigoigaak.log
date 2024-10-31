@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.26)  31 OCT 2024 23:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.26)  1 NOV 2024 00:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -964,12 +964,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-Overfull \hbox (43.09793pt too wide) in paragraph at lines 582--590
- [][] 
- []
-
-[35]
+ [34] [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
@@ -1093,7 +1088,7 @@ Package fontspec Info: Font family 'Batang(0)' created for font 'Batang' with
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Overfull \hbox (11.26097pt too wide) in alignment at lines 1089--1111
+Overfull \hbox (11.26097pt too wide) in alignment at lines 1090--1112
  [] [] 
  []
 
@@ -1111,7 +1106,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (1.0783pt too wide) in paragraph at lines 1198--1198
+Overfull \hbox (1.0783pt too wide) in paragraph at lines 1199--1199
 \TU/lmr/m/n/12 https://www.zhihu.com/question/45320404/answer/166222552 
  []
 
