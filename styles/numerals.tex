@@ -1,0 +1,97 @@
+% numerals.tex
+% Define Chinese and Soochow numerals for chapter management
+
+\newcommand{\soochowNumeral}[1]{%
+  \ifnum#1<10
+    \ifcase#1 〇\or 〡\or 〢\or 〣\or 〤\or 〥\or 〦\or 〧\or 〨\or 〩\fi%
+  \else
+    \ifnum#1<20
+      〸\soochowUnits{\numexpr#1-10\relax}%
+    \else
+      \ifnum#1<30
+        〹\soochowUnits{\numexpr#1-20\relax}%
+      \else
+        \ifnum#1<40
+          〺\soochowUnits{\numexpr#1-30\relax}%
+        \else
+          \ifnum#1<50
+            卅\soochowUnits{\numexpr#1-40\relax}%
+          \else
+            \ifnum#1<60
+              〥十\soochowUnits{\numexpr#1-50\relax}%
+            \else
+              \ifnum#1<70
+                〦十\soochowUnits{\numexpr#1-60\relax}%
+              \else
+                \ifnum#1<80
+                  〧十\soochowUnits{\numexpr#1-70\relax}%
+                \else
+                  \ifnum#1<90
+                    〨十\soochowUnits{\numexpr#1-80\relax}%
+                  \else
+                    \ifnum#1<100
+                      〩十\soochowUnits{\numexpr#1-90\relax}%
+                    \fi
+                  \fi
+                \fi
+              \fi
+            \fi
+          \fi
+        \fi
+      \fi
+    \fi
+  \fi
+}
+
+\newcommand{\soochowUnits}[1]{%
+  \ifnum#1=0
+  \else
+    \ifnum#1<4
+      \ifcase#1 \or 一\or 二\or 三\fi%
+    \else
+      \soochowNumeral{#1}
+    \fi
+  \fi
+}
+
+\newcommand{\chinesenumeral}[1]{%
+  \ifnum#1<10
+    \ifcase#1 〇\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\fi%
+  \else
+    \ifnum#1<20
+      十\chinesenumeral{\numexpr#1-10\relax}%
+    \else
+      \ifnum#1<30
+        二十\chinesenumeral{\numexpr#1-20\relax}%
+      \else
+        \ifnum#1<40
+          三十\chinesenumeral{\numexpr#1-30\relax}%
+        \else
+          \ifnum#1<50
+            四十\chinesenumeral{\numexpr#1-40\relax}%
+          \else
+            \ifnum#1<60
+              五十\chinesenumeral{\numexpr#1-50\relax}%
+            \else
+              \ifnum#1<70
+                六十\chinesenumeral{\numexpr#1-60\relax}%
+              \else
+                \ifnum#1<80
+                  七十\chinesenumeral{\numexpr#1-70\relax}%
+                \else
+                  \ifnum#1<90
+                    八十\chinesenumeral{\numexpr#1-80\relax}%
+                  \else
+                    \ifnum#1<100
+                      九十\chinesenumeral{\numexpr#1-90\relax}%
+                    \fi
+                  \fi
+                \fi
+              \fi
+            \fi
+          \fi
+        \fi
+      \fi
+    \fi
+  \fi
+}
