@@ -1,0 +1,50 @@
+
+\renewcommand{\figurename}{圗} % So figures would be labeled with 圗 instead of "figure"
+
+% * * * Now for the table of contents
+\renewcommand{\contentsname}{目錄} % Traditional Chinese characters for "Contents"
+\setcounter{secnumdepth}{0} % no numbering for sections 
+% Increase chapter title size in TOC
+\usepackage{tocloft} % For customizing table of contents
+\renewcommand{\cftchapfont}{\Large\bfseries} % Large and bold chapter titles
+\renewcommand{\cftchappagefont}{\Large\bfseries} % Large and bold page numbers
+\renewcommand{\cftchapnumwidth}{3em} % Adjust the width for chapter numbers (increase the space)
+
+% Custom chapter numbering in the TOC with Soochow numerals
+\renewcommand{\cftchapleader}{\cftdotfill{\cftsecdotsep}} % Dotted line between chapter and page number
+\renewcommand{\cftchapaftersnum}{\quad} % Space between Soochow numeral and chapter title
+
+% Redefine how chapter numbers are displayed in the TOC using Soochow numerals
+\makeatletter
+\renewcommand{\cftchapleader}{\cftdotfill{\cftsecdotsep}} % Dotted line between chapter and page number
+\renewcommand{\cftchapaftersnum}{\quad} % Space between Soochow numeral and chapter title
+% comment this out if you don't want to use the soochow numerlas
+\renewcommand{\numberline}[1]{\soochowNumeral{#1}\hspace{1em}} % Use Soochow numerals for TOC chapter numbers
+\makeatother
+
+
+% create index - run \makeindex in the document
+\usepackage{makeidx}
+\makeindex
+
+
+
+% % Custom chapter title formatting with Chinese numeral chapter numbers
+\usepackage{titlesec}
+
+% Custom chapter title formatting with Chinese numeral chapter numbers
+\titleformat{\chapter}[block] % 'block' means the title appears on a new line
+  {\Huge\bfseries} % Font size and bold formatting for the title
+  {\soochowNumeral{\thechapter}} % Chinese character for chapter number
+  {1em} % Space between the number and the title
+  {\Huge} % Custom style for the chapter title itself (can modify)
+
+% Remove the default LaTeX behavior of forcing new chapters to start on a new page
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{plain}%
+  \global\@topnum\z@
+  \@afterindentfalse
+  \secdef\@chapter\@schapter}
+\makeatother
+

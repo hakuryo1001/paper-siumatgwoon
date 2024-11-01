@@ -1,0 +1,31 @@
+
+% Set CJK main font (for Chinese/Japanese/Korean characters)
+
+% \setmainfont{Times New Roman}
+\setCJKmainfont{BabelStone Han}
+% doesn't work
+% \setCJKmainfont{JyutcitziWithSourceHanSerifTCRegular}[
+% Renderer=Basic,
+% UprightFont = * ,
+% FallbackFonts={BabelStone Han}
+% ]
+
+
+
+% You can also use \newfontfamily for custom non-CJK fonts if needed
+% \setCJKmainfont{JyutcitziWithPMingLiURegular}[Path = ./, Extension = .ttf]
+% \setCJKmainfont{JyutcitziWithSourceHanSerifTCRegular}[Path = ./, Extension = .ttf]
+
+
+
+\newfontfamily{\jczPMingLiU}{JyutcitziWithPMingLiURegular}[Path = ./fonts/, Extension = .ttf]
+% This has the best rendition for latin characters 
+\newfontfamily{\jcz}{JyutcitziWithSourceHanSerifTCRegular}[Path = ./fonts/, Extension = .ttf]
+\newfontfamily{\batang}{batang}[Path = ./fonts/, Extension = .ttf]
+\newCJKfontfamily\koreanfont{Batang}[Path = ./fonts/, Extension = .ttf]
+\newfontfamily{\taigi}{GentiumBookPlus-Regular}[Path = ./fonts/, Extension = .ttf]
+
+% \newfontfamily{\biaoyinzi}{Biaoyinzi-2016A}[Path = ./fonts/, Extension = .ttf]
+
+% Load ruby package for furigana (Ruby text)
+\usepackage{ruby}

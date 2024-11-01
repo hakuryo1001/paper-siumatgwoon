@@ -1,0 +1,38 @@
+% Import fonts.tex in main.tex only: Include \input{preamble/fonts.tex} or \include{preamble/fonts.tex} in main.tex to make sure \jcz and any font-related settings are loaded there.
+
+% Remove fonts.tex from layout.tex: Since layout.tex will be used as part of main.tex, you don’t need to import fonts.tex again within layout.tex. Any definitions from fonts.tex, like \jcz, will be accessible in layout.tex when it’s used in main.tex.
+
+% Load layout.tex in main.tex after importing fonts.tex: This ensures that any commands in layout.tex that depend on fonts.tex (like \jcz) are available. Your main.tex should look something like this:
+
+
+% *-----------------------------------------------------------------------*
+% | Formatting     |
+% *-----------------------------------------------------------------------*
+% Set global paragraph indentation and spacing
+\setlength{\parindent}{2em} % Adjust this value for the desired indentation
+\setlength{\parskip}{0pt}   % No space between paragraphs
+
+% for quotes
+\usepackage{epigraph} 
+
+
+\makeatletter
+\renewcommand{\@makefntext}[1]{\jcz{\@thefnmark.} #1}
+\makeatother
+% to control itemise spacing
+\usepackage{enumitem}
+
+
+% format 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+% \fancyfoot[C]{\thepage} % Center the page number at the bottom
+% Define left and right page numbering
+\fancyfoot[LE]{\thepage} % Left side for even pages
+\fancyfoot[RO]{\thepage} % Right side for odd pages
+% Ensure the chapter pages (plain style) also have this layout
+\makeatletter
+\let\ps@plain\ps@fancy
+\makeatother

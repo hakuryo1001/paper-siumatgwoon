@@ -1,0 +1,43 @@
+% IDC - ideographic description characters
+% https://en.wikipedia.org/wiki/Chinese_character_description_languages#Ideographic_Description_Sequences
+
+\newcommand{\superimpose}[2]{{%
+  \ooalign{%
+    \hfil$\m@th\text{#1}\@firstoftwo\text{#2}$\hfil\cr
+    \hfil$\m@th\text{#1}\@secondoftwo\text{#2}$\hfil\cr
+  }%
+}}
+
+
+% Define the \tb command
+
+\newcommand{\tb}[2]{%
+\scalebox{2}[1]{
+\ooalign{%
+    \hfil\raisebox{0.25em}{\text{\scalebox{0.33}{#1}}}\hfil\cr % Top text, squished and raised
+    \hfil\raisebox{-0.25em}{\text{\scalebox{0.33}{#2}}}\hfil\cr % Bottom text, squished and lowered
+  }%
+  }
+}
+
+% The \lr command - can be combined with \tb
+\newcommand{\lr}[2]{
+  \scalebox{0.5}[1.0]{#1}\scalebox{0.5}[1.0]{#2}\!\!
+}
+
+% Define the \ul command for upper left positioning - for characters like 疒
+\newcommand{\ul}[2]{%
+  \ooalign{%
+    \hfil#1\hfil\cr  % Top text (unscaled)
+    \hfil\hspace{0.3em}\scalebox{0.8}{#2}\cr % Bottom text (scaled and raised)
+    % \hfil\raisebox{0.2em}{\scalebox{0.5}{#2}}\hfil\cr % Bottom text (scaled and raised)
+  }%
+}
+
+% Define the \tone command for upper right positioning of a diacritic
+\newcommand{\tone}[2]{%
+  \ooalign{%
+    \hfil#1\hfil\cr  % Main text (unscaled)
+    \hfil\hspace{0.9em}\raisebox{0.3em}{\scalebox{0.8}{#2}}\hfil\cr % Tone mark (scaled and raised)
+  }%
+}
