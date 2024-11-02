@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.26)  3 NOV 2024 00:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.26)  3 NOV 2024 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -714,4 +714,768 @@ LaTeX Font Info:    Redeclaring math symbol \Delta on input line 70.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 70.
 LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 70.
 LaTeX Font Info:    Redeclaring math symbol \Xi on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Pi
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 70.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 70.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 70.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 70.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 70.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 70.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 70.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+)
+
+LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 79.
+
+(out/jyutzigoigaak-gutting.toc
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 1.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+] [2])
+\tf@toc=\write4
+\openout4 = `jyutzigoigaak-gutting.toc'.
+
+ [3]
+Missing character: There is no  (U+E2EC) in font [lmroman12-regular]:mapping=tex-text;!
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (3.72302pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /aa/ 
+ []
+
+
+Overfull \hbox (1.75502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 aam 
+ []
+
+
+Overfull \hbox (4.37102pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 aang 
+ []
+
+
+Overfull \hbox (3.38702pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /oe/ 
+ []
+
+
+Overfull \hbox (4.03502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 oeng 
+ []
+
+
+Overfull \hbox (3.06302pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /eo/ 
+ []
+
+
+Overfull \hbox (4.69502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /yu/ 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (3.72302pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /aa/ 
+ []
+
+
+Overfull \hbox (1.75502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 aam 
+ []
+
+
+Overfull \hbox (4.37102pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 aang 
+ []
+
+
+Overfull \hbox (3.38702pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /oe/ 
+ []
+
+
+Overfull \hbox (4.03502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 oeng 
+ []
+
+
+Overfull \hbox (3.06302pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /eo/ 
+ []
+
+
+Overfull \hbox (4.69502pt too wide) in paragraph at lines 125--125
+ []\TU/lmr/m/n/12 /yu/ 
+ []
+
+Missing character: There is no  (U+E2EC) in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+
+Underfull \hbox (badness 1975) in paragraph at lines 165--165
+[]|\TU/BabelStoneHan(0)/b/n/12 咁 都 係 果 \TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/12 D
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 165--165
+\TU/BabelStoneHan(0)/b/n/12 求 求 其 其 有
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 165--165
+\TU/BabelStoneHan(0)/b/n/12 唔 通 有 得 你
+ []
+
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ⁼ (U+207C) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+
+Underfull \hbox (badness 1675) in paragraph at lines 165--165
+[]|\TU/BabelStoneHan(0)/b/n/12 丩 今 \TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/12 ´ \TU/BabelStoneHan(0)/b/n/12 都 係
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 165--165
+\TU/BabelStoneHan(0)/b/n/12 野 \TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/12 󱛒󰿒\TU/BabelStoneHan(0)/b/n/12 ，|  廿
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 165--165
+\TU/BabelStoneHan(0)/b/n/12 你 懵 口 懵 面
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 165--165
+\TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/12 󰖚󰾠 \TU/BabelStoneHan(0)/b/n/12 返 去 返
+ []
+
+
+LaTeX Warning: Float too large for page by 10.33536pt on input line 166.
+
+[6] [7] [8]
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12] [13]
+Chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14
+
+]
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16] [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18] [19] [20] [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24] [25] [26] [27] [28] [29] [30] [31] [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34] [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38] [39] [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41] [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43] [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45] [46] [47] [48] [49]
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50
+
+] [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52] [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57] [58] [59] [60]
+Chapter 4.
+[61
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64] [65] [66] [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68] [69] [70] [71] [72]
+Chapter 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73
+
+] [74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75] [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78] [79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80] [81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83] [84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86] [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89] [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91] [92]
+Chapter 6.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94] [95]
+
+Package fontspec Warning: Font "Batang" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Font family 'Batang(0)' created for font 'Batang' with
+(fontspec)             options
+(fontspec)             [Script={CJK},Path={./fonts/},Extension={.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/Batang.ttf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Overfull \hbox (11.26097pt too wide) in alignment at lines 980--1002
+ [] [] 
+ []
+
+[96] [97] [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99] [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [102] [103] [104]
+File: ./images/biaoyinzi_1.png Graphic file (type bmp)
+<./images/biaoyinzi_1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+File: ./images/biaoyinzi_2.png Graphic file (type bmp)
+<./images/biaoyinzi_2.png>
+File: ./images/biaoyinzi_3.png Graphic file (type bmp)
+<./images/biaoyinzi_3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+File: ./images/biaoyinzi_4.png Graphic file (type bmp)
+<./images/biaoyinzi_4.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107]
+File: ./images/biaoyinzi_5.png Graphic file (type bmp)
+<./images/biaoyinzi_5.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108] [109]
+File: ./images/xubing_1.png Graphic file (type bmp)
+<./images/xubing_1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+File: ./images/xubing_2.png Graphic file (type bmp)
+<./images/xubing_2.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+File: ./images/xubing_3.png Graphic file (type bmp)
+<./images/xubing_3.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [115] [116]
+File: ./images/cantonese_hangul.png Graphic file (type bmp)
+<./images/cantonese_hangul.png>
+ [117] [118]
+Underfull \hbox (badness 3219) in paragraph at lines 1288--1288
+[]|\TU/BabelStoneHan(0)/b/n/12 拉 丁 字 母
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1293--1293
+[]|\TU/BabelStoneHan(0)/b/n/12 速 記 符 號
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1293--1293
+\TU/BabelStoneHan(0)/b/n/12 字 母 對 音
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1294
+[]|\TU/BabelStoneHan(0)/b/n/12 漢 字  |（韻
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1294--1294
+[]|\TU/BabelStoneHan(0)/b/n/12 浙  |（紹 興）|
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1296--1296
+[]| |\TU/BabelStoneHan(0)/b/n/12 《數 目 代 字
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1298--1298
+[]|\TU/BabelStoneHan(0)/b/n/12 浙  |（溫 州）|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1301
+[]|\TU/BabelStoneHan(0)/b/n/12 楊 瓊、|
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1302--1302
+[]| |\TU/BabelStoneHan(0)/b/n/12 《嶺 東 新 字
+ []
+
+
+Overfull \hbox (1.43007pt too wide) in paragraph at lines 1303--1303
+[]|\TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/12 1905-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1303
+[]|\TU/BabelStoneHan(0)/b/n/12 寧 音、|  吳
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1303
+\TU/BabelStoneHan(0)/b/n/12 音、|  閩 廣
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 母 北 京 切 音
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 國 字 母 北 京
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1304--1304
+[]|\TU/BabelStoneHan(0)/b/n/12 漢 字 筆 畫
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 母 對 音 方
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 州 音、|  漳
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 州 音、|  福
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1304
+\TU/BabelStoneHan(0)/b/n/12 州 音、|  廣
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1305--1305
+[]| |\TU/BabelStoneHan(0)/b/n/12 《江 蘇 新 字
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1305--1305
+\TU/BabelStoneHan(0)/b/n/12 訂 官 話 音
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1306--1306
+[]| |\TU/BabelStoneHan(0)/b/n/12 《拼 音 代 字
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1306--1306
+[]|\TU/BabelStoneHan(0)/b/n/12 漢 字 筆 畫
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1306--1306
+\TU/BabelStoneHan(0)/b/n/12 母 對 音 方
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1309--1309
+[]|\TU/BabelStoneHan(0)/b/n/12 漢 字 筆 畫
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1314--1314
+[]| |\TU/BabelStoneHan(0)/b/n/12 《宋 平 子 新
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1314--1314
+[]|\TU/BabelStoneHan(0)/b/n/12 漢 字 筆 畫
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1314--1314
+[]|\TU/BabelStoneHan(0)/b/n/12 浙  |（溫 州）|
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1317--1317
+[]| |\TU/BabelStoneHan(0)/b/n/12 《拉 丁 文 臆
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1322--1322
+[]|\TU/BabelStoneHan(0)/b/n/12 雜 取 各 國
+ []
+
+[119] [120] [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+File: ./images/rangmowen_1.png Graphic file (type bmp)
+<./images/rangmowen_1.png>
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [123]
+File: ./images/rangmowen_2.png Graphic file (type bmp)
+<./images/rangmowen_2.png>
+File: ./images/rangmowen_3.png Graphic file (type bmp)
+<./images/rangmowen_3.png>
+ [124]
+File: ./images/rangmowen_4.png Graphic file (type bmp)
+<./images/rangmowen_4.png>
+File: ./images/rangmowen_5.png Graphic file (type bmp)
+<./images/rangmowen_5.png>
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [125]
+File: ./images/rangmowen_6.png Graphic file (type bmp)
+<./images/rangmowen_6.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126] [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129] [130]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134] [135] [136] [137] [138] [139]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+Missing character: There is no 𧘹 (U+27639) in font BabelStone Han/OT:script=hani;language=dflt;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142] [143]
+Chapter 7.
+[144
+
+] [145]
+Missing character: There is no  (U+E2EC) in font [lmroman12-regular]:mapping=tex-text;!
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (3.72302pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /aa/ 
+ []
+
+
+Overfull \hbox (1.75502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 aam 
+ []
+
+
+Overfull \hbox (4.37102pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 aang 
+ []
+
+
+Overfull \hbox (3.38702pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /oe/ 
+ []
+
+
+Overfull \hbox (4.03502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 oeng 
+ []
+
+
+Overfull \hbox (3.06302pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /eo/ 
+ []
+
+
+Overfull \hbox (4.69502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /yu/ 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (3.72302pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /aa/ 
+ []
+
+
+Overfull \hbox (1.75502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 aam 
+ []
+
+
+Overfull \hbox (4.37102pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 aang 
+ []
+
+
+Overfull \hbox (3.38702pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /oe/ 
+ []
+
+
+Overfull \hbox (4.03502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 oeng 
+ []
+
+
+Overfull \hbox (3.06302pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /eo/ 
+ []
+
+
+Overfull \hbox (4.69502pt too wide) in paragraph at lines 1618--1618
+ []\TU/lmr/m/n/12 /yu/ 
+ []
+
+Missing character: There is no  (U+E2EC) in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Underfull \vbox (badness 7558) has occurred while \output is active []
+
+ [147] [148] [149] (out/jyutzigoigaak-gutting.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14929 strings out of 476683
+ 427938 string characters out of 5804047
+ 1918018 words of memory out of 5000000
+ 34917 multiletter control sequences out of 15000+600000
+ 527954 words of font info for 124 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 89i,20n,105p,1527b,1328s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/jyutzigoigaak-gutting.pdf (149 pages).
