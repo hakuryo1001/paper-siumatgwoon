@@ -38,4 +38,6 @@
 \contentsline {section}{注音符號——表音方塊字、注音方塊字}{100}{}%
 \contentsline {subsection}{線性寫？合體寫？}{101}{}%
 \contentsline {subsection}{注音合字、表音方塊字，通通太醜怪}{102}{}%
-\contentsline {subsection}{表音方塊字}{104}{}%
+\contentsline {subsection}{表音方塊字}{105}{}%
+\contentsline {subsection}{假名}{114}{}%
+\contentsline {subsection}{諺文}{115}{}%
