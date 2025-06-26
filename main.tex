@@ -1,9 +1,27 @@
-\documentclass[10pt]{article}
+\documentclass[9pt]{article}
 
 \usepackage{amsmath,amssymb}
 \usepackage[utf8]{inputenc}
 \usepackage{ctex}
 \usepackage{epigraph}
+\usepackage{amsthm}
+
+% Remove paragraph indentation for cleaner look
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+% Reduce line spacing for more compact text
+\linespread{0.2}
+
+% Define theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{axiom}[theorem]{Axiom}
 
 \input{preamble/fonts.tex}
 
@@ -29,9 +47,10 @@
 % | Document begins                                                       |
 % *-----------------------------------------------------------------------*
 
-\title{Practice Submission Prior to Assignment 1}
-\author{Dung Le - 214583181}
-\date{May 2019}
+\title{An Outline of the Siumatgwoon \\ 初論兆物觀}
+\author{Hakuryo 白龍}
+\date{〢〇〢〥年〢〥月〢〇日}
+
 
 \begin{document}
 % Avoid overfull hbox
@@ -44,35 +63,35 @@
 
 \maketitle
 
-\subsection*{Question 1:}
-From Rosen, Discrete Mathematics and its Applications: When three professors are seated in a restaurant, the hostess asks them: "Does everyone want coffee?" The first professor says: "I do not know." The second professor then says: "I do not know." Finally, the third professor says: "No, not everyone wants
-coffee." The hostess comes back and gives coffee to the professors who want it. How did she figure out who wanted coffee?
-\subsection*{Answer:}
-The question is : "Does everyone want coffee?" . For the first professor, he wants a coffee because if he doesn't want a coffee, his answer to the question should be "no". Similar to the second professor, he wants a coffee too. For the third professor, he knows that the first two professors want coffee and his answer is "no, not everyone wants coffee", which mean he doesn't want coffee. In conclusion, the first two professors want coffee.
-\subsection*{Question 2:}
-This problem is adapted from Problem 4, page 10 of the Liebeck text.
-Start with the statement A $\rightarrow$ B . Which of the following statements does this statement imply? You should be able to explain your answers using ordinary language.
-\\
-(a) A is true or B is true
-\\
-(b) $\overline{A}$ $\rightarrow$ B
-\\
-(c) B $\rightarrow$ A
-\\
-(d) $\overline{B}$ $\rightarrow$ A
-\\
-(e) $\overline{A}$ $\rightarrow$  $\overline{B}$
-\\
-(f) $\overline{B}$ $\rightarrow$  $\overline{A}$
+% \subsection*{Question 1:}
+% From Rosen, Discrete Mathematics and its Applications: When three professors are seated in a restaurant, the hostess asks them: "Does everyone want coffee?" The first professor says: "I do not know." The second professor then says: "I do not know." Finally, the third professor says: "No, not everyone wants
+% coffee." The hostess comes back and gives coffee to the professors who want it. How did she figure out who wanted coffee?
+% \subsection*{Answer:}
+% The question is : "Does everyone want coffee?" . For the first professor, he wants a coffee because if he doesn't want a coffee, his answer to the question should be "no". Similar to the second professor, he wants a coffee too. For the third professor, he knows that the first two professors want coffee and his answer is "no, not everyone wants coffee", which mean he doesn't want coffee. In conclusion, the first two professors want coffee.
+% \subsection*{Question 2:}
+% This problem is adapted from Problem 4, page 10 of the Liebeck text.
+% Start with the statement A $\rightarrow$ B . Which of the following statements does this statement imply? You should be able to explain your answers using ordinary language.
+% \\
+% (a) A is true or B is true
+% \\
+% (b) $\overline{A}$ $\rightarrow$ B
+% \\
+% (c) B $\rightarrow$ A
+% \\
+% (d) $\overline{B}$ $\rightarrow$ A
+% \\
+% (e) $\overline{A}$ $\rightarrow$  $\overline{B}$
+% \\
+% (f) $\overline{B}$ $\rightarrow$  $\overline{A}$
 
-\subsection*{Answer:}
-The statement A $\rightarrow$ B means A implies B. 
-\\
-This statement is false if and only if A is true and B is false.
-\\
-Look at these given statements we can see statement (f) is the best choice because (f) is false if and only if negation of B is true and negation of A is false which means B is false and A is true.
-\\
-Therefore, statement (f)  $\overline{B}$ $\rightarrow$  $\overline{A}$ is equivalent to statement A $\rightarrow$ B
+% \subsection*{Answer:}
+% The statement A $\rightarrow$ B means A implies B. 
+% \\
+% This statement is false if and only if A is true and B is false.
+% \\
+% Look at these given statements we can see statement (f) is the best choice because (f) is false if and only if negation of B is true and negation of A is false which means B is false and A is true.
+% \\
+% Therefore, statement (f)  $\overline{B}$ $\rightarrow$  $\overline{A}$ is equivalent to statement A $\rightarrow$ B
 
 % Include chapters
 \input{chapters/01-definitions.tex}
