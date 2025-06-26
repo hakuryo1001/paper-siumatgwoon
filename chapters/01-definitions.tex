@@ -1,4 +1,4 @@
-\chapter{Definitions}
+\section{Definitions}
 
 \epigraph{今也，南蠻鴃舌之人，非先王之道。}{——《孟子．滕文公上》}
 
@@ -26,267 +26,267 @@ A Siumatgwoon is Synonym-Closed if in which if $a∗b$  exists and $a∼a'$ and 
 
 Because of S4, Synonym-Closed Siumatgwoons must have $a*b \sim a'*b \sim  a*b'\sim  a'*b'.$ 
 
-### **S8: Synonym Replacement and Existence Preservation**
+% ### **S8: Synonym Replacement and Existence Preservation**
 
-- 
+% - 
 
-Synonym replacement completion: if $a*b$ exists, and if $b\sim b^{’}$, then $a*b^{'}$ exists in S as well.
+% Synonym replacement completion: if $a*b$ exists, and if $b\sim b^{’}$, then $a*b^{'}$ exists in S as well.
 
-Prior to this, we are rather ambiguous and coy as to whether a and b being synonymous means b*x necessarily exists if a*x exists. I feel we should admit closure for synyonym substitutional compositions. We can consider other structure where this axiom is not admitted later.
+% Prior to this, we are rather ambiguous and coy as to whether a and b being synonymous means b*x necessarily exists if a*x exists. I feel we should admit closure for synyonym substitutional compositions. We can consider other structure where this axiom is not admitted later.
 
-S9. Multidecomposition if $ab \sim cd$ and $cd = e$ then $ab =e$. 
+% S9. Multidecomposition if $ab \sim cd$ and $cd = e$ then $ab =e$. 
 
-From S4 you’d be able to prove that $a \sim a'$ and $b\sim b'$ then $a * b \sim a' * b'$.
+% From S4 you'd be able to prove that $a \sim a'$ and $b\sim b'$ then $a * b \sim a' * b'$.
 
-- The quotient siumatgwoon $S/\sim$
+% - The quotient siumatgwoon $S/\sim$
     
-    ## 1. Starting Point: Synonymy ~ as an Equivalence Relation
+%     ## 1. Starting Point: Synonymy ~ as an Equivalence Relation
     
-    Let $S$ be a Siumatgwoon, and let $\sim$ be a synonymy relation on $S$ satisfying:
+%     Let $S$ be a Siumatgwoon, and let $\sim$ be a synonymy relation on $S$ satisfying:
     
-    - $\sim$ is an equivalence relation: reflexive, symmetric, transitive.
-    - $\sim$ is **compatible with composition**:
+%     - $\sim$ is an equivalence relation: reflexive, symmetric, transitive.
+%     - $\sim$ is **compatible with composition**:
         
-        If $a\sim a^{'}$, $b\sim b^{'}$, then $a*b\sim a^{'}*b^{'}$.
+%         If $a\sim a^{'}$, $b\sim b^{'}$, then $a*b\sim a^{'}*b^{'}$.
         
-    - $\sim$ is **compatible with divisibility**:
+%     - $\sim$ is **compatible with divisibility**:
         
-        If $a\sim b$, then $x∣a  ⟺  x∣b$ for all  $x\in S$.
-        
-    
-    These give us a solid foundation to define a quotient structure.
-    
-    ---
-    
-    ## The set $S/\sim$
-    
-    Let:
-    
-    $S/∼=\{[a]:a\in S\}$
-    
-    where $[a]=\{x∈S∣x\sim a\}$ is the **equivalence class** of $a$.
-    
-    ---
-    
-    ## 3. Defining the Operations on $S/\sim$
-    
-    ### **Multiplication:**
-    
-    We define:
-    
-    $[a]∗[b]:=[a∗b]$, if $a*b$ exists.
-    
-    This is well-defined **because of compositional congruence** (axiom S4′).
-    
-    It is also because that we required if $a*b$ exists, so must $a^{'}*b^{'}$.
-    
-    That is: if $a \sim a^{'}$, and $b \sim b^{'}$, then:
-    
-    $a∗b∼a^{'}*b^{'}\Rightarrow [a∗b]=[a^{'}*b^{'}]$
-    
-    So the result is independent of the representative.
-    
-    ---
-    
-    ### **Divisibility:**
-    
-    We define:
-    
-    $[a]∣[b] \iff  a∣b$
-    
-    Again, this is **well-defined** thanks to the **divisibility equivalence** axiom (S5):
-    
-    - If $a\sim a^{'}, b \sim b^{'}$, given we have the axiom that  $a∣b  ⟺  a^{'}|b^{'}$ then:
-    
-    $[a]*[b] ⟺  [a^{'}]∣[b^{'}]$
-    
-    Thus, | descends to the quotient.
-    
-    ---
-    
-    ## 4. Verifying Siumatgwoon Axioms in $S/∼$
-    
-    Let’s verify that the **quotient structure inherits** the original Siumatgwoon axioms:
-    
-    - **Axiom 1 (Reflexivity of** $|$ **)**:
-        
-        Since $a∣a⇒[a]∣[a]$
-        
-    - **Axiom 2 (Totality)**:
-        
-        For all $[a],[b]$, either $[a]∣[b]$ or not.
-        
-        This follows since $|$ on $S$ has totality, and divisibility is preserved under $\sim$.
-        
-    - **Axiom 3 (Transitivity)**:
-        
-        Suppose $[a]∣[b]$ and  $[b]∣[c]$. Recall the definition that $[a]∣[b]$ then $a∣b$. It’s straightforward.
-        
-    - **Axiom 4 (Composition and divisability)**:
-        
-        We want to prove that if $[a]∗[b]=[c]$, then $[a],[b] | [c]$.  By definition $[a]∗[b]=[c]$ then $a*b\sim c$, and so $a|c$. By the definition of constitutiveness over synonym classes, $[a]|[c]$. The argument same goes for $[b]|[c]$.
-        
-        Now come axioms 5 and axioms 6. Do they hold in $S/ \sim$, even if they might not hold in$S$?
-        
-        - Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
-            - (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n,$  where $g_1, \dots, g_n \in G_S$
-        
-        And a Simple Siumatgwoon is one where:
-        
-        1. $E$ is a generating set, and 
-        2. that decompositions into elementals are unique.
-        
-        - Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
-            - (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n,$  where $g_1, \dots, g_n \in G_S$
-        - Axiom 6. (Finite constitution). For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that  $y_1, y_2, \ldots, y_n | x.$
-        
-        Let’s proof that axiom 5 holds first. And then axiom 6 holds. Then we prove that $S/\sim$ is a simple siumatgwoon.
-        
-        Consider some element $[x] \in S/\sim$. Given $S$ is a siumatgwoon, we know that any $x$ has a finite decomposition $g_1 * g_2 * g_3 * \cdots g_n$. Given $x=g_1 * g_2 * g_3 * \cdots g_n$, we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]$, and by the definition of $[*]$ we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]=[g_1] * [g_2] * [g_3] * \cdots [g_n]$. Given this applies to every $x$ in $S$, it is true of every $[x]\in S/\sim$. 
-        
-        Note that some of the $[g_i]$ might be equal to some other $[g_j]$ if $g_i \sim g_j$.
-        
-        Now for axiom 6.
-        
-        Consider $[x]\in S/\sim$. By axiom 6, there only finitely many $y_1, y_2, \ldots, y_n | x.$ Therefore there are only finitely many $[y_1], [y_2], \ldots, [y_n] | [x].$ Note again, that because there could be $y_i \sim y_j$, then the most reduced list of constituents for $[x]$ might be shorter than $n$.
-        
-        Axiom 5 says
-        
-    - **Axiom 5 (Generators)**:
-        
-        If G⊆SG \subseteq SG⊆S is a generating set, then [G]={[g]∣g∈G}⊆S/∼[G] = \{ [g] \mid g \in G \} \subseteq S/{\sim}[G]={[g]∣g∈G}⊆S/∼ generates all of S/∼S/{\sim}S/∼
+%         If $a\sim b$, then $x∣a  ⟺  x∣b$ for all  $x\in S$.
         
     
-    Hence, S/∼S/{\sim}S/∼ is a well-defined **quotient Siumatgwoon**.
+%     These give us a solid foundation to define a quotient structure.
     
-    ---
+%     ---
     
-    ## 🌀 5. Interpretation of S/∼S/{\sim}S/∼
+%     ## The set $S/\sim$
     
-    - **Elements of S/∼S/{\sim}S/∼** are **semantic classes**: bundles of expressions that mean the same thing.
-    - **Operations and structure** are all inherited from how the parts combine.
-    - This is essentially a move from **syntax to semantics** — a form of canonical simplification.
+%     Let:
     
-    ---
+%     $S/∼=\{[a]:a\in S\}$
     
-    ## 🧠 Bonus: Identity and Atoms in S/∼S/{\sim}S/∼
+%     where $[a]=\{x∈S∣x\sim a\}$ is the **equivalence class** of $a$.
     
-    - The set of **atomic classes** would be:
+%     ---
     
-    A/∼={[a]∣a∈A}A/{\sim} = \{ [a] \mid a \in A \}
+%     ## 3. Defining the Operations on $S/\sim$
     
-    A/∼={[a]∣a∈A}
+%     ### **Multiplication:**
     
-    If synonymy is strong (e.g., if all synonyms of atoms are equal), then this is a **true set of atomic meanings**.
+%     We define:
     
-    - The quotient set **removes redundancy**: if two characters are written differently but function identically, they’re collapsed.
-- A hierarchy of synonym relations
+%     $[a]∗[b]:=[a∗b]$, if $a*b$ exists.
     
-    Intuitively speaking, the ~ of 言～文 that allows us write 信～伩 seems different from the ~ in 女～巫, as it does not seem the case that 女 can be exchanged for 巫 in all chinese characters. This suggests that there is a hierarchy, or rather, a family of synonymous relations, perhaps context dependent. 
+%     This is well-defined **because of compositional congruence** (axiom S4′).
     
-    Some synonymns are more closely clustered together than others. This suggests there is a hierarchy of synonymns.
+%     It is also because that we required if $a*b$ exists, so must $a^{'}*b^{'}$.
     
-- A foray into the axioms of the Siumatgwoon - 31st March 2025
+%     That is: if $a \sim a^{'}$, and $b \sim b^{'}$, then:
     
-    A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations *composition* $* : S \times S \rightarrow S$ and *constitution* $|:S\times S \rightarrow \{True, False\}$ , such that the following axioms hold. 
+%     $a∗b∼a^{'}*b^{'}\Rightarrow [a∗b]=[a^{'}*b^{'}]$
     
-    - Axiom 1 (Reflexivity): For all $a \in S$, $a|a$.
-    - Axiom 2 (Totality): For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
-    - Axiom 3 (Transitivity): For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
-    - Axiom 4: If $a*b=c$ for some $a,b,c\in S$, then
-    $a|c$ and $b|c$.
+%     So the result is independent of the representative.
     
-    Some further clarifications: 
+%     ---
     
-    - $a\not|b$ iff $a|b = false$
+%     ### **Divisibility:**
     
-    Some examples of Siumatgwoons: 
+%     We define:
     
-    1. The Chinese characters, **字**
-        1. The Chinese characters, which inspired this whole mathematical exercise, is clearly a Siumatgwoon. If we exercise the synonym exchange of “Siumatgwoon” with “Metaphysic”, this is to say, that the Chinese characters is a Metaphysic. Unfortunately we can’t really *prove* that the Chinese characters are indeed a siumatgwoon, given there’s an infinite number of them, and we do not have a generating rule for all Chinese characters. However, the fact that any subset of Chinese characters is a siumatgwoon in of itself, lends us confidence - perhaps there’s a theorem there waiting to be proved?
-    2. The Roman Numerals $\mathfrak{R}$
+%     $[a]∣[b] \iff  a∣b$
+    
+%     Again, this is **well-defined** thanks to the **divisibility equivalence** axiom (S5):
+    
+%     - If $a\sim a^{'}, b \sim b^{'}$, given we have the axiom that  $a∣b  ⟺  a^{'}|b^{'}$ then:
+    
+%     $[a]*[b] ⟺  [a^{'}]∣[b^{'}]$
+    
+%     Thus, | descends to the quotient.
+    
+%     ---
+    
+%     ## 4. Verifying Siumatgwoon Axioms in $S/∼$
+    
+%     Let’s verify that the **quotient structure inherits** the original Siumatgwoon axioms:
+    
+%     - **Axiom 1 (Reflexivity of** $|$ **)**:
         
-        One can clearly see that Roman Numerals $\mathfrak{R}$ are a Siumatgwoon. However, to appreciate the characteristics that make it a Siumatgwoon, let us consider the subset of Roman Numerals from 1 to 10, which we shall show to also be a Siumatgwoon.
+%         Since $a∣a⇒[a]∣[a]$
         
-        $\mathfrak{R}_{1,10} = \{I, II, III, IV, V, VI, VII, VIII, IX, X\}$
+%     - **Axiom 2 (Totality)**:
         
-        We will say that for two elements $a,b \in \mathfrak{R}_{1,10}$, $a|b$ iff the glyph $a$ appears in $b$. As such, we can say $I | II$ and $I|III$ as an example, and that $V|IV$ and $X|IX$. 
+%         For all $[a],[b]$, either $[a]∣[b]$ or not.
         
-        For any elements $a,b\in \mathfrak{R}_{1,10}$, if the glyphs $ab$ so written together forms a glyph that also appears in $\mathfrak{R}_{1,10}$, then we’d say that $a*b\in \mathfrak{R}$.
+%         This follows since $|$ on $S$ has totality, and divisibility is preserved under $\sim$.
         
-        Now, it’s clear that Ax 1 is satisfied trivially. 
+%     - **Axiom 3 (Transitivity)**:
         
-        Ax 2 is also satisfied trivially.
+%         Suppose $[a]∣[b]$ and  $[b]∣[c]$. Recall the definition that $[a]∣[b]$ then $a∣b$. It’s straightforward.
         
-        Ax 3 is also satisfied. 
+%     - **Axiom 4 (Composition and divisability)**:
         
-        Ax 4 is also satisifed. As an example: $I | III, III | VIII$ and we have $I|VIII$.
+%         We want to prove that if $[a]∗[b]=[c]$, then $[a],[b] | [c]$.  By definition $[a]∗[b]=[c]$ then $a*b\sim c$, and so $a|c$. By the definition of constitutiveness over synonym classes, $[a]|[c]$. The argument same goes for $[b]|[c]$.
         
-        So therefore, $\mathfrak{R}_{1,10}$ is a Siumatgwun. 
+%         Now come axioms 5 and axioms 6. Do they hold in $S/ \sim$, even if they might not hold in$S$?
         
-        It is also interesting to note that as per the definition of $\mathfrak{R}_{1,10}$, it is not compositionally closed. For example, $II * III$ is not in $\mathfrak{R}_{1,10}$. This makes the Siumatgwoon different from a group, where all compositions are contained inside the group. Intuitively, perhaps this suggests the Siumatgwoon is less rich in structure that the mathematical group? Also, note that what $II * III$ should be in $\mathfrak{R}_{1,10}$ is represented by $V$. Intuitively, we can feel that in some sense, $II * III = V$ - that they’re synonymous, identical, referring to the same referent. This is not unlike the presence of variant characters in the Sinoglyphs, such as 體 (body, object)=骵=躰=体, or信 (trust) = 𬢭 = 伩 = 訫 = 㐰… Intuition should hint that this will yield some interesting structures if we pursue the investigation down this path.
+%         - Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
+%             - (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n,$  where $g_1, \dots, g_n \in G_S$
+        
+%         And a Simple Siumatgwoon is one where:
+        
+%         1. $E$ is a generating set, and 
+%         2. that decompositions into elementals are unique.
+        
+%         - Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
+%             - (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n,$  where $g_1, \dots, g_n \in G_S$
+%         - Axiom 6. (Finite constitution). For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that  $y_1, y_2, \ldots, y_n | x.$
+        
+%         Let’s proof that axiom 5 holds first. And then axiom 6 holds. Then we prove that $S/\sim$ is a simple siumatgwoon.
+        
+%         Consider some element $[x] \in S/\sim$. Given $S$ is a siumatgwoon, we know that any $x$ has a finite decomposition $g_1 * g_2 * g_3 * \cdots g_n$. Given $x=g_1 * g_2 * g_3 * \cdots g_n$, we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]$, and by the definition of $[*]$ we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]=[g_1] * [g_2] * [g_3] * \cdots [g_n]$. Given this applies to every $x$ in $S$, it is true of every $[x]\in S/\sim$. 
+        
+%         Note that some of the $[g_i]$ might be equal to some other $[g_j]$ if $g_i \sim g_j$.
+        
+%         Now for axiom 6.
+        
+%         Consider $[x]\in S/\sim$. By axiom 6, there only finitely many $y_1, y_2, \ldots, y_n | x.$ Therefore there are only finitely many $[y_1], [y_2], \ldots, [y_n] | [x].$ Note again, that because there could be $y_i \sim y_j$, then the most reduced list of constituents for $[x]$ might be shorter than $n$.
+        
+%         Axiom 5 says
+        
+%     - **Axiom 5 (Generators)**:
+        
+%         If G⊆SG \subseteq SG⊆S is a generating set, then [G]={[g]∣g∈G}⊆S/∼[G] = \{ [g] \mid g \in G \} \subseteq S/{\sim}[G]={[g]∣g∈G}⊆S/∼ generates all of S/∼S/{\sim}S/∼
         
     
-    1. **(Any?) Numerals system** 
-        1. The fact that the Roman Numerals are a Siumatgwoon should intuitively suggest that any numeral system is a Siumatgwoon. In fact, let us consider the world’s many numeral systems, and see if there is one where it is not a siumatgwoon. 
+%     Hence, S/∼S/{\sim}S/∼ is a well-defined **quotient Siumatgwoon**.
+    
+%     ---
+    
+%     ## 🌀 5. Interpretation of S/∼S/{\sim}S/∼
+    
+%     - **Elements of S/∼S/{\sim}S/∼** are **semantic classes**: bundles of expressions that mean the same thing.
+%     - **Operations and structure** are all inherited from how the parts combine.
+%     - This is essentially a move from **syntax to semantics** — a form of canonical simplification.
+    
+%     ---
+    
+%     ## 🧠 Bonus: Identity and Atoms in S/∼S/{\sim}S/∼
+    
+%     - The set of **atomic classes** would be:
+    
+%     A/∼={[a]∣a∈A}A/{\sim} = \{ [a] \mid a \in A \}
+    
+%     A/∼={[a]∣a∈A}
+    
+%     If synonymy is strong (e.g., if all synonyms of atoms are equal), then this is a **true set of atomic meanings**.
+    
+%     - The quotient set **removes redundancy**: if two characters are written differently but function identically, they’re collapsed.
+% - A hierarchy of synonym relations
+    
+%     Intuitively speaking, the ~ of 言～文 that allows us write 信～伩 seems different from the ~ in 女～巫, as it does not seem the case that 女 can be exchanged for 巫 in all chinese characters. This suggests that there is a hierarchy, or rather, a family of synonymous relations, perhaps context dependent. 
+    
+%     Some synonymns are more closely clustered together than others. This suggests there is a hierarchy of synonymns.
+    
+% - A foray into the axioms of the Siumatgwoon - 31st March 2025
+    
+%     A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations *composition* $* : S \times S \rightarrow S$ and *constitution* $|:S\times S \rightarrow \{True, False\}$ , such that the following axioms hold. 
+    
+%     - Axiom 1 (Reflexivity): For all $a \in S$, $a|a$.
+%     - Axiom 2 (Totality): For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
+%     - Axiom 3 (Transitivity): For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
+%     - Axiom 4: If $a*b=c$ for some $a,b,c\in S$, then
+%     $a|c$ and $b|c$.
+    
+%     Some further clarifications: 
+    
+%     - $a\not|b$ iff $a|b = false$
+    
+%     Some examples of Siumatgwoons: 
+    
+%     1. The Chinese characters, **字**
+%         1. The Chinese characters, which inspired this whole mathematical exercise, is clearly a Siumatgwoon. If we exercise the synonym exchange of “Siumatgwoon” with “Metaphysic”, this is to say, that the Chinese characters is a Metaphysic. Unfortunately we can’t really *prove* that the Chinese characters are indeed a siumatgwoon, given there’s an infinite number of them, and we do not have a generating rule for all Chinese characters. However, the fact that any subset of Chinese characters is a siumatgwoon in of itself, lends us confidence - perhaps there’s a theorem there waiting to be proved?
+%     2. The Roman Numerals $\mathfrak{R}$
         
-        |  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-        | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-        | 唐字數字 | 〇 | 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九 |
-        | 唐字數字大寫 | 零 | 壹、弌 | 貳 | 叄 | 肆、[䦉](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=4989) | 伍 | 陸 | 柒 | 捌 | 玖 |
-        | 字喃 |  | [𠬠](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20B20) | [𠄩](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20129) | [𠀧](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20027) | [𦊚](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2629A) | [𠄼](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2013C) | [𦒹](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=264B9) | [𦉱](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=26271) | [𠔭](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2052D) | [𠃩](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=200E9) |
-        | 蘇州碼子 | 〇 | 〡、一 | 〢、二 | 〣、三 | 〤 | 〥（〡〇） | 〦 | 〧 | 〨 | 〩（〡〤） |
-        | Roman Numerals |  | I | II | III | IV | V | VI | VII | VIII | IX |
-        | Eastern Arabic | ٠ | ١ | ٢ | ٣ | ٤ | ٥ | ٦ | ٧ | ٨ | ٩ |
-        | Persian | ٠ | ۰ | ۱ | ۲ | ۳ | ۴ | ۵ | ۶ | ۷ | ۸ |
-        | Devanagari | ० | १ | २ | ३ | ४ | ५ | ६ | ७ | ८ | ९ |
-        | [Gujarati](https://en.wikipedia.org/wiki/Gujarati_numerals) | ૦ | ૧ | ૨ | ૩ | ૪ | ૫ | ૬ | ૭ | ૮ | ૯ |
-        | [Tibetan](https://en.wikipedia.org/wiki/Tibetan_numerals) | ༠ | ༡ | ༢ | ༣ | ༤ | ༥ | ༦ | ༧ | ༨ | ༩ |
-        | Hebrew |  | א‎ (alef) | ב‎ (bet) | ג‎ (gimel) | ד‎ (dalet) | ה‎ (he) | ו‎ (vav) | ז‎ (zayin) | ח‎ (ḥet) | ט‎ (tet) |
-        | Chinese counting rods |  | 𝍠 | 𝍡 | 𝍢 | 𝍣 | 𝍤 | 𝍥 | 𝍦 | 𝍧 | 𝍨 |
-        | counting 正 |  | 𝍲 | 𝍳 | 𝍴 | 𝍵 | 𝍶 | 𝍶𝍲 | 𝍶𝍳 | 𝍶𝍴 | 𝍶𝍵 |
-        | Tangut  |  | 𘈩 | 𗍫 | 𘕕 | 𗥃 | 𗏁 | 𗤁 | 𗒹 | 𘉋 | 𗢭 |
+%         One can clearly see that Roman Numerals $\mathfrak{R}$ are a Siumatgwoon. However, to appreciate the characteristics that make it a Siumatgwoon, let us consider the subset of Roman Numerals from 1 to 10, which we shall show to also be a Siumatgwoon.
         
-        I don’t think there’s a single one that’s not a siumatgwoon! Most of them are pathological for sure, in the sense that nothing is constituted by anything else, but none of them violate the Siumatgwoon axioms! 
+%         $\mathfrak{R}_{1,10} = \{I, II, III, IV, V, VI, VII, VIII, IX, X\}$
         
-        The case of the numerals as a Siumatgwoon, or a Metaphysic, is interesting. Numerals all refer to the same referents, the same “things” or “objects”, namely, numbers. However, the glyphs in a given numeral system are themselves imbued with a particular set of metaphysical prejudices and judgements. Under the Roman Numeral Metaphysic, the number 3 is composed of 1 and 2, or composed of three 1s. 4 is composed of 1 and 5, but not 3 and 2. 
+%         We will say that for two elements $a,b \in \mathfrak{R}_{1,10}$, $a|b$ iff the glyph $a$ appears in $b$. As such, we can say $I | II$ and $I|III$ as an example, and that $V|IV$ and $X|IX$. 
         
-    2. The polygons $\mathcal{P}$
+%         For any elements $a,b\in \mathfrak{R}_{1,10}$, if the glyphs $ab$ so written together forms a glyph that also appears in $\mathfrak{R}_{1,10}$, then we’d say that $a*b\in \mathfrak{R}$.
         
-        Consider the following graph. If we take all the polygons, convex and star, as elements in a set called $\mathcal{P}$, we can see that it forms a Siumatgwoon.  We state this without formal proof for the infinite set $\mathcal{P}$, but from the subset displayed in the graph below, we can see it is indeed true. A polygon $a$ constitutes polygon $b$ if $a$ appears in $b$$\{3\}$, the equilateral triangle, appears in $\{6/2\}$, the star of David, and so $\{3\} |\{6/2\}$
+%         Now, it’s clear that Ax 1 is satisfied trivially. 
         
-        The Schläfli symbol is a recursive description, starting with $\{p\}$ for a $p$-sided regular polygon that is convex. For example, $\{3\}$ is an equilateral triangle, $\{4\}$ is a square, $\{5\}$ a convex regular pentagon, etc.
+%         Ax 2 is also satisfied trivially.
         
-        Regular star polygons are not convex, and their Schläfli symbols take the form $\{p/q\}$, where $p$ is the number of vertices and $q$ is their turning number. Equivalently,  $\{p/q\}$ is created from the vertices of  $\{p\}$ by connecting every  $q$th vertex. For example,  $\{5/2\}$ is a pentagram, while  $\{5\}$ is a pentagon.
+%         Ax 3 is also satisfied. 
         
-        Note that in $p$ and $q$ must be [coprime](https://en.wikipedia.org/wiki/Coprime), or the figure will degenerate, in which case we have the following theorem:
+%         Ax 4 is also satisifed. As an example: $I | III, III | VIII$ and we have $I|VIII$.
         
-        $\{p/q\}=d\{ \frac{p}{d} / \frac{q}{d}  \}$, where $d=gcd(p,q)$.
+%         So therefore, $\mathfrak{R}_{1,10}$ is a Siumatgwun. 
         
-        Let us define for any schlaffi symbol $\{p\} | n\{p\}$ for any n. It is intuively true.
+%         It is also interesting to note that as per the definition of $\mathfrak{R}_{1,10}$, it is not compositionally closed. For example, $II * III$ is not in $\mathfrak{R}_{1,10}$. This makes the Siumatgwoon different from a group, where all compositions are contained inside the group. Intuitively, perhaps this suggests the Siumatgwoon is less rich in structure that the mathematical group? Also, note that what $II * III$ should be in $\mathfrak{R}_{1,10}$ is represented by $V$. Intuitively, we can feel that in some sense, $II * III = V$ - that they’re synonymous, identical, referring to the same referent. This is not unlike the presence of variant characters in the Sinoglyphs, such as 體 (body, object)=骵=躰=体, or信 (trust) = 𬢭 = 伩 = 訫 = 㐰… Intuition should hint that this will yield some interesting structures if we pursue the investigation down this path.
         
-        Then clearly axiom 1 is satisfied. Axiom 2 is also satisfied. If 
+    
+%     1. **(Any?) Numerals system** 
+%         1. The fact that the Roman Numerals are a Siumatgwoon should intuitively suggest that any numeral system is a Siumatgwoon. In fact, let us consider the world’s many numeral systems, and see if there is one where it is not a siumatgwoon. 
+        
+%         |  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+%         | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+%         | 唐字數字 | 〇 | 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九 |
+%         | 唐字數字大寫 | 零 | 壹、弌 | 貳 | 叄 | 肆、[䦉](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=4989) | 伍 | 陸 | 柒 | 捌 | 玖 |
+%         | 字喃 |  | [𠬠](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20B20) | [𠄩](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20129) | [𠀧](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=20027) | [𦊚](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2629A) | [𠄼](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2013C) | [𦒹](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=264B9) | [𦉱](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=26271) | [𠔭](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=2052D) | [𠃩](https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=200E9) |
+%         | 蘇州碼子 | 〇 | 〡、一 | 〢、二 | 〣、三 | 〤 | 〥（〡〇） | 〦 | 〧 | 〨 | 〩（〡〤） |
+%         | Roman Numerals |  | I | II | III | IV | V | VI | VII | VIII | IX |
+%         | Eastern Arabic | ٠ | ١ | ٢ | ٣ | ٤ | ٥ | ٦ | ٧ | ٨ | ٩ |
+%         | Persian | ٠ | ۰ | ۱ | ۲ | ۳ | ۴ | ۵ | ۶ | ۷ | ۸ |
+%         | Devanagari | ० | १ | २ | ३ | ४ | ५ | ६ | ७ | ८ | ९ |
+%         | [Gujarati](https://en.wikipedia.org/wiki/Gujarati_numerals) | ૦ | ૧ | ૨ | ૩ | ૪ | ૫ | ૬ | ૭ | ૮ | ૯ |
+%         | [Tibetan](https://en.wikipedia.org/wiki/Tibetan_numerals) | ༠ | ༡ | ༢ | ༣ | ༤ | ༥ | ༦ | ༧ | ༨ | ༩ |
+%         | Hebrew |  | א‎ (alef) | ב‎ (bet) | ג‎ (gimel) | ד‎ (dalet) | ה‎ (he) | ו‎ (vav) | ז‎ (zayin) | ח‎ (ḥet) | ט‎ (tet) |
+%         | Chinese counting rods |  | 𝍠 | 𝍡 | 𝍢 | 𝍣 | 𝍤 | 𝍥 | 𝍦 | 𝍧 | 𝍨 |
+%         | counting 正 |  | 𝍲 | 𝍳 | 𝍴 | 𝍵 | 𝍶 | 𝍶𝍲 | 𝍶𝍳 | 𝍶𝍴 | 𝍶𝍵 |
+%         | Tangut  |  | 𘈩 | 𗍫 | 𘕕 | 𗥃 | 𗏁 | 𗤁 | 𗒹 | 𘉋 | 𗢭 |
+        
+%         I don’t think there’s a single one that’s not a siumatgwoon! Most of them are pathological for sure, in the sense that nothing is constituted by anything else, but none of them violate the Siumatgwoon axioms! 
+        
+%         The case of the numerals as a Siumatgwoon, or a Metaphysic, is interesting. Numerals all refer to the same referents, the same “things” or “objects”, namely, numbers. However, the glyphs in a given numeral system are themselves imbued with a particular set of metaphysical prejudices and judgements. Under the Roman Numeral Metaphysic, the number 3 is composed of 1 and 2, or composed of three 1s. 4 is composed of 1 and 5, but not 3 and 2. 
+        
+%     2. The polygons $\mathcal{P}$
+        
+%         Consider the following graph. If we take all the polygons, convex and star, as elements in a set called $\mathcal{P}$, we can see that it forms a Siumatgwoon.  We state this without formal proof for the infinite set $\mathcal{P}$, but from the subset displayed in the graph below, we can see it is indeed true. A polygon $a$ constitutes polygon $b$ if $a$ appears in $b$$\{3\}$, the equilateral triangle, appears in $\{6/2\}$, the star of David, and so $\{3\} |\{6/2\}$
+        
+%         The Schläfli symbol is a recursive description, starting with $\{p\}$ for a $p$-sided regular polygon that is convex. For example, $\{3\}$ is an equilateral triangle, $\{4\}$ is a square, $\{5\}$ a convex regular pentagon, etc.
+        
+%         Regular star polygons are not convex, and their Schläfli symbols take the form $\{p/q\}$, where $p$ is the number of vertices and $q$ is their turning number. Equivalently,  $\{p/q\}$ is created from the vertices of  $\{p\}$ by connecting every  $q$th vertex. For example,  $\{5/2\}$ is a pentagram, while  $\{5\}$ is a pentagon.
+        
+%         Note that in $p$ and $q$ must be [coprime](https://en.wikipedia.org/wiki/Coprime), or the figure will degenerate, in which case we have the following theorem:
+        
+%         $\{p/q\}=d\{ \frac{p}{d} / \frac{q}{d}  \}$, where $d=gcd(p,q)$.
+        
+%         Let us define for any schlaffi symbol $\{p\} | n\{p\}$ for any n. It is intuively true.
+        
+%         Then clearly axiom 1 is satisfied. Axiom 2 is also satisfied. If 
         
          
         
     
-    ![image.png](attachment:d1cc34e5-6651-44b8-bf5b-1f5cdba73aac:image.png)
+%     ![image.png](attachment:d1cc34e5-6651-44b8-bf5b-1f5cdba73aac:image.png)
     
-    ![image.png](attachment:4d2e52da-b773-4554-88e2-8e9cce7fd6f1:image.png)
+%     ![image.png](attachment:4d2e52da-b773-4554-88e2-8e9cce7fd6f1:image.png)
     
-    There are 3 flavours of * in Propositional Logics, $\wedge, \vee →$. 
+%     There are 3 flavours of * in Propositional Logics, $\wedge, \vee →$. 
     
-    And we define $\phi | \psi$ if $\phi$ appears in $\psi$, for any wff $\phi, \psi$.
+%     And we define $\phi | \psi$ if $\phi$ appears in $\psi$, for any wff $\phi, \psi$.
     
-    Then clearly all 4 of the core siumatgun axioms are satisfied. 
+%     Then clearly all 4 of the core siumatgun axioms are satisfied. 
     
-    1. Trivial that all $\phi | \phi$
-    2. Also trivial that for any $\phi, \psi$, either $\phi|\psi$ or $\phi\not|\psi$.
-    3. Trivial as well that for any $\phi,\psi | \phi * \psi$.
-    4. Also trivial that if $\phi | \psi$ and $\psi | \theta$ then $\phi | \theta$.
+%     1. Trivial that all $\phi | \phi$
+%     2. Also trivial that for any $\phi, \psi$, either $\phi|\psi$ or $\phi\not|\psi$.
+%     3. Trivial as well that for any $\phi,\psi | \phi * \psi$.
+%     4. Also trivial that if $\phi | \psi$ and $\psi | \theta$ then $\phi | \theta$.
     
-    Propositional Logic as a Siumatgoon has multiple interesting properties: 
+%     Propositional Logic as a Siumatgoon has multiple interesting properties: 
     
-    1. It is compositionally complete. 
-    2. It is also constitutionally complete. 
-    3. Is it a simple siumatgun? Are decompositions finite? Yes. Are deccmpositions unique? Yes, up to reordering. So yeah, it’s a simple siumatgwoon.
+%     1. It is compositionally complete. 
+%     2. It is also constitutionally complete. 
+%     3. Is it a simple siumatgun? Are decompositions finite? Yes. Are deccmpositions unique? Yes, up to reordering. So yeah, it’s a simple siumatgwoon.

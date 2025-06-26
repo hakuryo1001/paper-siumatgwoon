@@ -12,26 +12,24 @@
 \setlength{\parindent}{1em} % Standard paragraph indentation
 \setlength{\parskip}{0pt}   % No space between paragraphs
 
-% for quotes
-\usepackage{epigraph} 
-
+% Footnote styling
 \makeatletter
 \renewcommand{\@makefntext}[1]{\jcz{\@thefnmark.} #1}
 \makeatother
 
-% to control itemise spacing
-\usepackage{enumitem}
+% List spacing control
+\setlist[itemize]{topsep=0.5em, itemsep=0.2em, left=1.5em}
+\setlist[enumerate]{topsep=0.5em, itemsep=0.2em, left=1.5em}
 
 % *-----------------------------------------------------------------------*
 % | Page layout and headers                                                |
 % *-----------------------------------------------------------------------*
-\usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % Clear all header and footer fields
 
 % Define left and right page numbering
-\fancyfoot[LE]{\thepage} % Left side for even pages
-\fancyfoot[RO]{\thepage} % Right side for odd pages
+% \fancyfoot[LE]{\thepage} % Left side for even pages
+% \fancyfoot[RO]{\thepage} % Right side for odd pages
 
 % Ensure the chapter pages (plain style) also have this layout
 \makeatletter

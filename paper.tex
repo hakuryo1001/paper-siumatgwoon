@@ -1,52 +1,55 @@
-\documentclass[a4paper, 11pt, openany]{book} % A5 paper size
+% \documentclass[a4paper, 11pt]{article}
 
-% Adjusted margins to ensure space for page numbers
-\usepackage[paperwidth=148mm, paperheight=210mm, 
-         top=1.27cm, bottom=2.5cm, inner=2.2cm, outer=1.27cm, 
-         headsep=1.5cm, footskip=1.5cm]{geometry}
+% % Standard margins for math papers
+% \usepackage[margin=1in]{geometry}
 
-\usepackage[utf8]{inputenc}
-\usepackage{ctex}
+% \usepackage[utf8]{inputenc}
+% \usepackage{ctex}
 
-% *-----------------------------------------------------------------------*
-% | Fonts and typography                                                  |
-% *-----------------------------------------------------------------------*
-\input{preamble/fonts.tex}
+% % Additional packages for layout
+% \usepackage{epigraph}
+% \usepackage{enumitem}
+% \usepackage{fancyhdr}
 
-\input{preamble/layout.tex}
-\input{styles/idc.tex}
-\input{styles/verticalChinese.tex}
+% % *-----------------------------------------------------------------------*
+% % | Fonts and typography                                                  |
+% % *-----------------------------------------------------------------------*
+% \input{preamble/fonts.tex}
 
-% *-----------------------------------------------------------------------*
-% | Packages and formatting                                               |
-% *-----------------------------------------------------------------------*
-\input{preamble/packages.tex}
+% % \input{preamble/layout.tex}
+% \input{styles/idc.tex}
+% \input{styles/verticalChinese.tex}
 
-% *-----------------------------------------------------------------------*
-% | Chinese and Soochow Numerals                                          |
-% *-----------------------------------------------------------------------*
-\input{styles/numerals.tex}
+% % *-----------------------------------------------------------------------*
+% % | Packages and formatting                                               |
+% % *-----------------------------------------------------------------------*
+% \input{preamble/packages.tex}
 
-% *-----------------------------------------------------------------------*
-% | Table of contents & Chapter management                                |
-% *-----------------------------------------------------------------------*
-\input{preamble/toc.tex}
+% % *-----------------------------------------------------------------------*
+% % | Chinese and Soochow Numerals                                          |
+% % *-----------------------------------------------------------------------*
+% \input{styles/numerals.tex}
 
-% *-----------------------------------------------------------------------*
-% | Document begins                                                       |
-% *-----------------------------------------------------------------------*
-\begin{document}
+% % *-----------------------------------------------------------------------*
+% % | Table of contents & Chapter management                                |
+% % *-----------------------------------------------------------------------*
+% \input{preamble/toc.tex}
 
-% Avoid overfull hbox
-\sloppy
+% % *-----------------------------------------------------------------------*
+% % | Document begins                                                       |
+% % *-----------------------------------------------------------------------*
+% \begin{document}
 
-% Initialize jyutcitzi processing
-\jcz{}
+% % Avoid overfull hbox
+% \sloppy
 
-% Include chapters
-\input{chapters/01-definitions.tex}
+% % Initialize jyutcitzi processing
+% \jcz{}
 
-% Generate table of contents
-\tableofcontents
+% % Generate table of contents
+% \tableofcontents
 
-\end{document}
+% % Include chapters
+% \input{chapters/01-definitions.tex}
+
+% \end{document}
