@@ -7,12 +7,21 @@
 
 A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations \textit{composition} $* : S \times S \rightarrow S$ and \textit{constitution} $|:S\times S \rightarrow \{\text{True}, \text{False}\}$, such that the following axioms hold. 
 
-\begin{itemize}
-\item Axiom 1 (Reflexivity): For all $a \in S$, $a|a$.
-\item Axiom 2 (Totality): For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
-\item Axiom 3 (Transitivity): For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
-\item Axiom 4: If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
-\end{itemize}
+\begin{axiom}[Reflexivity]\label{ax:reflex}
+Axiom 1 (Reflexivity): For all $a \in S$, $a|a$.
+\end{axiom}
+
+\begin{axiom}[Totality]\label{ax:total}
+Axiom 2 (Totality): For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
+\end{axiom}
+
+\begin{axiom}[Transitivity]\label{ax:trans}
+Axiom 3 (Transitivity): For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
+\end{axiom}
+
+\begin{axiom}[Composition Constitution]\label{ax:comp-const}
+Axiom 4: If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
+\end{axiom}
 
 $a * b$ should be read is "$a$ composing with $b$", and $a | b$ should be read as "$a$ constitutes $b$". You can also read $*$ as "and", "along with", "mixed with", "reacting with", "making love with", etc. You can also read $|$ as "is a part of", "composes", "is a constituent of", "is a component of", "is a sub-object of", etc. Because we are exploring, we will enable maximal leeway in the interpretation of $*$ and $|$, and this we will see, can yield some happy and interesting structures. 
 
@@ -21,6 +30,26 @@ Some further clarifications:
 \begin{itemize}
 \item $a\not|b$ iff $a|b = \text{false}$
 \end{itemize}
+
+The above 4 axioms are the core axioms of a Siumatgwoon. To specify certain more restrictive structures, we will now introduce two more axioms. These two axioms seem to capture certain behaviours of the Sinoglyphs, and are therefore interesting.
+
+\begin{axiom}[Complete Constructibility and Generators]\label{ax:construct}
+Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
+\begin{itemize}
+\item (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$
+\end{itemize}
+
+And a Simple Siumatgwoon is one where:
+
+\begin{enumerate}
+\item $E$ is a generating set, and 
+\item that decompositions into elementals are unique.
+\end{enumerate}
+\end{axiom}
+
+\begin{axiom}[Finite Constitution]\label{ax:finite}
+Axiom 6. (Finite constitution). For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
+\end{axiom}
 
 \subsection{Examples of Siumatgwoons}
 
@@ -139,27 +168,41 @@ Consider the old siumatgwoon axioms, and a new relation "synonym", represented b
 
 \subsection{Synonym Axioms}
 
+\begin{axiom}[Reflexivity]\label{ax:syn-reflex}
 S1. (reflexivity) for all $x\in S$, $x\sim x$.
+\end{axiom}
 
+\begin{axiom}[Symmetry]\label{ax:syn-sym}
 S2. (symmetry) For all $a,b\in S$, if $a\sim b$ then $b\sim a$.
+\end{axiom}
 
+\begin{axiom}[Transitivity]\label{ax:syn-trans}
 S3. (transitivity) for all $a,b,c \in S$, if $a\sim b$, and $b \sim c$, then $a \sim c$.
+\end{axiom}
 
+\begin{axiom}[Compositional Congruence]\label{ax:syn-comp}
 S4. (Compositional congruence) If $a \sim a'$, then (if they $ax$ or $xa$ exists):
 \begin{itemize}
 \item $ax \sim a'x$,
 \item $xa \sim xa'$
 \end{itemize}
+\end{axiom}
 
+\begin{axiom}[Composition Cancellation]\label{ax:syn-cancel}
 S5. Composition cancellation
 \begin{itemize}
 \item If $a * b \sim a * c$, then $b \sim c$;
 \item If $b*a\sim c*a$ then $b \sim c$;
 \end{itemize}
+\end{axiom}
 
+\begin{axiom}[Divisor Compatibility]\label{ax:syn-div}
 S6. Divisor compatibility: If $a \sim b$, then for all $x \in S$, $x|a$ iff $x|b$.
+\end{axiom}
 
+\begin{axiom}[Upwards Divisibility]\label{ax:syn-up}
 S7: Upwards divisibility: If $a\sim b$, then for all if $a|x$ then $b|x$.
+\end{axiom}
 
 A Siumatgwoon is Synonym-Closed if in which if $a*b$ exists and $a\sim a'$ and $b\sim b'$ then $a'*b, a*b', a'*b'$ also exist. Most siumatgwoons, including the Sinoglyphs, are not synonym-closed. 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  26 JUN 2025 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  26 JUN 2025 14:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -732,9 +732,9 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it'
 ]
 
 LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 27.
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 56.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 31.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 60.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
@@ -831,7 +831,7 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 58--91
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 87--120
  [] 
  []
 
@@ -843,18 +843,20 @@ Overfull \hbox (113.62225pt too wide) in paragraph at lines 58--91
 
 [5]
 
-LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 186.
-
-
-
 [6]
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 229.
+
+
 
 [7]
 
-[8])
+[8]
 
-[9] (out/main.aux)
+[9])
+
+[10] (out/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -865,12 +867,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12030 strings out of 473832
- 301126 string characters out of 5729481
- 735381 words of memory out of 5000000
- 34846 multiletter control sequences out of 15000+600000
- 571933 words of font info for 129 fonts, out of 8000000 for 9000
+ 12049 strings out of 473832
+ 301440 string characters out of 5729481
+ 736199 words of memory out of 5000000
+ 34863 multiletter control sequences out of 15000+600000
+ 571941 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,7n,114p,1021b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.pdf (9 pages).
+Output written on out/main.pdf (10 pages).
