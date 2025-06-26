@@ -8,19 +8,19 @@
 A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations \textit{composition} $* : S \times S \rightarrow S$ and \textit{constitution} $|:S\times S \rightarrow \{\text{True}, \text{False}\}$, such that the following axioms hold. 
 
 \begin{axiom}[Reflexivity]\label{ax:reflex}
-Axiom 1 (Reflexivity): For all $a \in S$, $a|a$.
+For all $a \in S$, $a|a$.
 \end{axiom}
 
 \begin{axiom}[Totality]\label{ax:total}
-Axiom 2 (Totality): For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
+For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
 \end{axiom}
 
 \begin{axiom}[Transitivity]\label{ax:trans}
-Axiom 3 (Transitivity): For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
+For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
 \end{axiom}
 
 \begin{axiom}[Composition Constitution]\label{ax:comp-const}
-Axiom 4: If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
+If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
 \end{axiom}
 
 $a * b$ should be read is "$a$ composing with $b$", and $a | b$ should be read as "$a$ constitutes $b$". You can also read $*$ as "and", "along with", "mixed with", "reacting with", "making love with", etc. You can also read $|$ as "is a part of", "composes", "is a constituent of", "is a component of", "is a sub-object of", etc. Because we are exploring, we will enable maximal leeway in the interpretation of $*$ and $|$, and this we will see, can yield some happy and interesting structures. 
@@ -31,7 +31,10 @@ Some further clarifications:
 \item $a\not|b$ iff $a|b = \text{false}$
 \end{itemize}
 
-The above 4 axioms are the core axioms of a Siumatgwoon. To specify certain more restrictive structures, we will now introduce two more axioms. These two axioms seem to capture certain behaviours of the Sinoglyphs, and are therefore interesting.
+The above 4 axioms are the core axioms of a Siumatgwoon. There are quite a lot of ways in which you can think about what they are. You can think of them as sure foundations you can rest upon and then launch to explore the space, or you can think of them as a set of definitions that define the metaphysics of an object, in this case a mathematical object. But all mathematical objects are metaphysical objects (though we don't know if all metaphysical objects are mathematical objects - I'd wager not - the first go-to reason one might want to appeal to is Godel's Incompleteness Theorem - I think that's the right direction but Godel won't give us the direct proof to support this intuition - it is likely going to be something beyond mathematical language. Indeed, I think there are metaphysical objects that can be described by natural language, but not mathematical language. But I digress). We can further define other types of Siumatgwoons with further axioms. A taxonomy would then emerge, defined by various properties captured by the additional axioms.
+
+But to capture the logic inside the Sinoglyphs, which is where we are starting - and we are starting there because we believe there's an interesting logic that evolved in there - just like interesting creatures and biosphere usually evolve in isolated and unique environments. I'To specify certain more restrictive structures, we will now introduce two more axioms. 
+These two axioms seem to capture certain behaviours of the Sinoglyphs, and are therefore interestingto 
 
 \begin{axiom}[Complete Constructibility and Generators]\label{ax:construct}
 Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:

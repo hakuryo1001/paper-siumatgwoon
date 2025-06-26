@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  26 JUN 2025 14:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  26 JUN 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -732,14 +732,17 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it'
 ]
 
 LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 56.
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 59.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 60.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
+
+
+[2]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 63.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 
-[2]
+[3]
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -831,13 +834,11 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 87--120
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 90--123
  [] 
  []
 
 
-
-[3]
 
 [4]
 
@@ -846,7 +847,7 @@ Overfull \hbox (113.62225pt too wide) in paragraph at lines 87--120
 [6]
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 229.
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 232.
 
 
 
@@ -869,10 +870,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  12049 strings out of 473832
  301440 string characters out of 5729481
- 736199 words of memory out of 5000000
+ 736056 words of memory out of 5000000
  34863 multiletter control sequences out of 15000+600000
  571941 words of font info for 130 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,7n,114p,1021b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,7n,114p,1175b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on out/main.pdf (10 pages).
