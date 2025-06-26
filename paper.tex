@@ -1,0 +1,52 @@
+\documentclass[a4paper, 11pt, openany]{book} % A5 paper size
+
+% Adjusted margins to ensure space for page numbers
+\usepackage[paperwidth=148mm, paperheight=210mm, 
+         top=1.27cm, bottom=2.5cm, inner=2.2cm, outer=1.27cm, 
+         headsep=1.5cm, footskip=1.5cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage{ctex}
+
+% *-----------------------------------------------------------------------*
+% | Fonts and typography                                                  |
+% *-----------------------------------------------------------------------*
+\input{preamble/fonts.tex}
+
+\input{preamble/layout.tex}
+\input{styles/idc.tex}
+\input{styles/verticalChinese.tex}
+
+% *-----------------------------------------------------------------------*
+% | Packages and formatting                                               |
+% *-----------------------------------------------------------------------*
+\input{preamble/packages.tex}
+
+% *-----------------------------------------------------------------------*
+% | Chinese and Soochow Numerals                                          |
+% *-----------------------------------------------------------------------*
+\input{styles/numerals.tex}
+
+% *-----------------------------------------------------------------------*
+% | Table of contents & Chapter management                                |
+% *-----------------------------------------------------------------------*
+\input{preamble/toc.tex}
+
+% *-----------------------------------------------------------------------*
+% | Document begins                                                       |
+% *-----------------------------------------------------------------------*
+\begin{document}
+
+% Avoid overfull hbox
+\sloppy
+
+% Initialize jyutcitzi processing
+\jcz{}
+
+% Include chapters
+\input{chapters/01-definitions.tex}
+
+% Generate table of contents
+\tableofcontents
+
+\end{document}

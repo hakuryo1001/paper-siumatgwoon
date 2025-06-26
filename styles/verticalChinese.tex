@@ -1,0 +1,14 @@
+% for vertical Chinese boxes
+\usepackage{graphicx} % for \rotatebox
+
+\newfontlanguage{Chinese}{CHN}
+
+\setCJKfamilyfont{BabelStoneVert}[RawFeature={vertical;+vert},Script=CJK,Language=Chinese,Vertical=RotatedGlyphs]{BabelStone Han}
+
+\newcommand*\CJKmovesymbol[1]{\raise.35em\hbox{#1}}
+\newcommand*\CJKmove{\punctstyle{plain}% do not modify the spacing between punctuations
+  \let\CJKsymbol\CJKmovesymbol
+  \let\CJKpunctsymbol\CJKsymbol}
+
+% Define a new environment for vertical text
+\newcommand{\VertCell}[1]{\rotatebox{-90}{\CJKfamily{BabelStoneVert}\CJKmove #1}}

@@ -1,0 +1,2 @@
+defaultIndent: '  '
+modifyLineBreaks: false       # disable automatic re-wrapping/commenting
