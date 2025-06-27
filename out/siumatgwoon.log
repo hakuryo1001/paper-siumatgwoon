@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  27 JUN 2025 02:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  27 JUN 2025 03:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,18 +761,33 @@ Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=
 [7]
 Missing character: There is no 江 (U+6C5F) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 湖 (U+6E56) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑒 (U+1D452) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑒 (U+1D452) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ≠ (U+2260) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no  (U+E020) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑦 (U+1D466) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 (U+1D465) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman10-regular]:mapping=tex-text;!
 
 LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 281.
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 310.
 
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 283.
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 312.
 
 
 
 [8]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 285.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 314.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
@@ -869,7 +884,7 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 312--345
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 341--374
  [] 
  []
 
@@ -882,7 +897,7 @@ Overfull \hbox (113.62225pt too wide) in paragraph at lines 312--345
 [12]
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 454.
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 483.
 
 
 
@@ -909,10 +924,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12132 strings out of 473832
- 305321 string characters out of 5729481
- 738039 words of memory out of 5000000
- 34941 multiletter control sequences out of 15000+600000
+ 12133 strings out of 473832
+ 305368 string characters out of 5729481
+ 738106 words of memory out of 5000000
+ 34942 multiletter control sequences out of 15000+600000
  571973 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,7n,114p,1182b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -264,15 +264,44 @@ Or to take more interesting example, if we take $江湖$ is an object itself of 
 
 $\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \text{湖} \rangle \subseteq \langle \text{水} \rangle$
 
+\begin{lemma}[Every elemental has an atomic constitutent]\label{lem:every-elemental-has-an-atomic-constituent}
+    Every elemental $e$ has an atomic constituent $a$ such that $e|a$.
+\end{lemma}
+\begin{proof}
+    Assume for contradiction that 
+    𝑒
+    e has no atomic constituents. Then every 
+    𝑥
+    x such that 
+    𝑥
+    ∣
+    𝑒
+    x∣e is itself non-atomic, and therefore has some proper constituent 
+    𝑦
+    y with 
+    𝑦
+    ≠
+    𝑥
+    y
+    
+    =x and 
+    𝑦
+    ∣
+    𝑥
+    y∣x.
+\end{proof}
 
 Now we can prove something even more interesting. 
 \begin{theorem}[$\langle A \rangle = E$ in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}
     In a simple siumatgwoon, $\langle A \rangle = E$ for any $A\subseteq S$.
 \end{theorem}
 \begin{proof}
-    We have already proven that $\langle A \rangle \subseteq E$ for any $A\subseteq S$. Now we need to prove that $E \subseteq \langle A \rangle$.
+    We will first prove that $\langle A \rangle \subseteq E$, and then we will prove that $E \subseteq \langle A \rangle$.
 
-    Let $x\in E$. Then $x$ is an elemental. And since $x$ is an elemental, it has no non-trivial decomposition. An object constituted by $a$ and has no non-trivial decomposition is an $a$-系 object, so $x \in \langle a \rangle$. Therefore, $E \subseteq \langle A \rangle$.
+    Let us prove that $\langle A \rangle \subseteq E$.  
+
+
+ 
 \end{proof}
 \subsection{Examples of Siumatgwoons}
 
