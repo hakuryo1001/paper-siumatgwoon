@@ -117,36 +117,40 @@ But there's no reason why elementals, 形聲字, themselves, cannot be the head 
 $$\text{河}_{Thames},\text{河}_{Seine},\text{河}_{Hudson},\text{河}_{\text{珠江}} \in \langle \text{河} \rangle$$
 but we can't write down all the other constituents that make them more than just a river, and not how they differ from each other either.
 
-
-
-
 The Chinese way of writing "river" is not different from writing it as "氵river". It says that "river" belongs to the class of things that are constituted of "氵"(water); it says "river" is a "氵" thing; it says "river" is belongs to the set, the class, the category of "氵" things; but most importantly, it says: I don't know how "river" is composed, but I do know it is constituted of "氵". So there's something beyond water that makes a river - but I don't know what all the stuff that composes a river is, or hanc marginis exiguitas non caperet.
 
-
-
-
-
+Let us now get some proper definitions.
 
 
 \begin{definition}[Atomics]\label{def:atomics}
-    An object $s$ in a Siumatgwoon $S$ is an atomic if it cannot be decomposed into smaller elements, i.e., if $s = a * b$ implies that either $a = s$ or $b = s$.
+        An element $a \in S$ is atomic if for all $x\in S$, if $x|a$ implies $x=a$, i.e. $a$ is atomic iff only anything that constitutes $a$ is $a$ itself.    
 \end{definition}
-
-
-
 
 \begin{definition}[Elementals]\label{def:elementals}
-    The elementals of a Siumatgwoon $S$ are the elements that cannot be decomposed into smaller elements.
+    An element $e \in S$ is elemental if and only if for all $x_1, x_2, x_3, \ldots, x_n \in S$ where $x_1, x_2, x_3, \ldots, x_n | e$, we have cannot find a finite sequence drawn from $x_1, x_2, x_3,\ldots, x_n $ such that it composes $e$. In other words, an elemental has no non-trivial decomposition other than $e = e$. 
 \end{definition}
 
 
-\begin{definition}[Atomic Element]\label{def:atomic-element}
-An element $a \in S$ is atomic if for all $x\in S$, if $x|a$ implies $x=a$, i.e. $a$ is atomic iff only itself constitutes itself.
-\end{definition}
+
+Note that Siumatgwoons do not swear alliegance to commutativity or associativity. $a*b$ might not equal to $b*a$ and $a*(b*c)$ might not equal to $(a*b)*c$. Both sucrose and fructose have the same molecular formula of $\text{C}_6\text{H}_{12}\text{O}_6$, and so $\text{C}, \text{H}, \text{O} | sucrose, fructose$, but sucrose and fructose are not the same object. Listing the constituents of an object also does not specify how those individual constituents are themselves composed to form components that form the object, which means we don't actually know how many times $C, H, O$ appear in sucrose or fructose. The point of the definition of the elemental, is to say, no matter how you arrange the constituents, no matter how many times each of the constituents appear, you cannot compose the object from those constituents alone. Again, emergence is at play here. 
+
+We quickly define the sets of atomics $A$ and the set of elementals $E$.
 
 \begin{definition}[Atomic Set]\label{def:atomic-set}
-The set $S_A \subseteq S$ is called the atomic set of $S$. It is the set of all atomic elements inside $S$. Where confusion does not exist, one could simply write $A$.
+    The set $S_A \subseteq S$ is called the atomic set of $S$. It is the set of all atomic elements inside $S$.
 \end{definition}
+
+\begin{definition}[Elemental Set]\label{def:elemental-set}
+    The set $S_E \subseteq S$ is called the elemental set of $S$. It is the set of all elemental elements inside $S$.
+\end{definition}
+
+
+
+\begin{definition}[Generators]\label{def:generators}
+    A set $G \subseteq S$ is a generator of $S$ if and only if every element $x \in S$ can be expressed as a composition of elements from $G$.
+\end{definition}
+
+
 
 \begin{definition}[Hai Elements]\label{def:hai-elements}
 The set $\langle a \rangle := \{ x\in S: a|x \text{ but } \not \exists y \in S \text{ such that } ay=x\}$ is called the Hai elements of a, i.e. the $a$-系 elements. These correspond to the 形聲字 in Chinese characters - if you do not consider the phonetic component of a character to be full elements inside the Siumatgwun but mere indices. In other words, one does not view 江、河、湖、海 as 水工、水可、水胡、水每 but as $水_工、水_可、水_胡、水_每$. In this sense, one can see there is no element $y \in 字$ such that $水y=水_工=江$.
@@ -171,7 +175,21 @@ Now we come to our first Theorem:
 \end{proof}
 
 
+
+Quick theorem
+
+\begin{theorem}
+    All atomics are elementals. For all siumatgwoons $S$, $A \subseteq E$.
+\end{theorem}
+\begin{proof}
+    Let $a \in A$. $a$ clearly constitutes itself, so $a|a$. But for any decomposition, 
+    Suppose $a$ is atomic but not elemental, which means it has a non-trivial decomposition, so $a=b*c$ for some $b,c \in S$. But then $b|a$ and $c|a$. Give any $x|a$ must imply $x=a$, so $b=a$ or $c=a$. But then we can apply the same argument, again, and we have 
+\end{proof}
+
+
 \subsection{Examples of Siumatgwoons}
+
+
 
 \subsubsection{The Chinese Characters, 字}
 
