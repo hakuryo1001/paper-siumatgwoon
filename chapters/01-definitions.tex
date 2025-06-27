@@ -42,21 +42,25 @@ These two axioms seem to capture certain behaviours of the Sinoglyphs, and are t
 
 \begin{definition}[Simple Siumatgwoon]\label{def:simple}
 A Simple Siumatgwoon $S$ is a siumatgwoon where:
-\begin{axiom}[Complete Constructibility and Generators]\label{ax:finite_decomposition} 
-    There exists a non-empty subset $G_{S} \subseteq S$ such that every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$
-    \end{axiom}
+\begin{axiom}[Finite composition]\label{ax:finite_composition} 
+    Every object is finitely composed. For any $x\in S$, $x = y_1 * y_2 * y_3 \cdots y_n$ for some finite number $n$.
+    In other words, there is no object that is composed of infinitely many objects.
+\end{axiom}
     
-    \begin{axiom}[Finite Constitution]\label{ax:finite_constitution} 
-        For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
-    \end{axiom}
-    
+\begin{axiom}[Finite Constitution]\label{ax:finite_constitution} 
+    For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
+\end{axiom}
+
+\begin{axiom}[Unique Decomposition]\label{ax:unique-decomposition} 
+    For any $x\in S$, the longest decomposition into objects of $S$ is unique. We can speak of the longest decomposition of an object, because we have \ref{ax:finite_composition}.
+\end{axiom}
 \end{definition}
 
 I stress finite. The point of these two axioms - is to ground ourselves in the world of finite compositions and finite constitutions. It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like? 
 
 
 
-Well, if we relax \ref{ax:finite_decomposition}, one can have a siumatgwoon $$S$$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end. 
+Well, if we relax \ref{ax:generation_from_finite_generators}, one can have a siumatgwoon $$S$$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end. 
 
 Nowf we relax \ref{ax:finite_constitution}, so you can arguably create a siumatgwoon where everything is made of infinitely many objects, including the objects constituting other objects. 
 
@@ -80,6 +84,7 @@ Atomics are basically 獨體字. They stand alone. They cannot be decomposed, an
 Elementals are basically any sinolgyph that cannot be fully decomposed. Something else might constitute it, but its constitutes do not make whole the elemental. There's something more in the elemental than just the just whatever constituting it is. An elemental might have many many constituents, but the elemental is somehow larger than the composition of its parts. This can be called emergence. 
 
 But not all elementals exhibit emergence. Because all atomics are elementals. Since atomics are constituted by themselves, and the atomic needs nothing to be composed with to be itself, atomics are elementals with no emergence. 
+
 
 The elementals largely correspond to the kind of compound sinoglyphs 合體字 that are called phonosemanophores - 形聲字。 
 
@@ -110,7 +115,6 @@ $$\text{木}_{\text{公}},\text{木}_{\text{白}},\text{木}_{\text{卯}},\text{
 But note that $\text{林}, \text{森},  \text{焚} \not\in \langle \text{木} \rangle$
 
 
-
 Does the head of a 系 have to be an atomic element? No, not at all! In fact, the head of a 系 could itself be an elemental like 河, or a proper compound like 雲. Consider the siumatgwoon $S = \{\text{雨}, \text{云}, \text{雲}, \text{霒}, \text{霕}, \text{霴}, \text{靉}\}$. In this set clearly the atoms are $\{\text{雨}, \text{云}\}$, but the elementals are $\{\text{雨}, \text{云}, \text{霒}, \text{霕}, \text{霴}, \text{靉}\}$. So $\{\text{霒}, \text{霕}, \text{霴}, \text{靉}\}$ are all in $\langle \text{雨} \rangle$ and in $\langle \text{云} \rangle$ and also in $\langle \text{雲} \rangle$.
 
 But there's no reason why elementals, 形聲字, themselves, cannot be the head of a 系. Why shouldn't there be say an object $x=\text{河}_{a}$ or $river_{a}$ that we know is a kind of river, but we know what all the other constituents are to make it more than just a river? I mean, it's pretty obvious that The Thames, La Seine, The Hudson, The Jyugong, are all rivers, i.e.: 
@@ -123,7 +127,7 @@ Let us now get some proper definitions.
 
 
 \begin{definition}[Atomics]\label{def:atomics}
-        An element $a \in S$ is atomic if for all $x\in S$, if $x|a$ implies $x=a$, i.e. $a$ is atomic iff only anything that constitutes $a$ is $a$ itself.    
+    An element $a \in S$ is atomic if for all $x\in S$, if $x|a$ implies $x=a$, i.e. $a$ is atomic iff only anything that constitutes $a$ is $a$ itself.
 \end{definition}
 
 \begin{definition}[Elementals]\label{def:elementals}
@@ -131,8 +135,9 @@ Let us now get some proper definitions.
 \end{definition}
 
 
+Note that Siumatgwoons do not swear alliegance to commutativity or associativity. $a*b$ might not equal to $b*a$ and $a*(b*c)$ might not equal to $(a*b)*c$. Both sucrose and fructose have the same molecular formula of $\text{C}_6\text{H}_{12}\text{O}_6$, and so $\text{C}, \text{H}, \text{O} | sucrose, fructose$, but sucrose and fructose are not the same object. Listing the constituents of an object also does not specify how those individual constituents are themselves composed to form components that form the object, which means we don't actually know how many times $C, H, O$ appear in sucrose or fructose. The point of the definition of the elemental, is to say, no matter how you arrange the constituents, no matter how many times each of the constituents appear, you cannot compose the object from those constituents alone. Again, emergence is at play here.
 
-Note that Siumatgwoons do not swear alliegance to commutativity or associativity. $a*b$ might not equal to $b*a$ and $a*(b*c)$ might not equal to $(a*b)*c$. Both sucrose and fructose have the same molecular formula of $\text{C}_6\text{H}_{12}\text{O}_6$, and so $\text{C}, \text{H}, \text{O} | sucrose, fructose$, but sucrose and fructose are not the same object. Listing the constituents of an object also does not specify how those individual constituents are themselves composed to form components that form the object, which means we don't actually know how many times $C, H, O$ appear in sucrose or fructose. The point of the definition of the elemental, is to say, no matter how you arrange the constituents, no matter how many times each of the constituents appear, you cannot compose the object from those constituents alone. Again, emergence is at play here. 
+
 
 We quickly define the sets of atomics $A$ and the set of elementals $E$.
 
@@ -145,19 +150,73 @@ We quickly define the sets of atomics $A$ and the set of elementals $E$.
 \end{definition}
 
 
+\begin{lemma}[Atomics are Elementals in Simple Siumatgwoons]\label{def:atomics-are-elementals-in-simple-siumatgwoons}
+    All atomics are elementals in simple siumatgwoons. For all simple siumatgwoons $S$, $A \subseteq E$.
+\end{lemma}
+\begin{proof}
+    Let $a \in A$. $a$ clearly constitutes itself, so $a=a$. If $a$ is not an elemental, then there exists a decomposition $a=b*c$ for some $b,c \in S$. By atomicity, $b=a$ or $c=a$. But then we can apply the same argument again, so $a=a*a$. And we can go ad infinitum, so $a=a*a*\cdots$. But this contradicts \ref{ax:finite_composition}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, $a$ cannot have any decomposition other than $a$. Therefore, $a$ is an elemental.
+\end{proof}
+
+
+\begin{lemma}[Atomics]\label{def:atomics}
+    The decomposition of an atomic in a simple Siumatgwoon is unique. i.e. $a=a$ is the only decomposition of an atomic.
+\end{lemma}
+\begin{proof}
+    As proven above.
+\end{proof}
+
+
 
 \begin{definition}[Generators]\label{def:generators}
-    A set $G \subseteq S$ is a generator of $S$ if and only if every element $x \in S$ can be expressed as a composition of elements from $G$.
+    A set $G \subseteq S$ is a generator of $S$ if and only if every object $x \in S$ can be expressed as a composition (trivial or compound) of objects from $G$.
 \end{definition}
 
+\begin{theorem}[Generator sets exist in simple siumatgwoons]\label{thm:generator-sets-exist-in-simple-siumatgwoons}
+    In a simple siumatgwoon, there exists a non-empty subset $G_{S} \subseteq S$ such that every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$.
+\end{theorem}
+
+\begin{proof}
+    This is clearly true, because any object $x\in S$ is always a finite composition of itself. So we can just let $G_S = S$. In other words, the set of all objects in $S$ is a generator set of $S$.
+\end{proof}
+
+\begin{lemma}[Elementals are in every generator set]\label{lem:elementals-are-in-every-generator-set}
+    In a simple siumatgwoon, $E\subseteq G$ for any generator set $G$.
+\end{lemma}
+\begin{proof}
+    Since any generator set $G$ must generate all objects in $S$, the generator set $G$ must generate all elementals in $E$. But elementals have non-trivial decompositions, so they are generated only by themselves. Therefore, to generate the elementals, the generator set $G$ must contain all elementals. Therefore $E\subseteq G$.
+\end{proof}
+
+\begin{lemma}[An object that's not an elemental is a compound]\label{lem:elementals-are-not-compounds}
+    If an object $x\in S$ is not an elemental, then it is a compound.
+\end{lemma}
+\begin{proof}
+    If $x$ is not an elemental, then it has a non-trivial decomposition. Then it is a compound.
+\end{proof}
+
+\begin{lemma}[Compounds are composed by elementals]\label{lem:compounds-are-composed-by-elementals}
+    If an object $x\in S$ is a compound, then it is composed by elementals.
+\end{lemma}
+\begin{proof}
+    If $x$ is a compound with constituents $y_1, \dots, y_n$, then $x = y_1 * y_2 * \cdots * y_n$ and one of them, say $y_i$ cannot be decomposed into elementals, then $y_i$ is a composed of other compounds $y_i =cd$ where $c,d$ are compounds. Neither $c$ and $d$ can be decomposed into elementals, because if they could, then $y_i$ would be decomposable into elementals, and so would $x$. So $c$ and $d$ must be furhter composed of other compounds. Repeating the same argument, those compounds must be composed of other compounds, and so on. But this contradicts \ref{ax:finite_composition}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, no object can be composed of infinitely many objects. Therefore, $x$ must be composed of elementals.
+\end{proof}
 
 
-\begin{definition}[Hai Elements]\label{def:hai-elements}
-The set $\langle a \rangle := \{ x\in S: a|x \text{ but } \not \exists y \in S \text{ such that } ay=x\}$ is called the Hai elements of a, i.e. the $a$-系 elements. These correspond to the 形聲字 in Chinese characters - if you do not consider the phonetic component of a character to be full elements inside the Siumatgwun but mere indices. In other words, one does not view 江、河、湖、海 as 水工、水可、水胡、水每 but as $水_工、水_可、水_胡、水_每$. In this sense, one can see there is no element $y \in 字$ such that $水y=水_工=江$.
-\end{definition}
+Now we move to a stronger theorem.
+
+\begin{theorem}[The elementals are a generator set in simple siumatgwoons]\label{thm:elementals-are-a-generator-set-in-simple-siumatgwoons} 
+    In a simple siumatgwoon, the set of elementals $E$ is a generator set of $S$.
+\end{theorem}
+
+\begin{proof}
+    We have proven $E\subseteq G$ for all generator sets $G$ in $S$. Now we need to prove that for any $x\in S$, $x = e_1 * e_2 * \cdots * e_n$ for some $e_1, \dots, e_n \in E$.
+
+    From \ref{lem:compounds-are-composed-by-elementals}, we know that any compound $x$ is composed by elementals. So we can write $x = e_1 * e_2 * \cdots * e_n$ for some $e_1, \dots, e_n \in E$.
+
+    But since every element in $S$ is either an elemental or a compound, and compounds are all composed by elementals, any element in $S$ is therefore a composition of elementals - in other words, generated by the elementals. Therefore $E$ is a generator set of $S$.
+\end{proof}
 
 
-Now we come to our first Theorem: 
+Now we put it all together.
 \begin{theorem}
     Let $S$ be a Simple Siumatgwoon. And let $E$ be the set of elementals of $S$. Then: 
     \begin{enumerate}
@@ -166,27 +225,55 @@ Now we come to our first Theorem:
     \end{enumerate}
 \end{theorem}
 \begin{proof}
-    Let $S$ be a Simple Siumatgwoon. And let $E$ be the set of elementals of $S$. Then: 
-    Let's first prove that E is a generating set first.
-    \begin{enumerate}
-        \item $E$ is a generating set, and 
-        \item The decompositions into elementals are unique.
-    \end{enumerate}
+    We have already proven (1) in \ref{thm:elementals-are-a-generator-set-in-simple-siumatgwoons}. Now we need to prove that the decompositions into elementals are unique.
+
+    In a simple siumatgwoon, the longest decomposition is unique. Now since every object in a simple siumatgwoon is a composition of elementals, and since elementals cannot be further decomposed, the decomposition of that object into elementals is the longest decomposition. Therefore, the decomposition of any object into elementals is unique.
 \end{proof}
 
 
+Now we let us return to x-系 sets.
 
-Quick theorem
+\begin{definition}[系 (Hai) Elements]\label{def:hai-elements}
+The set x-系, also written as $\langle x \rangle$ is defined to be $\{ x\in S: x|x \text{ but } \not \exists y_1, y_2,\ldots, y_n \in S \text{ such that } x=y_1y_2\cdots y_n\}$ is called the 系 elements of $x$, i.e. the $x$-系 elements. These correspond to the 形聲字 in Chinese characters - if you do not consider the phonetic component of a character to be full elements inside the Siumatgwun but mere indices. In other words, one does not view 江、河、湖、海 as 水工、水可、水胡、水每 but as $\text{水}_\text{工}、\text{水}_\text{可}、\text{水}_\text{胡}、\text{水}_\text{每}$. In this sense, one can see there is no element $y \in S$ such that $\text{水}y=\text{水}_\text{工}=\text{江}$.
+\end{definition}
 
-\begin{theorem}
-    All atomics are elementals. For all siumatgwoons $S$, $A \subseteq E$.
+
+Let us now take this definition and apply it to entire sets. 
+
+\begin{definition}[X-系]\label{def:hais-of-sets}
+    Let $X\subseteq S$. The $X$-系 is defined to be $\langle X \rangle := \cup_{x\in X} \langle x \rangle$.
+\end{definition}
+
+
+Then we can prove the following lemma. 
+\begin{lemma}[X-系 is a Siumatgwoon]\label{lem:hais-of-sets-are-siumatgwoons}
+    If $a|b$, then $ \langle b \rangle \subseteq \langle a \rangle$.
+\end{lemma}
+\begin{proof}
+    If $a|b$, then for any $x\in \langle b \rangle$, because $a|b$ and $b|x$, we have $a|x$. And since $x$ is an elemental, it has no non-trivial decomposition. An object constituted by $a$ and has no non-trivial decomposition is an $a$-系 object, so $x \in \langle a \rangle$. Therefore, $\langle b \rangle \subseteq \langle a \rangle$
+\end{proof}
+
+We clearly see this. $
+\langle \text{水}_\text{工} \rangle = \langle \text{江} \rangle \subseteq
+\langle \text{水} \rangle$. 
+
+Indeed,$\langle \text{靉} \rangle, \langle \text{霴} \rangle, \langle \text{霕} \rangle, \langle \text{霒} \rangle \subseteq \langle \text{雲} \rangle \subseteq \langle \text{雨} \rangle$
+
+Or to take more interesting example, if we take $江湖$ is an object itself of itself, then the set $\langle \text{江湖} \rangle = \{\text{江湖}_{1}, \text{江湖}_{2}, \ldots\}$ obeys the following 
+
+
+$\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \text{湖} \rangle \subseteq \langle \text{水} \rangle$
+
+
+Now we can prove something even more interesting. 
+\begin{theorem}[$\langle A \rangle = E$ in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}
+    In a simple siumatgwoon, $\langle A \rangle = E$ for any $A\subseteq S$.
 \end{theorem}
 \begin{proof}
-    Let $a \in A$. $a$ clearly constitutes itself, so $a|a$. But for any decomposition, 
-    Suppose $a$ is atomic but not elemental, which means it has a non-trivial decomposition, so $a=b*c$ for some $b,c \in S$. But then $b|a$ and $c|a$. Give any $x|a$ must imply $x=a$, so $b=a$ or $c=a$. But then we can apply the same argument, again, and we have 
+    We have already proven that $\langle A \rangle \subseteq E$ for any $A\subseteq S$. Now we need to prove that $E \subseteq \langle A \rangle$.
+
+    Let $x\in E$. Then $x$ is an elemental. And since $x$ is an elemental, it has no non-trivial decomposition. An object constituted by $a$ and has no non-trivial decomposition is an $a$-系 object, so $x \in \langle a \rangle$. Therefore, $E \subseteq \langle A \rangle$.
 \end{proof}
-
-
 \subsection{Examples of Siumatgwoons}
 
 
