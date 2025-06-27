@@ -1,0 +1,269 @@
+Consider the old siumatgwoon axioms, and a new relation "synonym", represented by $\sim$, read as "is synonymous with". It satisfies the following axioms.
+
+\subsection{Synonym Axioms}
+
+\begin{axiom}[Reflexivity]\label{ax:syn-reflex}
+S1. (reflexivity) for all $x\in S$, $x\sim x$.
+\end{axiom}
+
+\begin{axiom}[Symmetry]\label{ax:syn-sym}
+S2. (symmetry) For all $a,b\in S$, if $a\sim b$ then $b\sim a$.
+\end{axiom}
+
+\begin{axiom}[Transitivity]\label{ax:syn-trans}
+S3. (transitivity) for all $a,b,c \in S$, if $a\sim b$, and $b \sim c$, then $a \sim c$.
+\end{axiom}
+
+\begin{axiom}[Compositional Congruence]\label{ax:syn-comp}
+S4. (Compositional congruence) If $a \sim a'$, then (if they $ax$ or $xa$ exists):
+\begin{itemize}
+\item $ax \sim a'x$,
+\item $xa \sim xa'$
+\end{itemize}
+\end{axiom}
+
+\begin{axiom}[Composition Cancellation]\label{ax:syn-cancel}
+S5. Composition cancellation
+\begin{itemize}
+\item If $a * b \sim a * c$, then $b \sim c$;
+\item If $b*a\sim c*a$ then $b \sim c$;
+\end{itemize}
+\end{axiom}
+
+\begin{axiom}[Divisor Compatibility]\label{ax:syn-div}
+S6. Divisor compatibility: If $a \sim b$, then for all $x \in S$, $x|a$ iff $x|b$.
+\end{axiom}
+
+\begin{axiom}[Upwards Divisibility]\label{ax:syn-up}
+S7: Upwards divisibility: If $a\sim b$, then for all if $a|x$ then $b|x$.
+\end{axiom}
+
+A Siumatgwoon is Synonym-Closed if in which if $a*b$ exists and $a\sim a'$ and $b\sim b'$ then $a'*b, a*b', a'*b'$ also exist. Most siumatgwoons, including the Sinoglyphs, are not synonym-closed. 
+
+Because of S4, Synonym-Closed Siumatgwoons must have $a*b \sim a'*b \sim a*b'\sim a'*b'$.
+
+\subsection{S8: Synonym Replacement and Existence Preservation}
+
+Synonym replacement completion: if $a*b$ exists, and if $b\sim b'$, then $a*b'$ exists in $S$ as well.
+
+Prior to this, we are rather ambiguous and coy as to whether $a$ and $b$ being synonymous means $b*x$ necessarily exists if $a*x$ exists. I feel we should admit closure for synonym substitutional compositions. We can consider other structure where this axiom is not admitted later.
+
+S9. Multidecomposition if $ab \sim cd$ and $cd = e$ then $ab =e$. 
+
+From S4 you'd be able to prove that $a \sim a'$ and $b\sim b'$ then $a * b \sim a' * b'$.
+
+\section{The Quotient Siumatgwoon $S/\sim$}
+
+\subsection{Starting Point: Synonymy $\sim$ as an Equivalence Relation}
+
+Let $S$ be a Siumatgwoon, and let $\sim$ be a synonymy relation on $S$ satisfying:
+
+\begin{itemize}
+\item $\sim$ is an equivalence relation: reflexive, symmetric, transitive.
+\item $\sim$ is \textbf{compatible with composition}:
+    
+    If $a\sim a'$, $b\sim b'$, then $a*b\sim a'*b'$.
+    
+\item $\sim$ is \textbf{compatible with divisibility}:
+    
+    If $a\sim b$, then $x|a \iff x|b$ for all $x\in S$.
+\end{itemize}
+
+These give us a solid foundation to define a quotient structure.
+
+\subsection{The Set $S/\sim$}
+
+Let:
+
+$S/\sim=\{[a]:a\in S\}$
+
+where $[a]=\{x\in S\mid x\sim a\}$ is the \textbf{equivalence class} of $a$.
+
+\subsection{Defining the Operations on $S/\sim$}
+
+\subsubsection{Multiplication}
+
+We define:
+
+$[a]*[b]:=[a*b]$, if $a*b$ exists.
+
+This is well-defined \textbf{because of compositional congruence} (axiom S4).
+
+It is also because that we required if $a*b$ exists, so must $a'*b'$.
+
+That is: if $a \sim a'$, and $b \sim b'$, then:
+
+$a*b\sim a'*b'\Rightarrow [a*b]=[a'*b']$
+
+So the result is independent of the representative.
+
+\subsubsection{Divisibility}
+
+We define:
+
+$[a]|[b] \iff a|b$
+
+Again, this is \textbf{well-defined} thanks to the \textbf{divisibility equivalence} axiom (S6):
+
+If $a\sim a', b \sim b'$, given we have the axiom that $a|b \iff a'|b'$ then:
+
+$[a]|[b] \iff [a']|[b']$
+
+Thus, $|$ descends to the quotient.
+
+\subsection{Verifying Siumatgwoon Axioms in $S/\sim$}
+
+Let's verify that the \textbf{quotient structure inherits} the original Siumatgwoon axioms:
+
+\begin{itemize}
+\item \textbf{Axiom 1 (Reflexivity of $|$)}:
+    
+    Since $a|a\Rightarrow[a]|[a]$
+    
+\item \textbf{Axiom 2 (Totality)}:
+    
+    For all $[a],[b]$, either $[a]|[b]$ or not.
+    
+    This follows since $|$ on $S$ has totality, and divisibility is preserved under $\sim$.
+    
+\item \textbf{Axiom 3 (Transitivity)}:
+    
+    Suppose $[a]|[b]$ and $[b]|[c]$. Recall the definition that $[a]|[b]$ then $a|b$. It's straightforward.
+    
+\item \textbf{Axiom 4 (Composition and divisibility)}:
+    
+    We want to prove that if $[a]*[b]=[c]$, then $[a],[b] | [c]$. By definition $[a]*[b]=[c]$ then $a*b\sim c$, and so $a|c$. By the definition of constitutiveness over synonym classes, $[a]|[c]$. The argument same goes for $[b]|[c]$.
+\end{itemize}
+
+Now come axioms 5 and axioms 6. Do they hold in $S/\sim$, even if they might not hold in $S$?
+
+\begin{itemize}
+\item Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
+    \begin{itemize}
+    \item (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$
+    \end{itemize}
+
+And a Simple Siumatgwoon is one where:
+
+\begin{enumerate}
+\item $E$ is a generating set, and 
+\item that decompositions into elementals are unique.
+\end{enumerate}
+
+\item Axiom 6. (Finite constitution). For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
+\end{itemize}
+
+Let's prove that axiom 5 holds first. And then axiom 6 holds. Then we prove that $S/\sim$ is a simple siumatgwoon.
+
+Consider some element $[x] \in S/\sim$. Given $S$ is a siumatgwoon, we know that any $x$ has a finite decomposition $g_1 * g_2 * g_3 * \cdots g_n$. Given $x=g_1 * g_2 * g_3 * \cdots g_n$, we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]$, and by the definition of $[*]$ we have $[x]=[g_1 * g_2 * g_3 * \cdots g_n]=[g_1] * [g_2] * [g_3] * \cdots [g_n]$. Given this applies to every $x$ in $S$, it is true of every $[x]\in S/\sim$. 
+
+Note that some of the $[g_i]$ might be equal to some other $[g_j]$ if $g_i \sim g_j$.
+
+Now for axiom 6.
+
+Consider $[x]\in S/\sim$. By axiom 6, there only finitely many $y_1, y_2, \ldots, y_n | x.$ Therefore there are only finitely many $[y_1], [y_2], \ldots, [y_n] | [x].$ Note again, that because there could be $y_i \sim y_j$, then the most reduced list of constituents for $[x]$ might be shorter than $n$.
+
+\textbf{Axiom 5 (Generators)}:
+
+If $G\subseteq S$ is a generating set, then $[G]=\{[g]\mid g\in G\}\subseteq S/\sim$ generates all of $S/\sim$
+
+Hence, $S/\sim$ is a well-defined \textbf{quotient Siumatgwoon}.
+
+\subsection{Interpretation of $S/\sim$}
+
+\begin{itemize}
+\item \textbf{Elements of $S/\sim$} are \textbf{semantic classes}: bundles of expressions that mean the same thing.
+\item \textbf{Operations and structure} are all inherited from how the parts combine.
+\item This is essentially a move from \textbf{syntax to semantics} — a form of canonical simplification.
+\end{itemize}
+
+\subsection{Identity and Atoms in $S/\sim$}
+
+\begin{itemize}
+\item The set of \textbf{atomic classes} would be:
+
+$A/\sim=\{[a]\mid a\in A\}$
+
+If synonymy is strong (e.g., if all synonyms of atoms are equal), then this is a \textbf{true set of atomic meanings}.
+
+\item The quotient set \textbf{removes redundancy}: if two characters are written differently but function identically, they're collapsed.
+\end{itemize}
+
+\section{A Hierarchy of Synonym Relations}
+
+Intuitively speaking, the $\sim$ of 言$\sim$文 that allows us write 信$\sim$伩 seems different from the $\sim$ in 女$\sim$巫, as it does not seem the case that 女 can be exchanged for 巫 in all Chinese characters. This suggests that there is a hierarchy, or rather, a family of synonymous relations, perhaps context dependent. 
+
+Some synonyms are more closely clustered together than others. This suggests there is a hierarchy of synonyms.
+
+
+
+But to interpret $~$ to only mean "is synonymous with", leaves us certain phenonomena in, or rather, certain ways to "play" Chinese characters, uncaptured. 
+
+In Classical Chinese poetry and prose, it is appreciated if couplets are written in a way that characters in the same position belong to "some same class" or objects. 
+
+Consider all these lines from 《增廣賢文》：
+
+
+兩人一般心，無錢堪買金；一人一般心，有錢難買針。
+馬行無力皆因瘦，人不風流只爲貧。
+
+畫虎畫皮難畫骨，知人知面不知心。
+錢財如糞土，仁義値千金。
+流水下灘非有意，白雲出岫本無心。
+
+路遙知馬力，日久見人心。
+相見易得好，久住難爲人。
+饒人不是癡漢，癡漢不會饒人。
+有錢道眞語，無錢語不眞。
+長江後浪推前浪，世上新人趕舊人。
+來如風雨，去似微塵。
+萬般皆是命，半點不由人。
+
+
+寧可正而不足，不可邪而有餘。
+寧可信其有，不可信其無。
+
+
+To illustrate the point, consider this following sentence, taken from the Analects. 
+
+萬方有罪，罪在朕躬。
+
+"Whoever is sinful, the guilt is on my body."
+
+This sentence clearly expresses a monarchist position of politics - one that is shared by both classical Confucianism and medieval Christian political theory. The sovereign, the 君主, is the one who bears the responsibility, and the sins of the 萬方.
+
+Let us simplify and modify this sentence a bit: 
+
+君主之國，萬方有罪，罪在君身。
+
+"In a country where monarchs are sovereign, whoever is sinful, the guilt is on the monarch's body."
+
+Now a we can apply a naive application of lax synonymy, say on 萬 ("ten thousand") and 兆 ("trillion"), drawing upon they can both be taken to mean "uncountably many" on a metaphoric level, so $\text{萬} \sim \text{兆}$, so we get 
+$$
+\text{君主之國，\underline{萬}方有罪，罪在君身}
+\sim
+\text{君主之國，\underline{兆}方有罪，罪在君身}
+$$
+
+We don't have the full algebraic machinery to justify this yet, but it is reasonable. 
+
+What I really want to point out, is that in a sense, 君 and 民 belong to the same class - the same class of objects, political objects that is, that can occupy the position of 君. So in a sense, we can write $\text{君} \sim_{?} \text{民}$. Then, by simply substituting 君 for 民, we get 
+
+$$
+\text{\underline{君}主之國，萬方有罪，罪在\underline{君}身} \sim_{?} \text{\underline{民}主之國，兆方有罪，罪在\underline{民}身}
+$$
+
+Which says, "in a country where people are sovereign, whoever is sinful, the guilt is on the people's body." 
+
+
+
+This is not a derivation. Or is it? What kind of derivation is this? What kind of rule of inference are we appealing to? And what is the argument sayiing? Are we saying if (君主之國，萬方有罪，罪在朕躬) and $\text{君} \sim_{?} \text{民}$ then we can derive (民主之國，萬方有罪，罪在民身)? What laws govern the behaviour of the $\sim_{?}$? Are they the same as the laws governing the behaviour of $\sim$?
+
+
+
+
+
+
+
+
+
