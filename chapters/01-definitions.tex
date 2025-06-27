@@ -36,9 +36,7 @@ Some further clarifications:
 
 The above 4 axioms are the core axioms of a Siumatgwoon. There are quite a lot of ways in which you can think about what they are. You can think of them as sure foundations you can rest upon and then launch to explore the space, or you can think of them as a set of definitions that define the metaphysics of an object, in this case a mathematical object. But all mathematical objects are metaphysical objects (though we don't know if all metaphysical objects are mathematical objects - I'd wager not - the first go-to reason one might want to appeal to is Godel's Incompleteness Theorem - I think that's the right direction but Godel won't give us the direct proof to support this intuition - it is likely going to be something beyond mathematical language. Indeed, I think there are metaphysical objects that can be described by natural language, but not mathematical language. But I digress). We can further define other types of Siumatgwoons with further axioms. A taxonomy would then emerge, defined by various properties captured by the additional axioms.
 
-But to capture the logic inside the Sinoglyphs, which is where we are starting - and we are starting there because we believe there's an interesting logic that evolved in there - just like interesting creatures and biosphere usually evolve in isolated and unique environments. I'To specify certain more restrictive structures, we will now introduce two more axioms. 
-These two axioms seem to capture certain behaviours of the Sinoglyphs, and are therefore interestingto 
-
+But to capture the logic inside the Sinoglyphs, which is where we are starting - and we are starting there because we believe there's an interesting logic that evolved in there - just like interesting creatures and biosphere usually evolve in isolated and unique environments. I'To specify certain more restrictive structures, we will now introduce some more axioms, that makes a siumatgwoon simple. They are "simple" because they conform to our mereological intuitions, of both the Sinoglyphs and of the world.
 
 \begin{definition}[Simple Siumatgwoon]\label{def:simple}
 A Simple Siumatgwoon $S$ is a siumatgwoon where:
@@ -61,147 +59,27 @@ For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \
 
 \ref{ax:antisymmetry} says no two distinct objects constitute each other. It rules out circular identity via mutual constitution. So you can't have chains like atoms|humans|universe|atoms - no embedded universes in atoms like in \ruby{手塚 治虫}{おさむ　てずか}'s 《\ruby{火の鳥}{ひのとり}》 
 
+\ref{ax:finite_composition} is a cardinality constraint on the composition operator $*$. Antisymmetry is a constraint on the constitution relation $|$. There's no logical connection between a limit on the number of components in a composition and antisymmetry.
 
-\ref{ax:finite_composition} is a cardinality constraint on the composition operator 
-∗
-∗. Antisymmetry is a constraint on the constitution relation 
-∣
-∣. There's no logical connection between:
+Note that antisymmetry says nothing about how many objects compose another—only about how $|$ relates distinct objects. You could easily construct a model where antisymmetry holds, but some elements are infinitely composed (e.g., think of $x = a_1 * a_2 * a_3 * \cdots$ in a naïvely defined algebra).
 
-a limit on the number of components in a composition, and
+\ref{ax:finite_constitution} is a cardinality constraint on the constitution relation $|$. The point of both \ref{ax:finite_composition} and \ref{ax:finite_constitution} is to ground us in the world of finite compositions and finite constitutions. 
 
-Note that antisymmetry says nothing about how many objects compose another—only about how 
-∣
-∣ relates distinct objects. You could easily construct a model where antisymmetry holds, but some elements are infinitely composed (e.g., think of 
-𝑥
-=
-𝑎
-1
-∗
-𝑎
-2
-∗
-𝑎
-3
-∗
-…
-x=a 
-1
-​
- ∗a 
-2
-​
- ∗a 
-3
-​
- ∗… in a naïvely defined algebra).
+It says you cannot make a superobject by composing infinitely many objects - composition is finite. Obviously, one can eventually relax this and figure out how things will look.
 
+It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like?
 
+Well, if we relax \ref{ax:finite_constitution}, one can have a siumatgwoon $S$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end.
 
+This is also a cardinality restriction—this time on the domain of constitutors of any object. Antisymmetry only constrains symmetric pairs in $|$, not how many $y$'s can point to $x$.
 
-\ref{ax:finite_constitution} is a cardinality constraint on the constitution relation 
+A model could satisfy antisymmetry yet have an object $x$ with infinitely many distinct constituents $y_i$ such that $y_i|x$, without any pair $y_i, y_j$ satisfying $y_i|y_j \wedge y_j|y_i$.
 
-The point of both \ref{ax:finite_composition} and \ref{ax:finite_constitution} to ground us in the world of finite compositions and finite constitutions. 
+\ref{ax:unique-decomposition} is a uniqueness constraint on the decomposition of an object into its constituents. It says that the longest decomposition of an object is unique.
 
-It says you cannot make a superobject with by composing infinitely many objects - composition is finite. Obviously, one can eventually relax this and figure out how things will look. 
+This axiom says: among all decompositions of $x$, there is a unique one of maximal length (i.e. atomic resolution). This requires some structural property of $*$, perhaps associativity or atomic irreducibility.
 
-
-It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like? 
-
-Nowf we relax \ref{ax:finite_constitution}, so you can arguably create a siumatgwoon where everything is made of infinitely many objects, including the objects constituting other objects. 
-
-
-
-
-
-Well, if we relax \ref{ax:finite_constitution}, one can have a siumatgwoon $$S$$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end. 
-
-This is also a cardinality restriction—this time on the domain of constitutors of any object. Antisymmetry only constrains symmetric pairs in 
-∣
-∣, not how many 
-𝑦
-y's can point to 
-𝑥
-x.
-
-A model could satisfy antisymmetry yet have an object 
-𝑥
-x with infinitely many distinct constituents 
-𝑦
-𝑖
-y 
-i
-​
-  such that 
-𝑦
-𝑖
-∣
-𝑥
-y 
-i
-​
- ∣x, without any pair 
-𝑦
-𝑖
-,
-𝑦
-𝑗
-y 
-i
-​
- ,y 
-j
-​
-  satisfying 
-𝑦
-𝑖
-∣
-𝑦
-𝑗
-∧
-𝑦
-𝑗
-∣
-𝑦
-𝑖
-y 
-i
-​
- ∣y 
-j
-​
- ∧y 
-j
-​
- ∣y 
-i
-​
- .
-
-
-
-
-\ref{ax:unique-decomposition} is a uniqueness constraint on the decomposition of an object into its constituents. It says that the longest decomposition of an object is unique. 
-
-
-This axiom says:
-
-Among all decompositions of 
-𝑥
-x, there is a unique one of maximal length (i.e. atomic resolution).
-
-Requires some structural property of 
-∗
-∗, perhaps associativity or atomic irreducibility.
-
-Antisymmetry doesn’t regulate the structure of compositions—just the equality condition under mutual constitution.
-
-Even with antisymmetry, multiple maximal-length decompositions could exist, e.g., due to commutativity or ambiguity in decomposition paths, unless you restrict the structure of 
-∗
-∗.
-
-
-
+Antisymmetry doesn't regulate the structure of compositions—just the equality condition under mutual constitution. Even with antisymmetry, multiple maximal-length decompositions could exist, e.g., due to commutativity or ambiguity in decomposition paths, unless you restrict the structure of $*$.
 
 These are some really weird objects indeed. But they are definitely not anything like the Sinoglyphs - at least not right now. 
 
