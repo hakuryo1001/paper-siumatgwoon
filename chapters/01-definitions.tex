@@ -42,13 +42,16 @@ These two axioms seem to capture certain behaviours of the Sinoglyphs, and are t
 
 \begin{definition}[Simple Siumatgwoon]\label{def:simple}
 A Simple Siumatgwoon $S$ is a siumatgwoon where:
+\begin{axiom}[Antisymmetry]\label{ax:antisymmetry}
+    For all $a,b\in S$, if $a|b$ and $b|a$ then $a=b$.
+\end{axiom}
 \begin{axiom}[Finite composition]\label{ax:finite_composition} 
     Every object is finitely composed. For any $x\in S$, $x = y_1 * y_2 * y_3 \cdots y_n$ for some finite number $n$.
     In other words, there is no object that is composed of infinitely many objects.
 \end{axiom}
     
 \begin{axiom}[Finite Constitution]\label{ax:finite_constitution} 
-    For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
+For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
 \end{axiom}
 
 \begin{axiom}[Unique Decomposition]\label{ax:unique-decomposition} 
@@ -56,13 +59,149 @@ A Simple Siumatgwoon $S$ is a siumatgwoon where:
 \end{axiom}
 \end{definition}
 
-I stress finite. The point of these two axioms - is to ground ourselves in the world of finite compositions and finite constitutions. It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like? 
+\ref{ax:antisymmetry} says no two distinct objects constitute each other. It rules out circular identity via mutual constitution. So you can't have chains like atoms|humans|universe|atoms - no embedded universes in atoms like in \ruby{手塚 治虫}{おさむ　てずか}'s 《\ruby{火の鳥}{ひのとり}》 
+
+
+\ref{ax:finite_composition} is a cardinality constraint on the composition operator 
+∗
+∗. Antisymmetry is a constraint on the constitution relation 
+∣
+∣. There's no logical connection between:
+
+a limit on the number of components in a composition, and
+
+Note that antisymmetry says nothing about how many objects compose another—only about how 
+∣
+∣ relates distinct objects. You could easily construct a model where antisymmetry holds, but some elements are infinitely composed (e.g., think of 
+𝑥
+=
+𝑎
+1
+∗
+𝑎
+2
+∗
+𝑎
+3
+∗
+…
+x=a 
+1
+​
+ ∗a 
+2
+​
+ ∗a 
+3
+​
+ ∗… in a naïvely defined algebra).
 
 
 
-Well, if we relax \ref{ax:generation_from_finite_generators}, one can have a siumatgwoon $$S$$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end. 
+
+\ref{ax:finite_constitution} is a cardinality constraint on the constitution relation 
+
+The point of both \ref{ax:finite_composition} and \ref{ax:finite_constitution} to ground us in the world of finite compositions and finite constitutions. 
+
+It says you cannot make a superobject with by composing infinitely many objects - composition is finite. Obviously, one can eventually relax this and figure out how things will look. 
+
+
+It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like? 
 
 Nowf we relax \ref{ax:finite_constitution}, so you can arguably create a siumatgwoon where everything is made of infinitely many objects, including the objects constituting other objects. 
+
+
+
+
+
+Well, if we relax \ref{ax:finite_constitution}, one can have a siumatgwoon $$S$$ where everything can be infinitely decomposed. So there are no atoms - everything can be cut smaller and smaller and smaller - without end. 
+
+This is also a cardinality restriction—this time on the domain of constitutors of any object. Antisymmetry only constrains symmetric pairs in 
+∣
+∣, not how many 
+𝑦
+y's can point to 
+𝑥
+x.
+
+A model could satisfy antisymmetry yet have an object 
+𝑥
+x with infinitely many distinct constituents 
+𝑦
+𝑖
+y 
+i
+​
+  such that 
+𝑦
+𝑖
+∣
+𝑥
+y 
+i
+​
+ ∣x, without any pair 
+𝑦
+𝑖
+,
+𝑦
+𝑗
+y 
+i
+​
+ ,y 
+j
+​
+  satisfying 
+𝑦
+𝑖
+∣
+𝑦
+𝑗
+∧
+𝑦
+𝑗
+∣
+𝑦
+𝑖
+y 
+i
+​
+ ∣y 
+j
+​
+ ∧y 
+j
+​
+ ∣y 
+i
+​
+ .
+
+
+
+
+\ref{ax:unique-decomposition} is a uniqueness constraint on the decomposition of an object into its constituents. It says that the longest decomposition of an object is unique. 
+
+
+This axiom says:
+
+Among all decompositions of 
+𝑥
+x, there is a unique one of maximal length (i.e. atomic resolution).
+
+Requires some structural property of 
+∗
+∗, perhaps associativity or atomic irreducibility.
+
+Antisymmetry doesn’t regulate the structure of compositions—just the equality condition under mutual constitution.
+
+Even with antisymmetry, multiple maximal-length decompositions could exist, e.g., due to commutativity or ambiguity in decomposition paths, unless you restrict the structure of 
+∗
+∗.
+
+
+
 
 These are some really weird objects indeed. But they are definitely not anything like the Sinoglyphs - at least not right now. 
 
@@ -268,8 +407,14 @@ $\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \t
     Every elemental $e$ has an atomic constituent $a$ such that $e|a$.
 \end{lemma}
 \begin{proof}
-    Assume for contradiction that $e$ has no atomic constituents. Then every $x$ such that $x|e$ is itself non-atomic, and therefore has some proper constituent $y$ with $y \neq x$ and $y|x$.
+    Assume for contradiction that $e$ has no atomic constituents. Then every $x$ such that $x|e$ is itself non-atomic, and therefore has some proper constituent $y$ with $y \neq x$ and $y|x$. Since $y$ must also be non-atomic, it has some proper constituent $z$ with $z \neq y$, $z \neq x$ and $z|y$. And so on. We can therefore obtain an 
+    
+    
+    But this contradicts \ref{ax:finite_constitution}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, every elemental has an atomic constituent.
 \end{proof}
+
+
+Can we prove in a simpl
 
 Now we can prove something even more interesting. 
 \begin{theorem}[$\langle A \rangle = E$ in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}

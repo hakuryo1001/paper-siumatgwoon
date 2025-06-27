@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  27 JUN 2025 03:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  27 JUN 2025 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,55 +729,109 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
-
-LaTeX Warning: Reference `ax:generation_from_finite_generators' on page 2 undefined on input line 63.
-
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 
 
 [2]
+Missing character: There is no 𝑥 (U+1D465) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑎 (U+1D44E) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑎 (U+1D44E) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑎 (U+1D44E) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑥 (U+1D465) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑥 (U+1D465) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑖 (U+1D456) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑖 (U+1D456) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑥 (U+1D465) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑖 (U+1D456) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑗 (U+1D457) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑖 (U+1D456) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑗 (U+1D457) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑗 (U+1D457) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑦 (U+1D466) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑖 (U+1D456) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ​ (U+200B) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𝑥 (U+1D465) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+
 
 [3]
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ∗ (U+2217) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 
-LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/m/it' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 104.
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 118--119
-\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 or a proper compound like \TU/BabelStoneHan(0)/m/n/10 雲\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 . Consider the siumatgwoon $\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+Underfull \hbox (badness 3612) in paragraph at lines 199--202
+[]\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 Even with antisymmetry, multiple maximal-length decompositions
  []
 
 
 
 [4]
 
+LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/m/it' undefined
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 243.
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 257--258
+\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 or a proper compound like \TU/BabelStoneHan(0)/m/n/10 雲\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 . Consider the siumatgwoon $\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+
 [5]
 
 [6]
-Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
-
 
 [7]
-Missing character: There is no 江 (U+6C5F) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 湖 (U+6E56) in font [lmroman10-regular]:mapping=tex-text;!
-
-LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 290.
-
-
-LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 292.
-
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
 
 
 [8]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 294.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
+Missing character: There is no 江 (U+6C5F) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 湖 (U+6E56) in font [lmroman10-regular]:mapping=tex-text;!
+
+
+[9]
+
+LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 435.
+
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 437.
+
+LaTeX Font Info:    Trying to load font information for U+euf on input line 439.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 
-[9]
+[10]
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -869,30 +923,32 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 321--354
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 466--499
  [] 
  []
 
 
 
-[10]
-
 [11]
 
 [12]
 
-LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 463.
-
-
-
 [13]
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 608.
+
+
 
 [14]
 
-[15])
+[15]
 
-[16] (out/siumatgwoon.aux)
+[16])
+
+[17]
+
+[18] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -902,19 +958,16 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12133 strings out of 473832
- 305368 string characters out of 5729481
- 738106 words of memory out of 5000000
- 34942 multiletter control sequences out of 15000+600000
- 571973 words of font info for 134 fonts, out of 8000000 for 9000
+ 12174 strings out of 473832
+ 308020 string characters out of 5729481
+ 740368 words of memory out of 5000000
+ 34981 multiletter control sequences out of 15000+600000
+ 571989 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,7n,114p,1182b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (16 pages).
+Output written on out/siumatgwoon.pdf (18 pages).
