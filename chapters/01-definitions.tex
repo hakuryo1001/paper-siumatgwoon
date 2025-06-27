@@ -5,23 +5,26 @@
 
 \section{A Foray into the Axioms of the Siumatgwoon}
 
-A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations \textit{composition} $* : S \times S \rightarrow S$ and \textit{constitution} $|:S\times S \rightarrow \{\text{True}, \text{False}\}$, such that the following axioms hold. 
 
-\begin{axiom}[Reflexivity]\label{ax:reflex}
-For all $a \in S$, $a|a$.
-\end{axiom}
+\begin{definition}[Siumatgwoon]\label{def:siumatgwoon}
+    A Siumatgwoon, or a Metaphysic, is a set $S$, paired with the binary relations \textit{composition} $* : S \times S \rightarrow S$ and \textit{constitution} $|:S\times S \rightarrow \{\text{True}, \text{False}\}$, such that the following axioms hold. 
 
-\begin{axiom}[Totality]\label{ax:total}
-For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
-\end{axiom}
+    \begin{axiom}[Reflexivity]\label{ax:reflex}
+    For all $a \in S$, $a|a$.
+    \end{axiom}
 
-\begin{axiom}[Transitivity]\label{ax:trans}
-For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
-\end{axiom}
+    \begin{axiom}[Totality]\label{ax:total}
+    For all $a,b\in S$, exactly one of the following holds: $a|b$ or not $a\not|b$
+    \end{axiom}
 
-\begin{axiom}[Composition Constitution]\label{ax:comp-const}
-If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
-\end{axiom}
+    \begin{axiom}[Transitivity]\label{ax:trans}
+    For all $a,b,c\in S$, $a|b$ and $b|c$ implies $a|c$.
+    \end{axiom}
+
+    \begin{axiom}[Composition Constitution]\label{ax:comp-const}
+    If $a*b=c$ for some $a,b,c\in S$, then $a|c$ and $b|c$.
+    \end{axiom}
+\end{definition}
 
 $a * b$ should be read is "$a$ composing with $b$", and $a | b$ should be read as "$a$ constitutes $b$". You can also read $*$ as "and", "along with", "mixed with", "reacting with", "making love with", etc. You can also read $|$ as "is a part of", "composes", "is a constituent of", "is a component of", "is a sub-object of", etc. Because we are exploring, we will enable maximal leeway in the interpretation of $*$ and $|$, and this we will see, can yield some happy and interesting structures. 
 
@@ -36,23 +39,70 @@ The above 4 axioms are the core axioms of a Siumatgwoon. There are quite a lot o
 But to capture the logic inside the Sinoglyphs, which is where we are starting - and we are starting there because we believe there's an interesting logic that evolved in there - just like interesting creatures and biosphere usually evolve in isolated and unique environments. I'To specify certain more restrictive structures, we will now introduce two more axioms. 
 These two axioms seem to capture certain behaviours of the Sinoglyphs, and are therefore interestingto 
 
-\begin{axiom}[Complete Constructibility and Generators]\label{ax:construct}
-Axiom 5 (Complete Constructibility and Generators): There exists a non-empty subset $G_{S} \subseteq S$ such that:
-\begin{itemize}
-\item (Generation) Every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$
-\end{itemize}
 
-And a Simple Siumatgwoon is one where:
+\begin{definition}[Simple Siumatgwoon]\label{def:simple}
+A Simple Siumatgwoon $S$ is a siumatgwoon where:
+\begin{axiom}[Complete Constructibility and Generators]\label{ax:construct} 
+    There exists a non-empty subset $G_{S} \subseteq S$ such that every element $x \in S$ is a product of a finite sequence of elements from $G_S$, i.e., $x = g_1 * g_2 * \cdots * g_n$, where $g_1, \dots, g_n \in G_S$
+    \end{axiom}
+    
+    \begin{axiom}[Finite Constitution]\label{ax:finite} 
+        For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
+    \end{axiom}
+    
+\end{definition}
 
-\begin{enumerate}
-\item $E$ is a generating set, and 
-\item that decompositions into elementals are unique.
-\end{enumerate}
-\end{axiom}
 
-\begin{axiom}[Finite Constitution]\label{ax:finite}
-Axiom 6. (Finite constitution). For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \in S$ such that $y_1, y_2, \ldots, y_n | x$.
-\end{axiom}
+Before we discuss some firther definitions, of Elementals, Generators, Atomics, let us remark some pattens we see in the Sinoglyphs. 
+
+The first thing to remark is that Westerners have translated the 邊旁 into "radicals" - as if they're solutions to a quadratic equation, which means then they thought the whole sinoglyph itself is like an equation to be solved. 
+
+If we take these radicals, that compose a sinoglyph, we'd say that they are the elementals of the sinoglyph. 
+
+The way I came up with the set of definitions for atoics, elementals, generators - was to model the Sinoglyph writing system. Oftentimes, in the Sinoglyph system, as it appears to us, all three sets are the same. 
+
+But if we consider a possible extension to the Chinese Character writing system, and simply consider the idealised and fully evolutionarily searched space of possible evolutionary trajectories of the Chinese character writing system, we can arrive at an idealised symbol combination system - that's the Sinoglyph. That Sinoglyph symbol manipulation system, has a structure. And that structure is its Siumatgwoon. And we are now trying to model that structure with some axioms. 
+
+Atomics are basically 獨體字. They stand alone. They cannot be decomposed, and nothing constitutes them. 
+
+Elementals are basically any sinolgyph that cannot be fully decomposed. Something else might constitute it, but its constitutes do not make whole the elemental. There's something more in the elemental than just the just whatever constituting it is. An elemental might have many many constituents, but the elemental is somehow larger than the composition of its parts. This can be called emergence. 
+
+But not all elementals exhibit emergence. Because all atomics are elementals. Since atomics are constituted by themselves, and the atomic needs nothing to be composed with to be itself, atomics are elementals with no emergence. 
+
+The elementals largely correspond to the kind of compound sinoglyphs 合體字 that are called phonosemanophores - 形聲字。 
+
+
+
+
+
+\begin{definition}[atomics]\label{def:atomics}
+    An object $s$ in a Siumatgwoon $S$ is an atomic if $$  of a sinoglyph are the radicals that compose the sinoglyph.
+\end{definition}
+
+
+
+
+\begin{definition}[Elementals]\label{def:elementals}
+    The elementals of a Siumatgwoon $S$ are the elements that cannot be decomposed into smaller elements.
+\end{definition}
+
+Now we come to our first Theorem: 
+\begin{theorem}
+    Let $S$ be a Simple Siumatgwoon. And let $E$ be the set of elementals of $S$. Then: 
+    \begin{enumerate}
+        \item $E$ is a generating set, and 
+        \item The decompositions into elementals are unique.
+    \end{enumerate}
+\end{theorem}
+\begin{proof}
+    Let $S$ be a Simple Siumatgwoon. And let $E$ be the set of elementals of $S$. Then: 
+    Let's first prove that E is a generating set first.
+    \begin{enumerate}
+        \item $E$ is a generating set, and 
+        \item The decompositions into elementals are unique.
+    \end{enumerate}
+\end{proof}
+
 
 \subsection{Examples of Siumatgwoons}
 
