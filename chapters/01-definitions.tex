@@ -71,12 +71,34 @@ But not all elementals exhibit emergence. Because all atomics are elementals. Si
 
 The elementals largely correspond to the kind of compound sinoglyphs 合體字 that are called phonosemanophores - 形聲字。 
 
+Now let's think about how a 形聲字 works. Let's take the classic example of 江河, specifically 河. The Chinese character 河 is a 形聲字. 
+$$\text{河}$$
+It is composed of 氵(water) and 可 (ho). Ho is just a name. You might as well right it like this $$\text{氵}_{\text{可}}$$. But the sound is immaterial, it's just an index. It might as well be $a,b,c$
+
+$$\text{氵}_{a},\text{氵}_b,\text{氵}_c$$
+But the important thing is that picks something out. It picks out from the set of all objects that are constituted by water the thing that is "river". You might as very well write it as $$\text{氵}_{river}$$. 
+
+What this immediately suggest is a 系 system. A 金木水火土系 system. A system where elementals can be long to 金系, 木系, 水系, 火系 土系 system is a Siumatgwoon, where each 系 contains (but is not limited to) elementals that are constituted of the well, the "Head" of the 系. So the head, of a 土系 is 土. The head of a 金系 is 金. The head of a 木系 is 木. The head of a 水系 is 水. The head of a 火系 is 火. Clearly the set of 木系 contains not just phonosemanophores of 木, but also compounds that can be fully decomposed into constitutents, such as 林, 森, and 焚, but also elementals such as trees such as 松，柏，柳，桃，梅. Note that we can see clearly 焚 belongs to the 火系, as well as 木系. 
+
+Does the head of a 系 have to be an atomic element? No. In fact, it could itself be an elemental, or a proper compound. Consider the siumatgwoon S = {雨，云，雲，霒，霕，霴，靉} . In this set clearly the atoms are {雨，云}, but the elementals are  {雨，云，霒，霕，霴，靉}. So {霒，霕，霴，靉} are all in <雨> and in <云> and also in <雲> 
 
 
 
 
-\begin{definition}[atomics]\label{def:atomics}
-    An object $s$ in a Siumatgwoon $S$ is an atomic if $$  of a sinoglyph are the radicals that compose the sinoglyph.
+
+
+
+
+The Chinese way of writing "river" is not different from writing it as "氵river". It says that "river" belongs to the class of things that are constituted of "氵"(water); it says "river" is a "氵" thing; it says "river" is belongs to the set, the class, the category of "氵" things; but most importantly, it says: I don't know how "river" is composed, but I do know it is constituted of "氵". So there's something beyond water that makes a river - but I don't know what all the stuff that composes a river is, or hanc marginis exiguitas non caperet.
+
+
+
+
+
+
+
+\begin{definition}[Atomics]\label{def:atomics}
+    An object $s$ in a Siumatgwoon $S$ is an atomic if it cannot be decomposed into smaller elements, i.e., if $s = a * b$ implies that either $a = s$ or $b = s$.
 \end{definition}
 
 
@@ -85,6 +107,20 @@ The elementals largely correspond to the kind of compound sinoglyphs 合體字 t
 \begin{definition}[Elementals]\label{def:elementals}
     The elementals of a Siumatgwoon $S$ are the elements that cannot be decomposed into smaller elements.
 \end{definition}
+
+
+\begin{definition}[Atomic Element]\label{def:atomic-element}
+An element $a \in S$ is atomic if for all $x\in S$, if $x|a$ implies $x=a$, i.e. $a$ is atomic iff only itself constitutes itself.
+\end{definition}
+
+\begin{definition}[Atomic Set]\label{def:atomic-set}
+The set $S_A \subseteq S$ is called the atomic set of $S$. It is the set of all atomic elements inside $S$. Where confusion does not exist, one could simply write $A$.
+\end{definition}
+
+\begin{definition}[Hai Elements]\label{def:hai-elements}
+The set $\langle a \rangle := \{ x\in S: a|x \text{ but } \not \exists y \in S \text{ such that } ay=x\}$ is called the Hai elements of a, i.e. the $a$-系 elements. These correspond to the 形聲字 in Chinese characters - if you do not consider the phonetic component of a character to be full elements inside the Siumatgwun but mere indices. In other words, one does not view 江、河、湖、海 as 水工、水可、水胡、水每 but as $水_工、水_可、水_胡、水_每$. In this sense, one can see there is no element $y \in 字$ such that $水y=水_工=江$.
+\end{definition}
+
 
 Now we come to our first Theorem: 
 \begin{theorem}
