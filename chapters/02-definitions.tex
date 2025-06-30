@@ -50,7 +50,7 @@ For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \
 \end{axiom}
 
 \begin{axiom}[Unique Decomposition]\label{ax:unique-decomposition} 
-    For any $x\in S$, the longest decomposition into objects of $S$ is unique. We can speak of the longest decomposition of an object, because we have \ref{ax:finite_composition}.
+    For any $x\in S$, the longest decomposition into objects of $S$ is unique. We can speak of the longest decomposition of an object, because we have axiom \ref{ax:finite_composition}, which says that every object is finitely composed.
 \end{axiom}
 \end{definition}
 
@@ -60,9 +60,17 @@ For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \
 
 Note that antisymmetry says nothing about how many objects compose another—only about how $|$ relates distinct objects. You could easily construct a model where antisymmetry holds, but some elements are infinitely composed (e.g., think of $x = a_1 * a_2 * a_3 * \cdots$ in a naïvely defined algebra).
 
+One should also note that Axiom \ref{ax:antisymmetry} antisymmetry also rules out the possibility of a simple siumatgwoon modeling objects that obey sentences like "man is a part of nature, and nature is a part of man" or "the Tao is part of everything, and everything is part of the Tao" - as clearly the philosophies or metaphysics of those two utterances do not admit that just because $\text{man} | \text{nature}$ and $\text{nature} | \text{man}$, then $\text{man} = \text{nature}$, or that $\text{Tao} | \text{everything}$ and $\text{everything} | \text{Tao}$, then $\text{Tao} = \text{everything}$. 
+
+
 Axiom \ref{ax:finite_constitution}, finite constitution, is a cardinality constraint on the constitution relation $|$. The point of both \ref{ax:finite_composition} and \ref{ax:finite_constitution} is to ground us in the world of finite compositions and finite constitutions. 
 
-It says you cannot make a superobject by composing infinitely many objects - composition is finite. Obviously, one can eventually relax this and figure out how things will look. Those sensitive to theological arguements might already detect that finite composition precludes the existence of 㕦 in a Siumatgwoon so defined.
+It says you cannot make a superobject by composing infinitely many objects - composition is finite. Obviously, one can eventually relax this and figure out how things will look. Those sensitive to theological arguements might already detect that finite composition precludes the existence of 㕦 in a Siumatgwoon so defined. If God is infiniite in the sense it has infinitely many attributes, then it is not possible to model God in a simple siumatgwoon. However, it seems perfectly intuitive to argue that all things have infinitely many attributes, so nothing can actually be modeled by a simple siumatgwoon. Perhaps a fruitful way to then model these objects of infinite attributes, is not to relax the axiom, but to consider a sequence of simple siumatgwoons $\text{兆}_0,\text{兆}_1, \text{兆}_2, \text{兆}_3, \ldots$, that somehow converge, where the limiting object is indeed an object of infinite attributes. Obviously, to define some kind of limiting mechanism or concept of converge, you'd need to have some concept of open sets, or stronger still, a metric. Let's not get into that. 
+
+% Suppose we want to model the Thames, $\text{河}_{\text{Thames}}$, and in $\text{兆}_0$, we have 
+% $$\text{兆}_0 = \{\text{河}, \text{河}_{\text{Thames}}\}$$
+% $$\text{兆}_1 = \{\text{河}, \text{河}_{\text{Thames}}\}$$
+% In $\text{兆}_0$
 
 It will be very interesting to see what kind of objects will be yielded if we relax these two axioms - to infinite compositions and infinite constitutions. How will they look like?
 
@@ -231,14 +239,12 @@ We quickly define the sets of atomics $A$ and the set of elementals $E$.
     If an object $x\in S$ is a compound, then it is composed by elementals.
 \end{lemma}
 \begin{proof}
-    If $x$ is a compound with constituents $y_1, \dots, y_n$, then $x = y_1 * y_2 * \cdots * y_n$ and one of them, say $y_i$ cannot be decomposed into elementals, then $y_i$ is a composed of other compounds $y_i =cd$ where $c,d$ are compounds. Neither $c$ and $d$ can be decomposed into elementals, because if they could, then $y_i$ would be decomposable into elementals, and so would $x$. So $c$ and $d$ must be further composed of other compounds. 
-    The argument must repeat indefinitely. Now, of all the constitutents we've obtained by this process, say the $c_i$s above - obtained by say the first constitutent you obtained whenever you decompose a compound. So you get a whole list of $c_1, c_2, c_3 \ldots,$, where $\ldots |c_3 |c_2 |c_1 |x$. Now the question to ask is: do they ever repeat? If $c_3 = c_1$ by antisymmetry, axiom \ref{ax:antisymmetry}, then $c_3 = c_1|c_2|c_1$, which means $c_1=c_2$. But 
 
-
-
-
-    Repeating the same argument, those compounds must be composed of other compounds, and so on. But this contradicts \ref{ax:finite_composition}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, no object can be composed of infinitely many objects. Therefore, $x$ must be composed of elementals.
+    If $x$ is a compound that cannot be decomposed into only elementals, then in any decomposition of $x$ you can always find a compound $c_1$ in the decomposition. Because $c_1$ is a compound, it can also be decomposed, and in any decomposition of $c_1$ you must always be able to find a compound $c_2$ in the decomposition, because if otherwise, $c_1$ will be composed entirely of elementals, and so will $x$. But the argument applies for $c_2$ as well, and you will be able to find a compound $c_3$. This can be done indefinitely and you will get a sequence of $c_1, c_2, c_3, \ldots$, and by their nature, we have  $\ldots, c_1|c_2|c_3|\cdots|x$, and they are all distinct. This means, for $x$, we can find a infinite set of $c_1, c_2, c_3, \ldots$, all constitutents of $x$. But this is in violation of axiom \ref{ax:finite_constitution}, the finiteness of constitution. Therefore, by contradiction, there can be no compound that is composed of only compounds - therefore, all compounds are composed of elementals.
 \end{proof}
+
+
+Note that in a non-simple siumatgwoon where compositions can go on definitely deep, you can always chop at some level, and whatever higher than the level chopped will yield a simple siumatgwoon - because that seems to be our universe. 
 
 
 Now we move to a stronger theorem.
@@ -273,8 +279,6 @@ Now we put it all together.
 
 Now we let us return to x-系 sets.
 
-
-
 Then we can prove the following lemma. 
 \begin{lemma}[The emergence of a constituted is emergence of the constituent]\label{lem:emergence-of-a-constituted-is-emergence-of-the-constituent}
     If $a|b$, then $ \langle b \rangle \subseteq \langle a \rangle$.
@@ -295,17 +299,37 @@ Or to take more interesting example, if we take $\text{江湖}$ is an object its
 $\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \text{湖} \rangle \subseteq \langle \text{水} \rangle$
 
 \begin{lemma}[Every elemental has an atomic constitutent]\label{lem:every-elemental-has-an-atomic-constituent}
-    Every elemental $e$ has an atomic constituent $a$ such that $e|a$.
+    Every elemental $e$ has an atomic constituent $a$ such that $e|a$. In other words, for any $e \in E$, there exists an $a \in A$ such that $e \in \langle a \rangle$.
 \end{lemma}
 \begin{proof}
-    Assume for contradiction that $e$ has no atomic constituents. Then every $x$ such that $x|e$ is itself non-atomic, and therefore has some proper constituent $y$ with $y \neq x$ and $y|x$. Since $y$ must also be non-atomic, it has some proper constituent $z$ with $z \neq y$, $z \neq x$ and $z|y$. And so on. We can therefore obtain an 
-    
-    
-    But this contradicts \ref{ax:finite_constitution}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, every elemental has an atomic constituent.
+    Assume for contradiction that $e$ has no atomic constituents. 
+
+    Then we know that there must be an $x$ such that $x$ is a constituent of $e$, and that $x\neq e$, because if for all $x$ such that $x|e$, $x=e$, then $e$ is atomic. 
+
+    So let us assume there is an $x$ such that $x|e$ and $x\neq e$. $x$ is either an elemental or a compound. We know all compounds are composed of elementals. So, regardless of whether $x$ is an elemental or a compound, there is going to be an elemental $f_1$ such that $f_1|x$. Per assumption, this elemental $f_1$ must not be an atomic, so another elemental $f_2\neq f_1$ such that $f_2|f_1$. But the argument can be applied again, indefinitely. But this means, we obtain an infinite set of $f_1, f_2, \ldots$ such that $f_i|f_{i+1}$ for all $i$. But this contradicts \ref{ax:finite_constitution}, which states every object in a simple siumatgwoon are composed by a finite number of objects. Therefore, every elemental has an atomic constituent.
 \end{proof}
 
 
-Can we prove in a simpl
+
+
+
+
+
+
+
+This also implies, the following theorem. 
+\begin{theorem}[Every 系 set is a subset of a 系 set whose head is atomic]\label{thm:every-hai-set-is-a-subset-of-a-hai-set-whose-head-is-atomic}
+    For any $x\in S$, $\langle x \rangle \subseteq \langle a \rangle$ for some $a\in A$.
+\end{theorem}
+\begin{proof}
+    Consider $\langle x \rangle$. $x$ is either an elemental or a compound. And every compound is made of elementals. So there exists an elemental $e$ such that $e|x$. Therefore $\langle x \rangle \subseteq \langle e \rangle$. 
+    
+    By \ref{lem:every-elemental-has-an-atomic-constituent}, we know that for any $e \in E$, there exists an $a \in A$ such that $a|e$, so we have $\langle e \rangle \subseteq \langle a \rangle$. Therefore, there is an atomic $a$ such that $\langle x \rangle \subseteq \langle a \rangle$
+    
+\end{proof}
+
+
+Can we prove in a simple siumatgwoon?
 
 Now we can prove something even more interesting. 
 \begin{theorem}[$\langle A \rangle = E$ in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}
