@@ -54,9 +54,9 @@ For any $x \in S$, there are only finitely many objects $y_1, y_2, \ldots, y_n \
 \end{axiom}
 \end{definition}
 
-\ref{ax:antisymmetry} says no two distinct objects constitute each other. It rules out circular identity via mutual constitution. So you can't have chains like atoms|humans|universe|atoms - no embedded universes in atoms like in \ruby{手塚 治虫}{おさむ　てずか}'s 《\ruby{火の鳥}{ひのとり}》 
+Axiom \ref{ax:antisymmetry} antisymmetry says no two distinct objects constitute each other. It rules out circular identity via mutual constitution. So you can't have chains like atoms|humans|universe|atoms - no embedded universes in atoms like in \ruby{手塚 治虫}{おさむ　てずか}'s 《\ruby{火の鳥}{ひのとり}》 
 
-\ref{ax:finite_composition} is a cardinality constraint on the composition operator $*$. Antisymmetry is a constraint on the constitution relation $|$. There's no logical connection between a limit on the number of components in a composition and antisymmetry.
+Axiom \ref{ax:finite_composition} finite composition is a cardinality constraint on the composition operator $*$. Antisymmetry is a constraint on the constitution relation $|$. There's no logical connection between a limit on the number of components in a composition and antisymmetry.
 
 Note that antisymmetry says nothing about how many objects compose another—only about how $|$ relates distinct objects. You could easily construct a model where antisymmetry holds, but some elements are infinitely composed (e.g., think of $x = a_1 * a_2 * a_3 * \cdots$ in a naïvely defined algebra).
 
@@ -134,15 +134,9 @@ We want to capture this - the set of all objects exhibiting emergence from a cer
     \end{definition}
 
     x-系 elements roughly correspond to the 形聲字 in Chinese characters - if you do not consider the phonetic component of a character to be full elements inside the Siumatgwun but mere indices. In other words, one does not view 江、河、湖、海 as 水工、水可、水胡、水每 but as $\text{水}_\text{工}、\text{水}_\text{可}、\text{水}_\text{胡}、\text{水}_\text{每}$. In this sense, one can see there is no element $y \in S$ such that $\text{水}y=\text{水}_\text{工}=\text{江}$.
-    
-    
-    Let us now take this definition and apply it to entire sets. 
-    
-    \begin{definition}[X-系]\label{def:hais-of-sets}
-        Let $X\subseteq S$. The $X$-系 is defined to be $\langle X \rangle := \cup_{x\in X} \langle x \rangle$.
-    \end{definition}
-    
-Being elementals, they cannot be fully decomposed. So what's in an x-系?Say, 木系 $\langle \text{木} \rangle$?
+
+        
+ So what's in an x-系? Say, 木系, the set $\langle \text{木} \rangle$?
 
 Well, it contains $\text{木}$, because $\text{木}$ is cannot be further decomposed. But we also have the other trees, 松，柏，柳，桃，梅, so we can say 
 
@@ -262,22 +256,52 @@ Now we move to a stronger theorem.
 \end{proof}
 
 
-Now we put it all together.
-\begin{theorem}
-    Let $S$ be a Simple Siumatgwoon. And let $E$ be the set of elementals of $S$. Then: 
-    \begin{enumerate}
-        \item $E$ is a generating set, and 
-        \item The decompositions into elementals are unique.
-    \end{enumerate}
+And now we can prove the following theorem.
+    
+\begin{theorem}[Unique decomposition into elementals]\label{thm:elementals-unique-decomposition}
+    Let $S$ be a Simple Siumatgwoon, and let $E$ be the set of elementals in $S$. Then every object in $S$ has a unique decomposition into elementals (up to ordering if composition is commutative; otherwise, strictly unique).
 \end{theorem}
+    
 \begin{proof}
-    We have already proven (1) in \ref{thm:elementals-are-a-generator-set-in-simple-siumatgwoons}. Now we need to prove that the decompositions into elementals are unique.
+    By Theorem~\ref{thm:elementals-are-a-generator-set-in-simple-siumatgwoons}, every object in $S$ can be written as a finite composition of elementals. That is, for any $x \in S$, there exists a decomposition:
+    
+    $$x = e_1 * e_2 * \cdots * e_n$$
+    
+    with each $e_i \in E$.
+    
+    Since elementals are by definition indecomposable, no further refinement of this decomposition is possible. Hence, such a decomposition into elementals must be a longest decomposition of $x$.
 
-    In a simple siumatgwoon, the longest decomposition is unique. Now since every object in a simple siumatgwoon is a composition of elementals, and since elementals cannot be further decomposed, the decomposition of that object into elementals is the longest decomposition. Therefore, the decomposition of any object into elementals is unique.
+    But by Axiom~\ref{ax:unique-decomposition}, every object in a Simple Siumatgwoon has a unique longest decomposition. Therefore, the decomposition of any object into elementals is unique.
+\end{proof}
+    
+Now we let us return to x-系 sets, and begin with some simple properties
+
+\begin{lemma}[An object is in its own emergence set]\label{lem:an-object-is-in-its-own-emergence-set}
+    For any $x\in S$, $x \in \langle x \rangle$.
+\end{lemma}
+\begin{proof}
+    By definition, since $x$, and there is no $y_1$, $y_2$, $\ldots$, $y_n$ such that $x=x*y_1*y_2*\cdots*y_n$. Therefore $x \in \langle x \rangle$.
 \end{proof}
 
 
-Now we let us return to x-系 sets.
+
+\begin{theorem}[Properties of emergence sets]\label{thm:properties-of-emergence-sets}
+    For any $x,y\in S$, we have:
+    \begin{itemize}
+        \item $x \in \langle x \rangle$.
+        \item $x*y \in \langle xy \rangle \subseteq \langle x \rangle , \langle y \rangle \subseteq \langle x \rangle \cup \langle y \rangle$
+        \item if $x\in \langle y \rangle$, then $\langle x \rangle \subseteq \langle y \rangle$
+        \item $x|y$ iff $\langle y \rangle \subseteq \langle x \rangle$
+        \item $\langle x \rangle = \langle y \rangle$ iff $x =y$
+        \item 
+                
+    \end{itemize}
+\end{theorem}
+
+
+
+
+
 
 Then we can prove the following lemma. 
 \begin{lemma}[The emergence of a constituted is emergence of the constituent]\label{lem:emergence-of-a-constituted-is-emergence-of-the-constituent}
@@ -287,14 +311,13 @@ Then we can prove the following lemma.
     If $a|b$, then for any $x\in \langle b \rangle$, because $a|b$ and $b|x$, we have $a|x$. And since $x$ is an elemental, it has no non-trivial decomposition. An object constituted by $a$ and has no non-trivial decomposition is an $a$-系 object, so $x \in \langle a \rangle$. Therefore, $\langle b \rangle \subseteq \langle a \rangle$
 \end{proof}
 
-We clearly see this. $
-\langle \text{水}_\text{工} \rangle = \langle \text{江} \rangle \subseteq
+Indeed, to illustrate this, consider the following:
+$\langle \text{水}_\text{工} \rangle = \langle \text{江} \rangle \subseteq
 \langle \text{水} \rangle$. 
 
 Indeed,$\langle \text{靉} \rangle, \langle \text{霴} \rangle, \langle \text{霕} \rangle, \langle \text{霒} \rangle \subseteq \langle \text{雲} \rangle \subseteq \langle \text{雨} \rangle$
 
 Or to take more interesting example, if we take $\text{江湖}$ is an object itself of itself, then the set $\langle \text{江湖} \rangle = \{\text{江湖}_{1}, \text{江湖}_{2}, \ldots\}$ obeys the following 
-
 
 $\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \text{湖} \rangle \subseteq \langle \text{水} \rangle$
 
@@ -316,6 +339,44 @@ $\langle \text{江湖} \rangle \subseteq \langle \text{江} \rangle,  \langle \t
 
 
 
+Let us now extend definition of emergence and apply it to entire sets. 
+    
+\begin{definition}[X-系]\label{def:hais-of-sets}
+        Let $X\subseteq S$. The $X$-系 is defined to be $$\langle X \rangle := \cup_{x\in X} \langle x \rangle$$. We call this set  $\langle X \rangle$ the emergence set of $X$, or the set of emergences from $X$.
+\end{definition}
+
+Clearly, for any $X\subseteq S$, $\langle X \rangle$ is a unique.
+
+The X-系 set we will be particularly interested in, will be the A-系 set. 
+
+\begin{axiom}[The emergence set of A]\label{ax:the emergence-set-of-A}
+    The A-系 set, $\langle A \rangle$ defined as
+     $$\langle A \rangle := \cup_{a\in A} \langle a \rangle$$ 
+     is called the emergence set of $A$, or the set of emergences from $A$. 
+\end{axiom}
+
+
+There are some interesting properties of an emergence set: 
+
+% \begin{theorem}[The emergence set of a set is a subset of the set]\label{thm:the-emergence-set-of-a-set-is-a-subset-of-the-set}
+%     For any $X\subseteq S$, $\langle X \rangle \subseteq X$, we have:
+%     \begin{itemize}
+%         \item $\langle A
+%     \end{itemize}
+% \end{theorem}
+
+% \begin{proof}
+% SHIT
+% \end{proof}
+
+% \begin{theorem}[The emergence set of a set is a subset of the set]\label{thm:the-emergence-set-of-a-set-is-a-subset-of-the-set}
+
+
+
+% \end{theorem}
+
+
+
 
 This also implies, the following theorem. 
 \begin{theorem}[Every 系 set is a subset of a 系 set whose head is atomic]\label{thm:every-hai-set-is-a-subset-of-a-hai-set-whose-head-is-atomic}
@@ -329,10 +390,39 @@ This also implies, the following theorem.
 \end{proof}
 
 
-Can we prove in a simple siumatgwoon?
+\begin{theorem}[Indempotence of emergence]\label{thm:indempotence-of-emergence}
+    For any $x\in S$, $\langle \langle x \rangle \rangle = \langle x \rangle$.
+\end{theorem}
+\begin{proof}
+    To aid a sense of intuition, let us swap out $x$ with $\text{雲}$ for now. 
+
+    So let us first prove that $\langle \langle \text{雲} \rangle \rangle \subseteq \langle \text{雲} \rangle$.
+
+    Consider the definition, we have
+    
+    $$\langle \langle \text{雲} \rangle \rangle := \langle \{\text{雲}, \text{霒}, \text{霕}, \text{霴}, \text{靉}, \ldots, \text{雲}_{1}, \text{雲}_{2}, \ldots\} \rangle = \cup_{i} \langle \text{雲}_{i} \rangle$$ 
+
+    Here we assumed that $\langle \text{雲} \rangle$ is countable... (we will one day deal with this.)
+
+    Clearly, for every $\text{雲}_{i}$, we have $\text{雲}|\text{雲}_{i}$. Therefore, $\langle \text{雲}_{i} \rangle \subseteq \langle \text{雲} \rangle$. Therefore, $\langle \langle \text{雲} \rangle \rangle =
+        \cup_{i} \langle \text{雲}_{i} \rangle \subseteq \langle \text{雲} \rangle$.
+
+
+
+
+
+
+
+    Now we prove that $\langle \text{雲} \rangle \subseteq \langle \langle \text{雲} \rangle \rangle$.
+
+
+    
+\end{proof}
+
+
 
 Now we can prove something even more interesting. 
-\begin{theorem}[$\langle A \rangle = E$ in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}
+\begin{theorem}[The elementals is identical to A-系 in simple siumatgwoons]\label{thm:hais-of-sets-are-siumatgwoons}
     In a simple siumatgwoon, $\langle A \rangle = E$ for any $A\subseteq S$.
 \end{theorem}
 \begin{proof}
