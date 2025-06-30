@@ -396,27 +396,30 @@ This also implies, the following theorem.
 \begin{proof}
     To aid a sense of intuition, let us swap out $x$ with $\text{雲}$ for now. 
 
-    So let us first prove that $\langle \langle \text{雲} \rangle \rangle \subseteq \langle \text{雲} \rangle$.
-
     Consider the definition, we have
     
-    $$\langle \langle \text{雲} \rangle \rangle := \langle \{\text{雲}, \text{霒}, \text{霕}, \text{霴}, \text{靉}, \ldots, \text{雲}_{1}, \text{雲}_{2}, \ldots\} \rangle = \cup_{i} \langle \text{雲}_{i} \rangle$$ 
+    $$\langle \langle \text{雲} \rangle \rangle := \langle \{\text{雲}, \text{霒}, \text{霕}, \text{霴}, \text{靉}, \ldots, \text{雲}_{1}, \text{雲}_{2}, \ldots\} \rangle = \bigcup_{i} \langle \text{雲}_{i} \rangle$$ 
 
-    Here we assumed that $\langle \text{雲} \rangle$ is countable... (we will one day deal with this.)
+    Here perhaps we assumed that $\langle \text{雲} \rangle$ is countable... (we will one day deal with this.)
 
-    Clearly, for every $\text{雲}_{i}$, we have $\text{雲}|\text{雲}_{i}$. Therefore, $\langle \text{雲}_{i} \rangle \subseteq \langle \text{雲} \rangle$. Therefore, $\langle \langle \text{雲} \rangle \rangle =
-        \cup_{i} \langle \text{雲}_{i} \rangle \subseteq \langle \text{雲} \rangle$.
+    Well, note that 
 
+    $$\langle \langle \text{雲} \rangle \rangle := \langle \{\text{雲}, \text{霒}, \text{霕}, \text{霴}, \text{靉}, \ldots, \text{雲}_{1}, \text{雲}_{2}, \ldots\} \rangle = \langle \text{雲} \rangle \cup \bigcup_{\text{雲}_{i}\in 
+    \langle \text{雲} \rangle - \{\text{雲}\}} 
+     \langle \text{雲}_{i} \rangle$$ 
 
-
-
-
-
-
-    Now we prove that $\langle \text{雲} \rangle \subseteq \langle \langle \text{雲} \rangle \rangle$.
-
-
+     And clearly, for every $\text{雲}_{i}$, we have $\text{雲}|\text{雲}_{i}$. Therefore, $\langle \text{雲}_{i} \rangle \subseteq \langle \text{雲} \rangle$. Therefore,$\cup_{\text{雲}_{i}\in 
+    \langle \text{雲} \rangle - \{\text{雲}\}} \subseteq \langle \text{雲} \rangle$.
     
+And so, we have          
+     
+    $$\langle \langle \text{雲} \rangle \rangle = 
+     \langle \text{雲} \rangle \cup \bigcup_{\text{雲}_{i}\in 
+     \langle \text{雲} \rangle - \{\text{雲}\}} 
+      \langle \text{雲}_{i} \rangle
+       = \langle \text{雲} \rangle \cup \langle \text{雲} \rangle
+    =\langle \text{雲} \rangle$$
+
 \end{proof}
 
 
