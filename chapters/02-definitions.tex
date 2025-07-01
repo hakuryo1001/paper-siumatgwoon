@@ -229,6 +229,8 @@ We quickly define the sets of atomics $A$ and the set of elementals $E$.
     If $x$ is an elemental, then it is an elemental. If $x$ is not an elemental, then it has a non-trivial decomposition. Then it is a compound.
 \end{proof}
 
+
+
 \begin{lemma}[Compounds are composed by elementals]\label{lem:compounds-are-composed-by-elementals}
     If an object $x\in S$ is a compound, then it is composed by elementals.
 \end{lemma}
@@ -239,6 +241,16 @@ We quickly define the sets of atomics $A$ and the set of elementals $E$.
 
 
 Note that in a non-simple siumatgwoon where compositions can go on definitely deep, you can always chop at some level, and whatever higher than the level chopped will yield a simple siumatgwoon - because that seems to be our universe. 
+
+% \begin{theorem}[You must divide]\label{thm:the-emergence-set-of-a-set-is-a-subset-of-the-set}
+%     If $c$ is a compound of two elementals, i.e. $c=e_1 * e_2$, and $x|c$ and $x\neq c$, then $x|e_1$ or $x|e_2$.
+% \end{theorem}
+% \begin{proof}
+%    So $x|e_1*e_2$. Suppose $x$ constitutes neither $e_1$ nor $e_2$, i.e. $x\not|e_1$ and $x\not|e_2$.
+
+   
+% \end{proof}
+
 
 
 Now we move to a stronger theorem.
@@ -293,14 +305,23 @@ Now we let us return to x-系 sets, and begin with some simple properties
         \item if $x\in \langle y \rangle$, then $\langle x \rangle \subseteq \langle y \rangle$
         \item $x|y$ iff $\langle y \rangle \subseteq \langle x \rangle$
         \item $\langle x \rangle = \langle y \rangle$ iff $x =y$
-        \item 
+        
                 
     \end{itemize}
 \end{theorem}
 
 
 
+\begin{theorem}[The emergence set of a set is a subset of the set]\label{thm:the-emergence-set-of-a-set-is-a-subset-of-the-set}
+    If $\langle x \rangle$ contains compounds if and only if $x$ is a compound. 
+\end{theorem}
+\begin{proof}
+    We will prove the converse first, which is the obvious case. If $x$ is a compound, and given $x\in \langle x \rangle$, then $\langle x \rangle$ contains compounds. 
 
+    Now suppose $c\in \langle x \rangle$ is an compound. And by definition $x|c$. But then since $c$ is a compound, $x$ 
+
+
+\end{proof}
 
 
 Then we can prove the following lemma. 
@@ -422,6 +443,32 @@ And so, we have
 
 \end{proof}
 
+% Another point: 
+% \begin{theorem}[A set is in its emergence set]\label{thm:a-set-is-in-its-emergence-set}
+%     For any $X\subseteq S$, $X\subseteq \langle X \rangle$.
+% \end{theorem}
+% \begin{proof}
+%     $$\langle X \rangle = \cup_{x\in X} \langle x \rangle $$
+% \end{proof}
+
+
+Some properties of emergence sets: 
+\begin{theorem}[The emergence set of a set is a subset of the set]\label{thm:the-emergence-set-of-a-set-is-a-subset-of-the-set}
+    We have
+    \begin{itemize}
+        \item $\langle X \cup Y \rangle = \langle X \rangle \cup \langle Y \rangle$
+        \item $\langle X \cap Y \rangle \subseteq \langle X \rangle \cap \langle Y \rangle$
+        
+        
+    \end{itemize}
+\end{theorem}
+\begin{proof}
+    SHIT
+\end{proof}
+
+
+
+
 
 
 Now we can prove something even more interesting. 
@@ -433,6 +480,9 @@ Now we can prove something even more interesting.
 
     Let us prove that $\langle A \rangle \subseteq E$.  
 
+    Well, clearly, for all $a$ where $a$ is an atomic, $a \in E$, because all atomics are elementals. Let us consider any $x\in \langle A \rangle$. By definition, $x$ is such that there is some atomic $a\in A$ such that $a|x$, but there is no way to decompose $x$ into a decomposition containing $a$. So $x$ is an elemental. 
 
- 
+    Now let us prove that $E \subseteq \langle A \rangle$.
+
+Recall that for all elementals $e\in E$, there exists an atomic $a\in A$ such that $a|e$, by lemma \ref{lem:every-elemental-has-an-atomic-constituent}. Therefore, $e\in \langle a \rangle \subseteq \langle A \rangle$. Therefore, $E \subseteq \langle A \rangle$.
 \end{proof}

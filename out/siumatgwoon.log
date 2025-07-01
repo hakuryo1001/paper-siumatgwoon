@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  29 JUN 2025 22:48
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  30 JUN 2025 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -707,6 +707,9 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 
 LaTeX Warning: Label `def:atomics' multiply defined.
 
+
+LaTeX Warning: Label `thm:the-emergence-set-of-a-set-is-a-subset-of-the-set' multiply defined.
+
 )
 \openout1 = `siumatgwoon.aux'.
 
@@ -852,10 +855,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12134 strings out of 473832
- 300419 string characters out of 5729481
- 727505 words of memory out of 5000000
- 34943 multiletter control sequences out of 15000+600000
+ 12135 strings out of 473832
+ 300474 string characters out of 5729481
+ 727542 words of memory out of 5000000
+ 34944 multiletter control sequences out of 15000+600000
  568776 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1230b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
