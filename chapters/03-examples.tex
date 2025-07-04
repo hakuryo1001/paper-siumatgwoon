@@ -4,10 +4,62 @@ What are some examples of Siumatgwoons?
 
 
 
-
 \subsubsection{The Chinese Characters, 字}
 
-The Chinese characters, which inspired this whole mathematical exercise, is clearly a Siumatgwoon. If we exercise the synonym exchange of "Siumatgwoon" with "Metaphysic", this is to say, that the Chinese characters is a Metaphysic. Unfortunately we can't really \textit{prove} that the Chinese characters are indeed a siumatgwoon, given there's an infinite number of them, and we do not have a generating rule for all Chinese characters. However, the fact that any subset of Chinese characters is a siumatgwoon in of itself, lends us confidence - perhaps there's a theorem there waiting to be proved?
+The Chinese characters, which inspired this whole mathematical exercise, is clearly a Siumatgwoon. If we exercise the synonym exchange of "Siumatgwoon" with "Metaphysic", then to say the Chinese characters are a siumatgwoon, then this is to say that the Chinese characters is a Metaphysic. 
+
+Unfortunately we can't really \textit{prove} that the Chinese characters are indeed a siumatgwoon, given there's an infinite number of them, and we do not have a generating rule for all Chinese characters. 
+
+However, if given any random subset of all Chinese characters, we can prove that it is a siumatgwoon. 
+
+Let's consider one example. Let's consider the subset of Chinese characters that are composed of only 1 stroke. Consider the following set of Chinese characters: 
+
+$$S=\{\text{日},\text{月}  ,\text{皿},\text{明},\text{盟},\text{盥}\}$$
+
+Let us first verify that this is indeed a siumatgwoon. But here's now an interesting question, how are $*$ and $|$ defined? Well, intuitively, we can say a Chinese character $c = a *b$ if $c$ is made of $a$ and $b$. And we can say that $c|a$ if $c$ appears in the character $a$. Not terribly helpful or illuminating, perhaps - but is this any less illuminating than defining the valuation of $\phi \wedge \psi$ to be the "$0$ unless both the valuation of $\phi$ and the valuation of $\psi$ are $1$"? Tautology is where judgement, human intuition, and the exercise of the human choice to grant admission works, and must work - for logic and mathematics to start. 
+
+One might note there's something seemingly inherently linked to the behaviour of substrings here. If the logic of a siumatgwoon is merely a logic for substrings, which would be plausible since the project of the siumatgwoon appears to be fundemntally a merelogical project, then we might have been rather inflating the intellectual importance of the siumatgwoon. I shall sincerely pray this to not be the case; and I also don't believe this is the case.
+
+So does $S$ satisfy the axioms of a siumatgwoon? 
+
+Axiom \ref{ax:reflexive} says any $s\in S$ satisfies $s|s$. This is clearly true. 
+Axiom \ref{ax:total} is clearly true as well. Since there is no character which is simu
+
+Axiom \ref{ax:transitive} says that for any $s_1, s_2, s_3 \in S$, if $s_1|s_2$ and $s_2|s_3$ then $s_1|s_3$. This is vacuously true, because ha! There are no such three characters in $S$! 
+
+Axiom \ref{ax:composition} says that for any $s_1, s_2 \in S$, $s_1*s_2 \in S$. This is also clearly true - by definition of $*$ and $|$.
+
+So in this very boring example where all 4 axioms are trivially or vacuously true, let us now ask about its atomic set $A$, its elemental set $E$.
+
+Now clearly, we have 
+$$A=E=\{\text{日},\text{月},\text{皿}\}$$
+
+So indeed $A\subseteq E$. And indeed in this case, $A=E$, because there are no emergent elements. There are no 系 sets with more than one object - all emergent sets are singletons. This is immediately visible by the fact there are no phonosemanophores 形聲字. And indeed, as proven before, the smallest generator set is indeed $E$, as every object of $S$ is composed by $E$.
+
+And the set of compounds $\{明,盟,盥\}$ is clearly disjoint from the set of elementals $\{\text{日},\text{月},\text{皿}\}$. 
+
+It is also immediately obvious, that $S$ is a simple siumatgwoon, because no character in $S$ is composed of or constituted by infinitely many other characters in $E$. And clearly, each character is uniquely composed by the elementals, as we can see from the compounds: $盟 =明*皿 = 日*月*皿$.
+
+
+At this point, it might be really tempting to say if a siumatgwoon is finite, it must be a simple siumatgwoon. But alas, no. We will see this later.
+
+
+Unlike this siumatgwoon $S=\{骨，身，人，本，體=骵=躰=体 \}$ where $E=\{骨，身，人，本\}$ but $體=骵=躰=体$, where decompositions in elementals are not unique. This is a complex siumatgwoon.
+
+In a simple siumatgwoon, $E=G_{S}$ 
+
+This is still not precise…
+
+- S = {雨，云，雲，霒，霕，霴，靉}
+    
+    E = {雨，云，霒，霕，霴，靉} 
+    A =  {雨，云}
+
+
+
+
+
+
 
 
 \subsubsection{The Roman Numerals $\mathfrak{R}$}

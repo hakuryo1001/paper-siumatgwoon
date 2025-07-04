@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  2 JUL 2025 01:24
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  3 JUL 2025 21:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,7 +703,14 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen305
 \titlewidthlast=\dimen306
 \titlewidthfirst=\dimen307
-)) (out/siumatgwoon.aux)
+)) (out/siumatgwoon.aux
+
+LaTeX Warning: Label `def:atomics' multiply defined.
+
+
+LaTeX Warning: Label `thm:the-emergence-set-of-a-set-is-a-subset-of-the-set' multiply defined.
+
+)
 \openout1 = `siumatgwoon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -793,25 +800,106 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/03-examples.tex
+) (./chapters/02-definitions.tex
 
 [1
 
 ]
 
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/m/it' undefined
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 131.
+
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 2173) in paragraph at lines 149--150
+\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 or a proper compound like \TU/BabelStoneHan(0)/m/n/10 雲\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 . Consider the siumatgwoon $\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]) (./chapters/03-examples.tex
+
+[13]
+
 LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
-(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 8.
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 7.
 
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it' undefined
-(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 10.
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 11.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 13.
+
+LaTeX Warning: Reference `ax:reflexive' on page 14 undefined on input line 25.
+
+
+
+[14]
+
+LaTeX Warning: Reference `ax:transitive' on page 15 undefined on input line 28.
+
+
+LaTeX Warning: Reference `ax:composition' on page 15 undefined on input line 30.
+
+Missing character: There is no 明 (U+660E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 盟 (U+76DF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 盥 (U+76E5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 盟 (U+76DF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 明 (U+660E) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 皿 (U+76BF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 日 (U+65E5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 月 (U+6708) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 皿 (U+76BF) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 骨 (U+9AA8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 身 (U+8EAB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 人 (U+4EBA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 本 (U+672C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 骵 (U+9AB5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 躰 (U+8EB0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 骨 (U+9AA8) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 身 (U+8EAB) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 人 (U+4EBA) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 本 (U+672C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 骵 (U+9AB5) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 躰 (U+8EB0) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
+LaTeX Font Info:    Trying to load font information for U+euf on input line 65.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 
-[2]
+[15]
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -903,24 +991,41 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 40--73
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 92--125
  [] 
  []
 
 
 
-[3]
+[16]
 File: images/polygons_1.png Graphic file (type bmp)
 <images/polygons_1.png>
 File: images/polygons_2.png Graphic file (type bmp)
 <images/polygons_2.png>
 
 
-[4]
+[17]
 
-[5])
+[18]) (./chapters/04-synonyms.tex
 
-[6] (out/siumatgwoon.aux)
+[19]
+
+[20]
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 63.
+
+
+
+[21]
+
+[22]
+
+[23]
+
+[24])
+
+[25] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -929,14 +1034,20 @@ L3 programming layer <2022/07/14>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 12066 strings out of 473832
- 296065 string characters out of 5729481
- 740228 words of memory out of 5000000
- 34875 multiletter control sequences out of 15000+600000
- 569420 words of font info for 116 fonts, out of 8000000 for 9000
+ 12299 strings out of 473832
+ 307655 string characters out of 5729481
+ 743466 words of memory out of 5000000
+ 35091 multiletter control sequences out of 15000+600000
+ 571981 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,17n,114p,1025b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,17n,114p,1230b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (6 pages).
+Output written on out/siumatgwoon.pdf (25 pages).
