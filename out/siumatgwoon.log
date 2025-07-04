@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  3 JUL 2025 21:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  3 JUL 2025 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,44 +862,18 @@ LaTeX Warning: Reference `ax:transitive' on page 15 undefined on input line 28.
 
 LaTeX Warning: Reference `ax:composition' on page 15 undefined on input line 30.
 
-Missing character: There is no 明 (U+660E) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 盟 (U+76DF) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 盥 (U+76E5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 盟 (U+76DF) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 明 (U+660E) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 皿 (U+76BF) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 日 (U+65E5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 月 (U+6708) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 皿 (U+76BF) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 骨 (U+9AA8) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 身 (U+8EAB) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 人 (U+4EBA) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 本 (U+672C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 骵 (U+9AB5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 躰 (U+8EB0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 骨 (U+9AA8) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 身 (U+8EAB) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 人 (U+4EBA) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 本 (U+672C) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 骵 (U+9AB5) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 躰 (U+8EB0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 体 (U+4F53) in font [lmroman10-regular]:mapping=tex-text;!
-LaTeX Font Info:    Trying to load font information for U+euf on input line 65.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
+
+
+[15]
+
+[16]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 116.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 
-[15]
+[17]
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -991,41 +965,41 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 92--125
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 143--176
  [] 
  []
 
 
 
-[16]
+[18]
 File: images/polygons_1.png Graphic file (type bmp)
 <images/polygons_1.png>
 File: images/polygons_2.png Graphic file (type bmp)
 <images/polygons_2.png>
 
 
-[17]
-
-[18]) (./chapters/04-synonyms.tex
-
 [19]
 
-[20]
+[20]) (./chapters/04-synonyms.tex
+
+[21]
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
 (Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 63.
 
 
 
-[21]
-
 [22]
 
 [23]
 
-[24])
+[24]
 
-[25] (out/siumatgwoon.aux)
+[25]
+
+[26])
+
+[27] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1042,12 +1016,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12299 strings out of 473832
- 307655 string characters out of 5729481
- 743466 words of memory out of 5000000
- 35091 multiletter control sequences out of 15000+600000
+ 12301 strings out of 473832
+ 307709 string characters out of 5729481
+ 742704 words of memory out of 5000000
+ 35093 multiletter control sequences out of 15000+600000
  571981 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1230b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (25 pages).
+Output written on out/siumatgwoon.pdf (27 pages).
