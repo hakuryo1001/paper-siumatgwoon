@@ -82,13 +82,11 @@ This is an interesting argument, but the argument allowing for $\text{體} \neq 
 
 There's also an aesthetic reason why we would be tempted by allowing for $\text{體} = \text{骵} = \text{躰} = \text{体}$, as it seems to allow us this kind of derivation: 
 
-\begin{align}
-    \text{骨}, \text{本} &| \text{骵}, \\
-    \text{身}, \text{本} &| \text{躰}, \\
-    \text{人}, \text{本} &| \text{体}, \\       
-    \text{骵} = \text{體} &= \text{躰} = \text{体} \\
-    \therefore \text{骨}, \text{人}, \text{本}, \text{身} &| \text{骵}, \text{躰}, \text{体}, \text{體} 
-\end{align}
+$$\text{骨}, \text{本} \mid \text{骵}$$
+$$\text{身}, \text{本} \mid \text{躰}$$
+$$\text{人}, \text{本} \mid \text{体}$$
+$$\text{骵} = \text{體} = \text{躰} = \text{体}$$
+$$\therefore \text{骨}, \text{人}, \text{本}, \text{身} \mid \text{骵}, \text{躰}, \text{体}, \text{體}$$
 
 Well the conclusion that "bone", "man", "base", "body", are all constituents of "body" is very intuitively compelling. It's not yet certain what the rules of reference are employed here, but whatever they are, if this derivation is admitted, then we can then work to formalize those rules of reference, and the logical structure of the mathematical object of Siumatgwoon would be richer for it. 
 
@@ -121,7 +119,7 @@ Now, we must ask the question, are there other siumatgwoons aside from the Chine
 
 \subsubsection{The Roman Numerals $\mathfrak{R}$}
 
-One can clearly see that Roman Numerals $\mathfrak{R}$ are a Siumatgwoon. However, to appreciate the characteristics that make it a Siumatgwoon, let us consider the subset of Roman Numerals from 1 to 10, which we shall show to also be a Siumatgwoon.
+One can clearly see that Roman Numerals $\mathfrak{R}$ are a Siumatgwoon, in the same way that anyone can see that the Chinese characters are a Siumatgwoon. However, to appreciate the characteristics that make it a Siumatgwoon, let us consider the subset of Roman Numerals from 1 to 10, which we shall show to also be a Siumatgwoon.
 
 $\mathfrak{R}_{1,10} = \{I, II, III, IV, V, VI, VII, VIII, IX, X\}$
 
@@ -140,6 +138,53 @@ Ax 4 is also satisfied. As an example: $I | III, III | VIII$ and we have $I|VIII
 So therefore, $\mathfrak{R}_{1,10}$ is a Siumatgwoon. 
 
 It is also interesting to note that as per the definition of $\mathfrak{R}_{1,10}$, it is not compositionally closed. For example, $II * III$ is not in $\mathfrak{R}_{1,10}$. This makes the Siumatgwoon different from a group, where all compositions are contained inside the group. Intuitively, perhaps this suggests the Siumatgwoon is less rich in structure than the mathematical group? Also, note that what $II * III$ should be in $\mathfrak{R}_{1,10}$ is represented by $V$. Intuitively, we can feel that in some sense, $II * III = V$ - that they're synonymous, identical, referring to the same referent. This is not unlike the presence of variant characters in the Sinoglyphs, such as 體 (body, object)=骵=躰=体, or信 (trust) = 𬢭 = 伩 = 訫 = 㐰… Intuition should hint that this will yield some interesting structures if we pursue the investigation down this path.
+
+This might feel very unsatisfying, because this is no proof. It is merely an observation. One might therefore be tempted to argue, why can't we find a rule or an algorithm or just a function, that maps all the natural numbers to their Roman Numeral representation? Can we then from that algorithm or function, prove that the Roman Numerals are a Siumatgwoon?
+
+
+Well let's give it a try. The Roman numeral system is governed by a simple, deterministic algorithm — a greedy function that maps any natural number $n$ to its canonical Roman representation $\mathfrak{r}(n)$. The function operates by iteratively subtracting the largest possible value from $n$ from a fixed, descending list of numeral-value pairs, and appending the corresponding symbol to the output string. For instance, to generate $\mathfrak{r}(1987)$, the algorithm subtracts $1000$ (M), then $900$ (CM), then $50$ (L), followed by three $10$s (XXX), $5$ (V), and finally two $1$s (II), yielding the string **MCMLXXXVII**.
+
+We can define this formally as a function:
+
+$$
+\mathfrak{r}(n) = s_{i_1} * s_{i_2} * \cdots * s_{i_k}
+$$
+
+such that
+
+$$
+n = v_{i_1} + v_{i_2} + \cdots + v_{i_k}, \quad \text{with each } v_{i_j} \in \{1000, 900, 500, \ldots, 1\}
+$$
+
+and where $s_{i_j}$ is the Roman numeral glyph corresponding to $v_{i_j}$, chosen at each step to be the largest available $v \leq n$. This ensures that the representation is unique and canonical — a deterministic output of this greedy process.
+
+The same procedure can be extended naturally to represent numbers beyond 3999. Since traditional Roman numerals lack compact notation for such magnitudes, we employ a conventional extension: an overbar denotes multiplication by 1,000. Thus, $\overline{V}$ represents 5000, $\overline{X}$ denotes 10,000, and so forth. In implementation, one may write these as, e.g., `|V|` for clarity in ASCII environments. The algorithm remains unchanged: it continues selecting the largest applicable numeral-value pair (now extended with overbarred forms), subtracting, and appending symbols, until the number is fully decomposed.
+
+Under this construction, not only is there a well-defined function $\mathfrak{r} : \mathbb{N}_{>0} \rightarrow \mathfrak{R}$, but we can also use it to define a **canonical composition operator**:
+
+$$
+a * b := \mathfrak{r}(\mathrm{val}(a) + \mathrm{val}(b))
+$$
+
+and 
+
+$$a \mid b \iff \text{multiset}(\mathfrak{r}^{-1}(a)) \subseteq \text{multiset}(\mathfrak{r}^{-1}(b))$$
+where $\mathrm{val}(a)$ denotes the numeric value of the Roman numeral $a$. That is, composition is interpreted as value-addition followed by re-normalization via the greedy function $\mathfrak{r}$. Constitution $a | b$, in turn, can be rigorously defined as multiset inclusion: $a | b$ iff every glyph used in the canonical decomposition of $a$ appears (with equal or greater multiplicity) in that of $b$.
+
+From here, we can prove — rigorously — that the set of all Roman numerals generated via $\mathfrak{r}$, together with the composition $*$ and constitution $|$, forms a Siumatgwoon. Each of the four axioms holds:
+
+* Reflexivity is immediate: every Roman numeral constitutes itself.
+* Totality is trivially satisfied since for any pair $a, b$, either $a$’s multiset of atoms appears in $b$’s or it does not.
+* Transitivity follows from transitivity of multiset inclusion.
+* Composition Constitution holds because if $c = a * b$, then by construction $c$ is formed from the atoms of both $a$ and $b$, and hence both are constituents of $c$.
+
+
+
+
+Ok, that is very impressive. But the problem is that the algorithm doesn't matter. If the algorithm had been modified such that 57 was not written as LVII but instead as LIIIIIIII, or XXXXXVII or even XXXXX7 or just 57 or @, the resultant object would still be a Siumatgwoon. Even if each of the numbers were represented by their own unique glyph, the resultant object would still be a Siumatgwoon. The underlying generation rule doesn't matter!
+
+
+
 
 \subsubsection{Any Numerals System}
 
