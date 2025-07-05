@@ -27,7 +27,7 @@
 \definecolor{gold}{rgb}{1,0.9,0.7} % light yellow
 \definecolor{gas}{rgb}{0.7,0.8,1} % light blue
 
-\newcommand{\elcol}[3]{\cellcolor{#1}\begin{tabular}{@{}c@{}}#2\\[0.3em]#3\end{tabular}}
+\newcommand{\elcol}[3]{\if\relax\detokenize{#1}\relax\begin{tabular}{@{}c@{}}#2\\[0.3em]#3\end{tabular}\else\cellcolor{#1}\begin{tabular}{@{}c@{}}#2\\[0.3em]#3\end{tabular}\fi}
 
 
 
