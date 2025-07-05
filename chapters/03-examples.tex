@@ -353,7 +353,8 @@ One can also see that the Periodic Table of Elements is a Siumatgwoon.
 \end{center}
 
 \begin{center}
-         \renewcommand{\arraystretch}{1.8}
+     \makebox[\textwidth][c]{%
+     \renewcommand{\arraystretch}{1.8}
      \setlength{\tabcolsep}{6pt}
      \setlength{\arrayrulewidth}{0.4pt}
      \newcommand{\el}[2]{\begin{tabular}{@{}c@{}}#1\\[0.3em]#2\end{tabular}}
@@ -380,7 +381,8 @@ One can also see that the Periodic Table of Elements is a Siumatgwoon.
      \cline{3-17}
      \multicolumn{2}{c}{} & \multicolumn{1}{|c|}{\el{錒}{Ac}} & \multicolumn{1}{|c|}{\el{釙}{Th}} & \multicolumn{1}{|c|}{\el{鏷}{Pa}} & \multicolumn{1}{|c|}{\el{鈾}{U}} & \multicolumn{1}{|c|}{\el{錼}{Np}} & \multicolumn{1}{|c|}{\el{鈽}{Pu}} & \multicolumn{1}{|c|}{\el{鏌}{Am}} & \multicolumn{1}{|c|}{\el{鋦}{Cm}} & \multicolumn{1}{|c|}{\el{錇}{Bk}} & \multicolumn{1}{|c|}{\el{鐒}{Cf}} & \multicolumn{1}{|c|}{\el{鑀}{Es}} & \multicolumn{1}{|c|}{\el{鐠}{Fm}} & \multicolumn{1}{|c|}{\el{鍆}{Md}} & \multicolumn{1}{|c|}{\el{鍩}{No}} & \multicolumn{1}{|c|}{\el{鐿}{Lr}} \\
      \cline{3-17}
-     \end{tabular}
+     \end{tabular}%
+     }
 \end{center}
 
 

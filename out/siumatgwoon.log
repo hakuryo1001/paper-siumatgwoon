@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  5 JUL 2025 15:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  5 JUL 2025 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,12 +995,7 @@ Overfull \hbox (38.41655pt too wide) in paragraph at lines 330--353
 
 
 
-[23]
-Overfull \hbox (148.16345pt too wide) in paragraph at lines 361--384
- [] 
- []
-
-) (./chapters/04-synonyms.tex
+[23]) (./chapters/04-synonyms.tex
 
 [24]
 
@@ -1038,7 +1033,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  12314 strings out of 473832
  308523 string characters out of 5729481
- 851705 words of memory out of 5000000
+ 853981 words of memory out of 5000000
  35106 multiletter control sequences out of 15000+600000
  571981 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
