@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  5 JUL 2025 16:09
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  5 JUL 2025 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,7 +703,14 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen305
 \titlewidthlast=\dimen306
 \titlewidthfirst=\dimen307
-)) (out/siumatgwoon.aux)
+)) (out/siumatgwoon.aux
+
+LaTeX Warning: Label `def:atomics' multiply defined.
+
+
+LaTeX Warning: Label `thm:the-emergence-set-of-a-set-is-a-subset-of-the-set' multiply defined.
+
+)
 \openout1 = `siumatgwoon.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -789,7 +796,52 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./chapters/03-examples.tex
+) (./chapters/01-epigraphs.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapters/02-definitions.tex
+
+[1
+
+]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/m/it' undefined
+(Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 131.
+
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 、 (U+3001) in font [lmroman10-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 2173) in paragraph at lines 149--150
+\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 or a proper compound like \TU/BabelStoneHan(0)/m/n/10 雲\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 . Consider the siumatgwoon $\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 =
+ []
+
+
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]) (./chapters/03-examples.tex
+
+[13]
 
 LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/b/n' undefined
 (Font)              using `TU/BabelStoneHan(0)/m/n' instead on input line 7.
@@ -799,46 +851,37 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it'
 (Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 11.
 
 
-
-[1
-
-]
-
-LaTeX Warning: Reference `ax:reflexive' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Reference `ax:total' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Reference `ax:transitive' on page 2 undefined on input line 28.
-
-
-LaTeX Warning: Reference `ax:composition' on page 2 undefined on input line 30.
+LaTeX Warning: Reference `ax:reflexive' on page 14 undefined on input line 25.
 
 
 
-[2]
+[14]
+
+LaTeX Warning: Reference `ax:transitive' on page 15 undefined on input line 28.
+
+
+LaTeX Warning: Reference `ax:composition' on page 15 undefined on input line 30.
+
 Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
 
 
-[3]
+[15]
 
-[4]
+[16]
+
+[17]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 120.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 
-[5]
+[18]
 
-[6]
+[19]
 Underfull \hbox (badness 1648) in paragraph at lines 171--173
 \TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 where $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )$ \TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 denotes the numeric value of the Roman numeral $\OML/cmm/m/it/10 a$\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 .
  []
 
-
-
-[7]
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -934,21 +977,41 @@ Overfull \hbox (113.62225pt too wide) in paragraph at lines 194--227
  [] 
  []
 
+
+
+[20]
 File: images/polygons_1.png Graphic file (type bmp)
 <images/polygons_1.png>
 File: images/polygons_2.png Graphic file (type bmp)
 <images/polygons_2.png>
 
 
-[8]
+[21]
 
-[9] (./chapters/table-of-elements.tex
+[22] (./chapters/table-of-elements.tex
 
-[10]
+[23]
 
-[11]))
+[24])) (./chapters/04-synonyms.tex
 
-[12] (out/siumatgwoon.aux)
+[25]
+
+[26]
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 63.
+
+
+
+[27]
+
+[28]
+
+[29]
+
+[30])
+
+[31] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -960,14 +1023,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 12109 strings out of 473832
- 299379 string characters out of 5729481
- 906231 words of memory out of 5000000
- 34921 multiletter control sequences out of 15000+600000
- 567891 words of font info for 112 fonts, out of 8000000 for 9000
+ 12326 strings out of 473832
+ 308784 string characters out of 5729481
+ 907236 words of memory out of 5000000
+ 35115 multiletter control sequences out of 15000+600000
+ 571981 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,15n,114p,1050b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,17n,114p,1230b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (12 pages).
+Output written on out/siumatgwoon.pdf (31 pages).
