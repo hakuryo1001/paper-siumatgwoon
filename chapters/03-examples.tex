@@ -263,9 +263,11 @@ Then clearly axiom 1 is satisfied. Axiom 2 is also satisfied.
 
 \subsubsection{Propositional Logic}
 
-There are 3 flavors of $*$ in Propositional Logic: $\wedge, \vee, \rightarrow$. 
+There are 3 flavors of $*$ in Propositional Logic $P: \wedge, \vee, \rightarrow$. 
 
 And we define $\phi | \psi$ if $\phi$ appears in $\psi$, for any wff $\phi, \psi$.
+
+So $P := \{ p, q, r, \ldots, \text{and whatever wff formed from p, q, r, \ldots} \}$.
 
 Then clearly all 4 of the core siumatgwoon axioms are satisfied. 
 
@@ -282,13 +284,98 @@ Propositional Logic as a Siumatgwoon has multiple interesting properties:
 \item It is compositionally complete. 
 \item It is also constitutionally complete. 
 \item Is it a simple siumatgwoon? Are decompositions finite? Yes. Are decompositions unique? Yes, up to reordering. So yes, it's a simple siumatgwoon.
-
-
 \end{enumerate}
+
+It is arguable whether the $\neg$ operator could be viewed as an object if we view propositional logic as a siumatgwoon. 
+
+
+Furthermore, the propositional logic $P$ has an interesting property - that there are many propositions, by virtue of their internal structure, they are equivalent in terms of truth value. For example $P \rightarrow P$ and $Q \vee \neg Q$ are equivalent to each other, because no matter the truth value or $P$ or $Q$, $P \rightarrow P$ and $Q \vee \neg Q$ are always true. So $P \rightarrow P \equiv Q \vee \neg Q$. That's the first thing to note.
+
+The second thing to note is that $P \rightarrow P$ and $Q \vee \neg Q$ are tautologies. They are always true regardless of the truth value of $P$ and $Q$. One would write that $P \rightarrow P,Q \vee \neg Q \models \top$, where $\top$ is often called "verum". Likewise, $P \wedge \neg P$ is a contradiction, and so is $P \rightarrow \neg P$. One could write that $P \wedge \neg P, P\rightarrow \neg P \models \bot$, where $\bot$ is often called "falsum" or "absurdum".
+
+
+
+In most elementary formulations of propositional logic, neither $\top$ nor $\bot$ are not considered wffs or propositions. Therefore if we view $P$ as a siumatgwoon, $\top$ is not an object. But suppose they are, it could yield some interesting phenonomena. Traditionally, then in such propositional logics, one would define negation as such: 
+
+$$\neg P \equiv (P → \bot), \neg \top \equiv \bot$$
+
+
+Now let us consider the tautologies and the contradictions. Since all contradictions imply each other, and all tautologies imply each other, but contradictions and tautologies never imply each other, we can comfortably write: 
+$$P \rightarrow P \sim Q \vee \neg Q \sim \top$$
+and 
+$$P \wedge \neg P \sim P\rightarrow \neg P \sim \bot$$
+
+And given the definition of negation in terms of $\top$ and $\bot$, we can write that 
+
+$$\neg P \sim (P → \bot), \neg \top \sim \bot$$.
+
+Now there are also contingencies, such as $P \and Q$. Suppose just like how we've introduced the $\top$ and $\bot$ as objects, let us just write $C$ to signify contingencies, so we can write: 
+
+$$P \wedge Q \sim C$$
+
+If you want to think of $\top$ and $\bot$ as truth tables, then $\top$ is a truth table where all the values are true, and $\bot$ is a truth table where all the values are false, and $C$ is any other truth value table. 
+
+Now, then let us define a new logic, called propositional logic up to contingency, 
+written as $P_i$. It has only four atomic objects: $\top, \bot, C, \neg$, and it has three operators $\wedge, \vee, \rightarrow$ serving as $*$. The defintion of a wff is the same as in $P$. 
+
+We know from logic then the following must hold: 
+
+\begin{align*}
+\neg \top &\models \bot \\
+\neg \bot &\models \top \\
+\neg C &\models C
+\end{align*}
+
+
+
+
+
+
+But also because both $P \rightarrow P$ and $Q \vee \neg Q$ are tautologies, we can also write 
+
+
+
+The $\sim_{1}$ and $\sim_{2}$ are not the same, as they highlight the two propositions similared are similar in different ways. 
+
+We can also write that 
+
+$$P \wedge \neg P \sim_{3} P\rightarrow \neg P \sim_{3} \bot$$
+
+
+
+Intuitively, we are conformatble replacing $\sim_{4}$ with $\sim_{3}$ because we know the rules governing their similarity are the same - because the sense governing their similarity, are, intuitively the same. They are always falsehoods. 
+
+
+
+
+
+
+
+Now, because $P \rightarrow P \equiv Q \vee \neg Q$ in these sense they are equivalent, we can write 
+
+$$P \rightarrow P \sim_{1} Q \vee \neg Q$$
+
+
+
+
+
+So 
+
+
+But are not just equivalent to each other. They are tautologies, tee verum
+
+
+
+and so far $P \wedge \neg P$ is equivalent to $\top$. 
+
+falsum",[3] "absurdum",[4] or "the absurdity symbol
 
 \subsection{The Periodic Table of Elements}
 
 One can also see that the Periodic Table of Elements is a Siumatgwoon. 
 
+In fact, the periodic table of elements, no matter whether the element symbols are written in Roman letters, traditional Chinese characters, or in Japanese Kanji, are all siumatgwoons. The only difference, is that in the latin form, if you take each elemental symbol as indecomposable, i.e you do not admit the "H" and the "e" in "He" as being constituents, then all the elements in the western periodic table are just elementals, and atomics. 
+
+But in the Chinese and the Japanese periodic tables, if you take each kanji as decomposable, as in you take into account of the radicals, then the atomics are the elements. The elements might all be elementals, are but not all of them are atomics. 
 
 \input{chapters/table-of-elements.tex}
