@@ -1,0 +1,52 @@
+\section{Homomorphisms}
+
+We will be dealing with simple siumatgwoons here.
+
+\begin{definition}[Homomorphism]
+    A homomorphism is a function $\phi: S \to T$ between two siumatgwoons $S$ and $T$ that preserves the composition and constitution relations, i.e.: for all $a, b \in S$,
+    \begin{itemize}
+        \item $\phi(a * b) = \phi(a) * \phi(b)$
+        \item $a | b$ then $\phi(a) | \phi(b)$
+    \end{itemize}
+\end{definition}
+
+\subsection{Completions} 
+
+In algebra, completions come naturally. Groups are naturally and definitionally algebraically complete, so you can't say anything there. But polynomials over fields do not necessarily have solutions to them that exist in underlying field, and so there is an opportunity to discussion completion. In those cases, define a new element $\alpha$ to just by fiat be a solution to the polynomial, and then define a new field that is the smallest field that contains the original field and $\alpha$. And by this act the old field is completed in the sense that a hitherto solutionless polynomial now sees a solution in the extended field. The extended field completes the old field per that polynomial. 
+
+In the case of siumatgwoons, completions are far more complicated, because we are dealing with two different relations, composition and constitution. Let us consider what completion in both cases would mean.
+
+But before that, it'd be better to define what an extension is - and from that we approach the notion of completion.
+
+\begin{definition}[Extension]
+    An extension of a siumatgwoon $S$ is a siumatgwoon $S'$ that contains $S$ as a sub-siumatgwoon.
+\end{definition}
+
+% \begin{definition}[Compositional Extension]
+%     Consider a siumatgwoon $S$, where for $a,b \in S$ and $a*b$ does not exist. Define $S(a*b)$ to be a siumatgwoon such that $S(a*b) = S \cup \{a*b\}$. 
+% \end{definition}
+
+\begin{definition}[Compositional Extension]
+    Let $S$ be a simple siumatgwoon, and let $a, b \in S$ such that the composition $a * b$ is undefined in $S$. A compositional extension of $S$ by $a * b$, denoted $S(a * b)$, is the minimal siumatgwoon $S' \supseteq S$ satisfying:
+    \begin{itemize}
+        \item $S'$ contains a new element $c \notin S$ such that $c = a * b$ is defined in $S'$,
+        \item The composition operation in $S'$ extends that of $S$, i.e., all compositions defined in $S$ remain unchanged,
+        \item $S'$ satisfies all definitions of siumatgwoon, extended to include $c$ as the composition of $a$ and $b$.
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[Constitutional Extension]
+    Let $S$ be a siumatgwoon, and let $b$ be an emergent object, say of $a$, i.e. $b \in \langle a \rangle$. By definition of hai elements, we know this is to say $a|b$ but there is no way to find a complete set of objects $b_1, \ldots, b_n$ such that $b = a *b_1 * \ldots * b_n$.
+    In a sense, we know that $a$ constitutes $b$, but we are missing some object(s) $c$ to compose with $a$ such that $b = a * c$.
+    
+    Let us write $S(a|b)$ to be the siumatgwoon such that $S(a|b) = S \cup \{c\}$ where $c$ is the "missing object" that completes the composition of $a$ and $b$, i.e. $b = a * c$.
+\end{definition}
+
+\begin{definition}[Compositional Completion]
+    A siumatgwoon $S'$ is a compositional completion of $S$ if for every $a, b \in S$, $a*b$ exists in $S'$.
+
+\end{definition}
+
+\begin{definition}[Constitutional Completion]
+    A siumatgwoon $S'$ is a constitutional completion of $S$ if for every $a\in S$, for every $b\in \langle a \rangle \subseteq S$, there exists a $c\in S'$ such that $b = a * c$.
+\end{definition}
