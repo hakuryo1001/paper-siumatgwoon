@@ -966,4 +966,94 @@ Missing character: There is no 𝍳 (U+1D373) in font [./fonts/JyutcitziWithSour
 Missing character: There is no 𝍶 (U+1D376) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𝍴 (U+1D374) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𝍶 (U+1D376) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
-Missing character: There is no 𝍵 (U+1D375) in font [./fonts/JyutcitziWithSourceHanSerifTCRegul
+Missing character: There is no 𝍵 (U+1D375) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𘈩 (U+18229) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗍫 (U+1736B) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𘕕 (U+18555) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗥃 (U+17943) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗏁 (U+173C1) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗤁 (U+17901) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
+Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
+
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 194--227
+ [] 
+ []
+
+File: images/polygons_1.png Graphic file (type bmp)
+<images/polygons_1.png>
+File: images/polygons_2.png Graphic file (type bmp)
+<images/polygons_2.png>
+
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+[25] (./chapters/table-of-elements.tex
+
+[26])) (./chapters/04-synonyms.tex
+
+[27]
+
+[28]
+
+LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
+(Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 63.
+
+
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+Missing character: There is no 𲁢 (U+32062) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no 𫼒 (U+2BF12) in font BabelStone Han/OT:script=hani;language=dflt;!
+) (./chapters/05-homomorphisms.tex
+
+[36]
+
+[37]
+
+[38])
+
+[39] (out/siumatgwoon.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2022/07/14>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12355 strings out of 473832
+ 310073 string characters out of 5729481
+ 876045 words of memory out of 5000000
+ 35138 multiletter control sequences out of 15000+600000
+ 571981 words of font info for 135 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,17n,114p,1440b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/siumatgwoon.pdf (39 pages).
