@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  2 AUG 2025 22:56
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  6 AUG 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1027,11 +1027,9 @@ Missing character: There is no 𫼒 (U+2BF12) in font BabelStone Han/OT:script=h
 
 [36]
 
-[37]
+[37])
 
-[38])
-
-[39] (out/siumatgwoon.aux)
+[38] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1048,12 +1046,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12355 strings out of 473832
- 310073 string characters out of 5729481
+ 12353 strings out of 473832
+ 310011 string characters out of 5729481
  876045 words of memory out of 5000000
- 35138 multiletter control sequences out of 15000+600000
+ 35136 multiletter control sequences out of 15000+600000
  571981 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1440b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (39 pages).
+Output written on out/siumatgwoon.pdf (38 pages).
