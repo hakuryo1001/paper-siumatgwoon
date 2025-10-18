@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  18 OCT 2025 15:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  18 OCT 2025 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -865,27 +865,86 @@ LaTeX Warning: Reference `ax:composition' on page 15 undefined on input line 30.
 
 
 [15]
-Missing character: There is no 體 (U+9AD4) in font [lmroman10-regular]:mapping=tex-text;!
-
 
 [16]
 
 [17]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 120.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\TU/lmr/m/n/10 Two components com-
+ []
 
-[18]
 
-[19]
-Underfull \hbox (badness 1648) in paragraph at lines 171--173
-\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 where $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )$ \TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 denotes the numeric value of the Roman numeral $\OML/cmm/m/it/10 a$\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 .
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\TU/lmr/m/n/10 Two components com-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 136--136
+[]|\TU/lmr/m/n/10 Three components com-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 138--138
+[]|\TU/lmr/m/n/10 Three components com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]|\TU/lmr/m/n/10 One component fully
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 142--142
+\TU/lmr/m/n/10 three sides of another
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 142--142
+\TU/lmr/m/n/10 component (opening at
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 144--144
+\TU/lmr/m/n/10 three sides of another
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 144--144
+\TU/lmr/m/n/10 component (opening at
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 146--146
+\TU/lmr/m/n/10 three sides of another
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 146--146
+\TU/lmr/m/n/10 component (opening at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\TU/lmr/m/n/10 Two components over-
  []
 
 
 
+[18]
+
+[19]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 174.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+
 [20]
+
+[21]
+Underfull \hbox (badness 1648) in paragraph at lines 225--227
+\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 where $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )$ \TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 denotes the numeric value of the Roman numeral $\OML/cmm/m/it/10 a$\TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n/10 .
+ []
+
 Missing character: There is no ٠ (U+0660) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ١ (U+0661) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ٢ (U+0662) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
@@ -977,40 +1036,39 @@ Missing character: There is no 𗒹 (U+174B9) in font BabelStone Han/OT:script=h
 Missing character: There is no 𘉋 (U+1824B) in font BabelStone Han/OT:script=hani;language=dflt;!
 Missing character: There is no 𗢭 (U+178AD) in font BabelStone Han/OT:script=hani;language=dflt;!
 
-Overfull \hbox (113.62225pt too wide) in paragraph at lines 194--227
+Overfull \hbox (113.62225pt too wide) in paragraph at lines 248--281
  [] 
  []
 
+
+
+[22]
 File: images/polygons_1.png Graphic file (type bmp)
 <images/polygons_1.png>
 File: images/polygons_2.png Graphic file (type bmp)
 <images/polygons_2.png>
 
 
-[21]
-
-[22]
-
 [23]
 
 [24]
 
-[25] (./chapters/table-of-elements.tex
+[25]
 
-[26])) (./chapters/04-synonyms.tex
+[26]
 
-[27]
+[27] (./chapters/table-of-elements.tex
 
-[28]
+[28])) (./chapters/04-synonyms.tex
+
+[29]
+
+[30]
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' undefined
 (Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 63.
 
 
-
-[29]
-
-[30]
 
 [31]
 
@@ -1021,19 +1079,31 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' 
 [34]
 
 [35]
+
+[36]
+
+[37]
 Missing character: There is no 𲁢 (U+32062) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no 𫼒 (U+2BF12) in font BabelStone Han/OT:script=hani;language=dflt;!
 ) (./chapters/05-homomorphisms.tex
 
-[36]
-
-[37]) (./chapters/06-ateji.tex
-
 [38]
 
-[39])
+[39]) (./chapters/06-ateji.tex
 
-[40] (out/siumatgwoon.aux)
+[40]
+
+[41]
+Missing character: There is no ṅ (U+1E45) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+Missing character: There is no ṃ (U+1E43) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
+
+Underfull \hbox (badness 1337) in paragraph at lines 96--98
+[]\TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/10 Aniccā vata saṅkhārā uppādavayadhammino, Uppajjitvā nirujjhanti
+ []
+
+)
+
+[42] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1050,12 +1120,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12468 strings out of 473832
- 317134 string characters out of 5729481
- 876365 words of memory out of 5000000
- 35241 multiletter control sequences out of 15000+600000
+ 12495 strings out of 473832
+ 318784 string characters out of 5729481
+ 908605 words of memory out of 5000000
+ 35268 multiletter control sequences out of 15000+600000
  571989 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1440b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (40 pages).
+Output written on out/siumatgwoon.pdf (42 pages).
