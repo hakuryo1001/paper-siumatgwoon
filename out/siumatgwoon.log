@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  8 SEP 2025 09:03
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  18 OCT 2025 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -462,7 +462,7 @@ Package ctexhook Warning: Package `CJK' can not be loaded with `xeCJK'.
 LaTeX Info: Package 'CJK.sty' has been disabled.
             Load request ignored on input line 31.
 \ruby@width=\dimen193
-)) (./styles/idc.tex) (./styles/verticalChinese.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (./styles/idc.tex (out/../submodules/latex-ideographic-description-character/styles/idc.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
@@ -480,7 +480,7 @@ File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen194
 \Gin@req@width=\dimen195
-)) (./preamble/packages.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+))) (./styles/verticalChinese.tex) (./preamble/packages.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen196
 \ar@mcellbox=\box104
@@ -648,7 +648,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen302
 \c@nlinenum=\count350
 \TeXr@lab=\toks37
-) (./styles/numerals.tex) (./preamble/toc.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+) (./styles/numerals.tex (out/../submodules/latex-ideographic-description-character/styles/numerals.tex)) (./preamble/toc.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip78
@@ -1050,10 +1050,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12416 strings out of 473832
- 313937 string characters out of 5729481
- 876045 words of memory out of 5000000
- 35195 multiletter control sequences out of 15000+600000
+ 12468 strings out of 473832
+ 317134 string characters out of 5729481
+ 876365 words of memory out of 5000000
+ 35241 multiletter control sequences out of 15000+600000
  571989 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1440b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
