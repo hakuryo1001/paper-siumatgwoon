@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  18 OCT 2025 17:51
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  16 DEC 2025 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,11 +1089,15 @@ Missing character: There is no 𫼒 (U+2BF12) in font BabelStone Han/OT:script=h
 
 [38]
 
-[39]) (./chapters/06-ateji.tex
+[39]
 
 [40]
 
-[41]
+[41]) (./chapters/06-ateji.tex
+
+[42]
+
+[43]
 Missing character: There is no ṅ (U+1E45) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 Missing character: There is no ṃ (U+1E43) in font [./fonts/JyutcitziWithSourceHanSerifTCRegular.ttf]/OT:script=latn;language=dflt;!
 
@@ -1101,9 +1105,9 @@ Underfull \hbox (badness 1337) in paragraph at lines 96--98
 []\TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n/10 Aniccā vata saṅkhārā uppādavayadhammino, Uppajjitvā nirujjhanti
  []
 
-)
+) (./chapters/07-opposites.tex) (./chapters/08.tex)
 
-[42] (out/siumatgwoon.aux)
+[44] (out/siumatgwoon.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1120,12 +1124,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12495 strings out of 473832
- 318784 string characters out of 5729481
+ 12509 strings out of 473832
+ 319114 string characters out of 5729481
  908605 words of memory out of 5000000
- 35268 multiletter control sequences out of 15000+600000
+ 35276 multiletter control sequences out of 15000+600000
  571989 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,17n,114p,1440b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/siumatgwoon.pdf (42 pages).
+Output written on out/siumatgwoon.pdf (44 pages).
