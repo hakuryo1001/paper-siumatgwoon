@@ -1,4 +1,4 @@
-import SiumatgwoonLean
+import LeanSiumatgwoon
 
 def main : IO Unit :=
   IO.println s!"Hello, {hello}!"

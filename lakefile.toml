@@ -1,0 +1,10 @@
+name = "lean_siumatgwoon"
+version = "0.1.0"
+defaultTargets = ["lean_siumatgwoon"]
+
+[[lean_lib]]
+name = "LeanSiumatgwoon"
+
+[[lean_exe]]
+name = "lean_siumatgwoon"
+root = "Main"
